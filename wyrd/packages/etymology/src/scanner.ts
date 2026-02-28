@@ -1,4 +1,4 @@
-import { WordSpecimen, EtymologyStage, BleachingEvent } from "./data/weird.js";
+import { WordSpecimen } from "./data/weird.js";
 
 export interface ScanResult {
   word: string;
@@ -87,7 +87,7 @@ export class EtymologyScanner {
         word: normalized,
         found: false,
         liveCharge: 0,
-        bleachingStage: "unknown",
+        bleachingStage: "total" as const,
         inversionDetected: false,
         notes: ["⚠️ UNVERIFIED: Word not in Fate Index. Etymology cannot be sourced."]
       };
