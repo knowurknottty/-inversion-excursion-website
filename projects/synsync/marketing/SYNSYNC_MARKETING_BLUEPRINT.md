@@ -153,6 +153,15 @@ Your brain produces electrical pulses at different frequencies:
 
 ### User Testimonials (Template)
 
+> "3 years ago I got shot and it shattered my lower leg. SynSync helps with the pain. I am good now but am looking to be completely healed."
+> — Gunshot survivor, chronic pain management
+
+> "I believe you put together an App that is worthy of the New York Times"
+> — Early user feedback
+
+> "I am trying to be the change. SynSync so far has helped me manage pain when nothing else worked."
+> — User testimonial
+
 > "I was skeptical. I've tried everything for my anxiety. SynSync worked in 90 seconds. I felt my shoulders drop, my jaw unclench, my mind clear. I've used it every day since." — Sarah, 34
 
 > "As a software engineer, focus is everything. The 'Deep Work' protocol puts me in flow state faster than coffee, without the jitters." — Marcus, 28
