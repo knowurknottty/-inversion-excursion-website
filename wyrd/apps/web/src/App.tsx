@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { scanner, ScanResult, InversionResult } from '@wyrd/etymology'
+import { DailyWyrd } from './components/DailyWyrd'
+import { weirdSpecimen } from '@wyrd/etymology'
 
 function App() {
   const [input, setInput] = useState('')
@@ -46,6 +48,14 @@ function App() {
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-12">
+        {/* Daily Wyrd Card */}
+        <div className="mb-12">
+          <DailyWyrd 
+            specimen={weirdSpecimen} 
+            audioUrl="/weird_daily.mp3"
+          />
+        </div>
+
         {/* Scanner Input */}
         <div className="mb-12">
           <label className="block text-sm font-mono text-wyrd-100/60 mb-3">

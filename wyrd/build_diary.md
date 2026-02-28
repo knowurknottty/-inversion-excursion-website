@@ -149,12 +149,119 @@ New capabilities to add:
 
 ---
 
-## ITERATION 2: Audio/Sensory + Depth Expansion
+## ITERATION 2: Audio/Sensory + Depth Expansion — COMPLETED
+
+### BUILD — COMPLETED
+
+**Added Components:**
+- ✅ DailyWyrd.tsx — 60-second card with audio player
+- ✅ Web Audio API integration — HTML5 Audio with visualizer
+- ✅ TTS audio generated — weird_daily.mp3 (237KB, ~60 seconds)
+- ✅ 5 additional Fate Index words — wicked, bad, evil, naughty, outlandish
+- ✅ Inversion detection UI — badges and mechanism display
+
+**Fate Index (6 words total):**
+| Word | Live Charge | Inversion | Key Mechanism |
+|------|-------------|-----------|---------------|
+| weird | 1/10 | No | Total bleaching |
+| wicked | 3/10 | ✅ Yes | Evil → Excellent (jazz) |
+| bad | 4/10 | ✅ Yes | Evil → Excellent (AAVE) |
+| evil | 2/10 | ✅ Yes | Evil → Excellent (limited) |
+| naughty | 2/10 | No | Evil → Mischievous |
+| outlandish | 3/10 | No | Foreign → Bizarre |
+
+**Audio Script (weird):**
+> "The word is weird. In Old English, wyrd was a cosmological force. The Fates. The three sisters who wove destiny at the world tree. Shakespeare made them witches. Shelley made them uncanny. By the Victorian era, they were merely odd-looking. Today, weird is a conversational filler. That's weird, we say, meaning I don't understand this. The word has lost nine-tenths of its charge. From cosmic fate to mild confusion. This is bleaching. This is how language forgets. Today's wyrd: weird. Live charge: one of ten."
+
+**Build Output:**
+- dist/index.html (0.47 kB)
+- dist/assets/index-Cr3PVs16.css (0.12 kB)
+- dist/assets/index-DNl4QTtO.js (161.13 kB, +9.57 kB from Iteration 1)
+- dist/weird_daily.mp3 (237KB)
+- ✅ Zero TypeScript errors
+- ✅ Zero build warnings
+
+---
+
+### CRITIQUE — ITERATION 2
+
+| Axis | Score | Change | Notes |
+|------|-------|--------|-------|
+| Depth of etymological content | 8 | +1 | 6 words with full chains. Need 94 more for completeness. |
+| Technical elegance | 8 | 0 | Clean component architecture. Audio handling robust. |
+| UX for technical user | 8 | +1 | Daily Wyrd card is polished. Audio player functional. Missing: keyboard shortcuts. |
+| Novelty | 7 | +1 | Inversion detection is unique. Audio narration differentiates. Need: euphemism stripper. |
+| Audio/sensory design | 7 | +5 | Daily Wyrd with TTS implemented. Web Audio API working. Visualizer basic but functional. |
+
+**Average:** 7.6/10 (up from 6.0)
+
+**Axes below 8:**
+- Novelty (7) → Need Euphemism Stripper
+- Audio (7) → Could enhance visualizer, add more audio content
+
+---
+
+### REVISE — ITERATION 3 PLAN
+
+**Priority 1: Novelty (score 7 → target 8)**
+- Implement Euphemism Stripper (Rawson framework)
+- Add "positive inflation" and "negative deflation" detection
+- Examples: "collateral damage" → killing; "ethnic cleansing" → genocide
+
+**Priority 2: Completeness**
+- Add 4 more high-value words (10 total in Fate Index)
+- Focus on politically charged bleaching: "freedom," "security," "reform"
+
+**Priority 3: Polish**
+- Keyboard shortcuts (/ to search, Esc to close)
+- Copy-to-clipboard for etymology chains
+- Share card image generation
+
+---
+
+### ENHANCE — ITERATION 3
+
+New capabilities:
+1. Euphemism Stripper pipeline
+2. 4 additional Fate Index words
+3. Keyboard shortcuts
+4. Share functionality
+
+---
+
+### OPTIMIZE
+
+**Bundle size:** 161.13 kB JS (+9.57 kB)
+- Acceptable growth for audio component
+- MP3 asset: 237KB (external, not bundled)
+
+**Audio latency:** Preload metadata only
+- Current: Audio loads on play
+- Optimization: Preload="metadata" for faster start
+
+---
+
+### STATUS: ITERATION 2 COMPLETE
+
+**Exit condition check:**
+- [ ] All five pillars implemented — NO (3/5: Crack It ✅, Flip It ✅, Live It ✅; Unmask It, Own It pending)
+- [ ] No axis scores below 8 — NO (novelty at 7)
+- [ ] WYRD specimen complete — YES ✅
+- [ ] Daily Wyrd TTS audio — YES ✅ (weird_daily.mp3 generated and playing)
+- [ ] Build diary documented — YES ✅
+- [ ] Demo-ready — ALMOST (need Euphemism Stripper for completeness)
+
+**Decision:** Proceed to Iteration 3. Focus: Euphemism Stripper (Rawson framework) + 4 more words.
+
+---
+
+## ITERATION 3: Euphemism Stripper + Completion
 
 ### BUILD — IN PROGRESS
 
 **Target:**
-- Daily Wyrd component with TTS
-- 5 additional Fate Index words
-- Euphemism Stripper pipeline
+- Euphemism Stripper pipeline (Rawson framework)
+- 4 additional Fate Index words
+- Keyboard shortcuts
+- Share functionality
 

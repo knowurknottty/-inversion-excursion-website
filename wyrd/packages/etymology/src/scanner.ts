@@ -77,6 +77,14 @@ export function registerSpecimen(specimen: WordSpecimen): void {
 import { weirdSpecimen } from "./data/weird.js";
 registerSpecimen(weirdSpecimen);
 
+// Register inversion specimens
+import { wickedSpecimen, badSpecimen, evilSpecimen, naughtySpecimen, outlandishSpecimen } from "./data/inversions.js";
+registerSpecimen(wickedSpecimen);
+registerSpecimen(badSpecimen);
+registerSpecimen(evilSpecimen);
+registerSpecimen(naughtySpecimen);
+registerSpecimen(outlandishSpecimen);
+
 export class EtymologyScanner {
   scan(word: string): ScanResult {
     const normalized = word.toLowerCase().trim();
