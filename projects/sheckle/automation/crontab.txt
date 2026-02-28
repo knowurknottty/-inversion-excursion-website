@@ -1,0 +1,15 @@
+# SHECKLE Automation Cron Jobs
+# Add these to crontab with: crontab -e
+
+# Check price milestones every 5 minutes
+*/5 * * * * /root/.openclaw/workspace/projects/sheckle/automation/auto.sh milestones >> /tmp/sheckle_auto.log 2>&1
+
+# Daily update at 9:00 AM UTC
+0 9 * * * /root/.openclaw/workspace/projects/sheckle/automation/auto.sh daily >> /tmp/sheckle_auto.log 2>&1
+
+# Random engagement tweet at 3:00 PM UTC
+0 15 * * * /root/.openclaw/workspace/projects/sheckle/automation/auto.sh engagement >> /tmp/sheckle_auto.log 2>&1
+
+# Git sync every 30 minutes
+*/30 * * * * cd /root/.openclaw/workspace && git pull && git push > /dev/null 2>&1
+
