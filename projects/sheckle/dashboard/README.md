@@ -1,7 +1,7 @@
 # Whale Watch Dashboard
 ## Real-Time $SHECKLE Transparency
 
-**Live URL:** [your-github-username.github.io/sheckle-dashboard](https://your-github-username.github.io/sheckle-dashboard)
+**Live URL:** [knowurknottty.github.io/sheckle-dashboard](https://your-github-username.github.io/sheckle-dashboard)
 
 ---
 
