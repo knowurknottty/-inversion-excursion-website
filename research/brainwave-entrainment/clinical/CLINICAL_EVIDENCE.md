@@ -178,6 +178,36 @@
 
 ---
 
+## 8. VR-Gamma Alzheimer's (Cognito Therapeutics / MIT)
+**Source:** Ongoing clinical trials (Phase 2/3)  
+**Based on:** Iaccarino et al. (2016) Nature findings  
+**Status:** 🔬 CLINICAL TRIALS → ⭐ SYNCSYNC PRIORITY
+
+**Study Design:**
+- Population: Mild-moderate Alzheimer's patients
+- Intervention: 40Hz visual + audio via VR headset
+- Duration: 6+ months
+- Primary endpoint: Cognitive decline slowing
+
+**Key Findings (Preliminary):**
+- Improved sleep quality
+- Reduced caregiver burden
+- Slowed cognitive decline (early data)
+- Well-tolerated in elderly population
+
+**Clinical Significance:**
+- First VR-based Alzheimer's therapy
+- Non-pharmacological intervention
+- Addresses root pathology (amyloid) not just symptoms
+- Medicare/Medicaid reimbursement potential
+
+**For SynSync:**
+- Position as consumer adjunct to clinical treatment
+- Build evidence base for eventual FDA pathway
+- VR expertise = competitive moat
+
+---
+
 ## SUMMARY TABLE
 
 | Condition | Frequency | Evidence Level | SynSync Protocol |
@@ -188,6 +218,7 @@
 | Focus/ADHD | 12-15 Hz SMR | ✅ Moderate | FOCUS-SMR |
 | Cognitive/Gamma | 40 Hz | 🔬 Experimental | GAMMA-40 |
 | General Relaxation | 8-10 Hz Alpha | ✅ Strong | RELAX-10 |
+| **Alzheimer's (VR)** | **40 Hz** | **🔬 Trials** | **ALZHEIMERS-VR-40** ⭐ |
 
 ---
 

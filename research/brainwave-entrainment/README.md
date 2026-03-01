@@ -64,6 +64,24 @@
 | FOCUS-SMR | Attention | 12-15 Hz | 20-30 min | ✅ Moderate |
 | GAMMA-40 | Cognition | 40 Hz | 20-60 min | 🔬 Experimental |
 | RELAX-10 | General | 8-10 Hz | 20 min | ✅ Strong |
+| **ALZHEIMERS-VR-40** | **Alzheimer's** | **40 Hz** | **60 min** | **🔬 Trials** ⭐ |
+
+---
+
+## ALZHEIMER'S VR THERAPY ⭐ PRIORITY
+
+**Why This Matters:**
+- 40Hz gamma stimulation reduces amyloid (Nature 2016)
+- Cognito Therapeutics: $73M raised, clinical trials ongoing
+- VR increases compliance in elderly patients
+- SynSync can be consumer-accessible adjunct
+
+**Development Path:**
+1. **Now:** 40Hz audio protocol (GAMMA-40)
+2. **6 months:** VR prototype (Meta Quest)
+3. **12 months:** FDA breakthrough device pathway
+
+**Read:** `protocols/CLINICAL_PROTOCOLS.md` - Protocol 7
 
 ---
 

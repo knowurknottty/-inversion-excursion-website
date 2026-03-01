@@ -129,6 +129,80 @@
 
 ---
 
+## PROTOCOL 7: VR-Gamma Alzheimer's Therapy ⭐ PRIORITY
+
+**Indication:** Alzheimer's disease, mild cognitive impairment, dementia  
+**Frequency:** 40 Hz (gamma)  
+**Duration:** 60 minutes  
+**Session Count:** Daily, long-term  
+**Delivery:** VR headset + spatial audio + visual flicker
+
+**Evidence:**
+- Iaccarino et al. (2016) - 40Hz reduces amyloid in mouse models (Nature)
+- Cognito Therapeutics (clinical trials ongoing) - VR + 40Hz showing promise
+- Argento et al. (2017) - VR + brainwave entrainment framework for cognitive augmentation
+- **Mechanism:** Gamma entrainment activates microglia, enhances amyloid clearance, improves neural synchrony
+
+**Why VR Matters:**
+- Immersive environment increases compliance (elderly patients engage more)
+- Spatial audio enhances entrainment depth
+- Visual flicker at 40Hz (through VR display) + audio = dual-modal effect
+- Reduces caregiver burden (passive treatment)
+- Can track head movement, session adherence
+
+**Implementation Specifications:**
+- **Visual:** 40Hz full-field flicker (VR display)
+- **Audio:** 40Hz isochronic tones, spatial positioning
+- **Environment:** Calming virtual scene (nature, abstract)
+- **Session structure:**
+  - 5 min: Gentle onboarding, environment introduction
+  - 50 min: Active 40Hz stimulation
+  - 5 min: Gradual fade-out, return to menu
+
+**Safety Considerations:**
+- Photosensitive epilepsy screening required
+- VR comfort: seated experience, minimal head movement
+- Breaks every 20 min if needed (VR fatigue)
+- Caregiver present for first sessions
+
+**SynSync Prime Integration:**
+- Protocol ID: ALZHEIMERS-VR-40
+- Hardware: Meta Quest, Apple Vision Pro, or equivalent
+- Prescription required (medical device pathway)
+- Remote monitoring dashboard for caregivers
+- Insurance reimbursement codes (pending FDA)
+
+**Clinical Trial Alignment:**
+- Cognito Therapeutics (MIT spinout) - Phase 3 trials
+- Ongoing studies at MIT, UCSF
+- SynSync can position as consumer adjunct to clinical treatment
+
+**Expected Outcomes:**
+- Short-term: Improved attention, reduced agitation
+- Long-term (6+ months): Slower cognitive decline (per mouse studies)
+- Quality of life: Better sleep, reduced caregiver stress
+
+---
+
+## PROTOCOL 8: VR-Gamma General Cognitive Enhancement
+
+**Indication:** Healthy aging, cognitive maintenance, focus enhancement  
+**Frequency:** 40 Hz  
+**Duration:** 30 minutes  
+**Session Count:** 3-5x weekly  
+**Delivery:** VR headset optional, standard headphones acceptable
+
+**Evidence:**
+- Becher et al. (2015) - 40Hz improves memory in healthy adults
+- Argento et al. (2017) - VR + entrainment for augmented cognition
+
+**Implementation:**
+- VR mode: Immersive environment, spatial audio
+- Audio-only mode: For users without VR headset
+- Progressive: Start audio-only, graduate to VR
+
+---
+
 ## COMBINATION PROTOCOLS
 
 ### Alpha-Theta Crossover (Deep Relaxation)
