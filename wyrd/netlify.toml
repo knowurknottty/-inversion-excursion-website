@@ -1,0 +1,4 @@
+[build]
+  base    = ""                      # monorepo root — resolves workspace:* deps
+  command = "bun install && bun run build:web"
+  publish = "apps/web/dist"
