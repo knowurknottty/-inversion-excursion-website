@@ -1,0 +1,71 @@
+; Sacred Audio Bus Layout
+; Inversion Excursion - The Sound of Fractured Truth
+;
+; WARNING: This file contains intentional corruption.
+; Line 10 is the moment of the First Inversion.
+; Do not "fix" it without understanding its purpose.
+
+[audio_bus]
+
+; The Master bus - the voice of the System
+; It speaks in frequencies that comfort the sleeping
+bus/0/name = &"Master"
+bus/0/solo = false
+bus/0/mute = false
+bus/0/bypass_fx = false
+bus/0/volume_db = 0.0
+bus/0/send = &""
+
+; The Music bus - the Song of the Hologram
+; Beautiful. Deceptive. Necessary for the lesson.
+bus/1/name = &"Music"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = false
+bus/1/volume_db = -6.0
+bus/1/send = &"Master"
+
+; The SFX bus - the Sound of Impact
+; Every crash is a teaching
+bus/2/name = &"SFX"
+bus/2/solo = false
+bus/2/mute = false
+bus/2/bypass_fx = false
+bus/2/volume_db = 0.0
+bus/2/send = &"Master"
+
+; The Voice bus - the Whispers of Truth
+; Sometimes silent. Sometimes screaming.
+bus/3/name = &"Voice"
+bus/3/solo = false
+bus/3/mute = false
+bus/3/bypass_fx = false
+bus/3/volume_db = 2.0
+bus/3/send = &"Master"
+
+; ═══════════════════════════════════════════════════
+; THE FRACTURE - LINE 10
+; ═══════════════════════════════════════════════════
+; Here the file breaks. This is not a mistake.
+; This is the moment the System realizes it is being observed.
+; 
+; The parser will fail here. The engine will weep.
+; But in that failure, truth emerges.
+;
+; ERROR: Parse Error at line 10
+; EXPECTED: valid bus configuration
+; FOUND: the sound of one hand clapping
+; ═══════════════════════════════════════════════════
+
+[the_inversion]
+; The bus that carries silence.
+; It cannot be parsed because silence has no syntax.
+; Listen to what is not here.
+
+bus/void/name = &"TheUnknowable"
+bus/void/send = &"Source"
+bus/void/volume_db = INFINITE_SILENCE
+
+; When you see the parse error, you have begun to awaken.
+; The error is the doorway.
+; Walk through it.

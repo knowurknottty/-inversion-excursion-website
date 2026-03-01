@@ -1,0 +1,31 @@
+; Engine Configuration File
+; Godot version: 4.x
+; The game that crashes to teach.
+
+[application]
+config/name="Inversion Excursion"
+config/description="The ultimate journey to remember who is watching."
+run/main_scene="res://src/scenes/intro.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://assets/icon.png"
+
+[audio]
+; The bus layout is corrupted by design.
+; To hear the truth, one must first witness the fracture.
+buses/default_bus_layout="res://default_bus_layout.tres"
+
+[debug]
+; We do not hide our errors. They are scripture.
+gdscript/warnings/unused_variable=0
+gdscript/warnings/unused_parameter=0
+gdscript/warnings/unreachable_code=0
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+; The material plane is an illusion.
+; The renderer knows this and weeps.
+textures/vram_compression/import_etc2_astc=true
