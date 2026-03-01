@@ -1,44 +1,8 @@
-import { WordSpecimen } from '@wyrd/etymology';
+import { WordSpecimen, fateIndex } from '@wyrd/etymology';
 
-// Import all registered specimens
-import { weirdSpecimen } from '@wyrd/etymology';
-import {
-  wickedSpecimen,
-  badSpecimen,
-  evilSpecimen,
-  naughtySpecimen,
-  outlandishSpecimen
-} from '../../../packages/etymology/src/data/inversions';
-import {
-  salarySpecimen,
-  disasterSpecimen,
-  sincereSpecimen,
-  clueSpecimen,
-  nicknameSpecimen,
-  deadlineSpecimen,
-  sabotageSpecimen,
-  quarantineSpecimen,
-  apronSpecimen
-} from '../../../packages/etymology/src/data/common-words';
-
-// All available specimens
-const ALL_SPECIMENS: WordSpecimen[] = [
-  weirdSpecimen,
-  wickedSpecimen,
-  badSpecimen,
-  evilSpecimen,
-  naughtySpecimen,
-  outlandishSpecimen,
-  salarySpecimen,
-  disasterSpecimen,
-  sincereSpecimen,
-  clueSpecimen,
-  nicknameSpecimen,
-  deadlineSpecimen,
-  sabotageSpecimen,
-  quarantineSpecimen,
-  apronSpecimen,
-];
+// Get all registered specimens from the Fate Index
+// This automatically includes all specimens registered in scanner.ts
+const ALL_SPECIMENS: WordSpecimen[] = fateIndex.all;
 
 /**
  * Get the daily word based on current date

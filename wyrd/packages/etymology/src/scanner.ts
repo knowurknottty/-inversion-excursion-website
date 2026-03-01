@@ -67,11 +67,24 @@ const inversionDatabase: Map<string, InversionResult> = new Map([
 ]);
 
 // Fate Index — curated words with full chains
-const fateIndex: Map<string, WordSpecimen> = new Map();
+const fateIndexMap: Map<string, WordSpecimen> = new Map();
 
 export function registerSpecimen(specimen: WordSpecimen): void {
-  fateIndex.set(specimen.modern.toLowerCase(), specimen);
+  fateIndexMap.set(specimen.modern.toLowerCase(), specimen);
 }
+
+// Export fateIndex as array for daily word rotation
+export const fateIndex = {
+  get all(): WordSpecimen[] {
+    return Array.from(fateIndexMap.values());
+  },
+  get(word: string): WordSpecimen | undefined {
+    return fateIndexMap.get(word.toLowerCase());
+  },
+  get size(): number {
+    return fateIndexMap.size;
+  }
+};
 
 // Register WYRD specimen
 import { weirdSpecimen } from "./data/weird.js";
@@ -107,10 +120,34 @@ registerSpecimen(sabotageSpecimen);
 registerSpecimen(quarantineSpecimen);
 registerSpecimen(apronSpecimen);
 
+// Register economic word specimens
+import {
+  moneySpecimen,
+  wageSpecimen,
+  profitSpecimen,
+  debtSpecimen,
+  tradeSpecimen,
+  marketSpecimen,
+  purchaseSpecimen,
+  valueSpecimen,
+  wealthSpecimen,
+  economySpecimen
+} from "./data/economic-specimens.js";
+registerSpecimen(moneySpecimen);
+registerSpecimen(wageSpecimen);
+registerSpecimen(profitSpecimen);
+registerSpecimen(debtSpecimen);
+registerSpecimen(tradeSpecimen);
+registerSpecimen(marketSpecimen);
+registerSpecimen(purchaseSpecimen);
+registerSpecimen(valueSpecimen);
+registerSpecimen(wealthSpecimen);
+registerSpecimen(economySpecimen);
+
 export class EtymologyScanner {
   scan(word: string): ScanResult {
     const normalized = word.toLowerCase().trim();
-    const specimen = fateIndex.get(normalized);
+    const specimen = fateIndexMap.get(normalized);
     
     if (!specimen) {
       return {
