@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { scanner, ScanResult, InversionResult } from '@wyrd/etymology'
 import { DailyWyrd } from './components/DailyWyrd'
-import { weirdSpecimen } from '@wyrd/etymology'
+import { getDailyWord } from './utils/daily-word'
 
 function App() {
   const [input, setInput] = useState('')
   const [result, setResult] = useState<ScanResult | null>(null)
   const [inversion, setInversion] = useState<InversionResult | null>(null)
+
+  // Get daily word (memoized so it doesn't change during session)
+  const dailyWord = useMemo(() => getDailyWord(), [])
 
   const handleScan = () => {
     if (!input.trim()) return
@@ -50,9 +53,9 @@ function App() {
       <main className="max-w-4xl mx-auto px-6 py-12">
         {/* Daily Wyrd Card */}
         <div className="mb-12">
-          <DailyWyrd 
-            specimen={weirdSpecimen} 
-            audioUrl="/weird_daily.mp3"
+          <DailyWyrd
+            specimen={dailyWord}
+            audioUrl={`/${dailyWord.modern}_daily.mp3`}
           />
         </div>
 
@@ -67,7 +70,7 @@ function App() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleScan()}
-              placeholder="e.g., weird, wicked, bad..."
+              placeholder="e.g., salary, disaster, deadline, quarantine..."
               className="flex-1 bg-wyrd-800 border border-wyrd-700 rounded-lg px-4 py-3 
                          text-lg font-serif placeholder:text-wyrd-100/30
                          focus:outline-none focus:border-wyrd-600"
