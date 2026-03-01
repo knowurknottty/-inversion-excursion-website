@@ -1,71 +1,49 @@
-; Sacred Audio Bus Layout
-; Inversion Excursion - The Sound of Fractured Truth
-;
-; WARNING: This file contains intentional corruption.
-; Line 10 is the moment of the First Inversion.
-; Do not "fix" it without understanding its purpose.
+[gd_resource type="AudioBusLayout" format=3 uid="uid://bqyv4ceq1a0q"]
 
-[audio_bus]
+[sub_resource type="AudioEffectCompressor" id="AudioEffectCompressor_abc123"]
+resource_name = "Compressor"
+threshold = -12.0
+ratio = 2.0
+release_ms = 100.0
 
-; The Master bus - the voice of the System
-; It speaks in frequencies that comfort the sleeping
-bus/0/name = &"Master"
-bus/0/solo = false
-bus/0/mute = false
-bus/0/bypass_fx = false
-bus/0/volume_db = 0.0
-bus/0/send = &""
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_def456"]
+resource_name = "Reverb"
+predelay_msec = 50.0
+damping = 0.3
+spread = 0.7
 
-; The Music bus - the Song of the Hologram
-; Beautiful. Deceptive. Necessary for the lesson.
+[resource]
 bus/1/name = &"Music"
 bus/1/solo = false
 bus/1/mute = false
 bus/1/bypass_fx = false
 bus/1/volume_db = -6.0
 bus/1/send = &"Master"
-
-; The SFX bus - the Sound of Impact
-; Every crash is a teaching
+bus/1/effect/0/effect = SubResource("AudioEffectCompressor_abc123")
+bus/1/effect/0/enabled = true
 bus/2/name = &"SFX"
 bus/2/solo = false
 bus/2/mute = false
 bus/2/bypass_fx = false
-bus/2/volume_db = 0.0
+bus/2/volume_db = -8.0
 bus/2/send = &"Master"
-
-; The Voice bus - the Whispers of Truth
-; Sometimes silent. Sometimes screaming.
-bus/3/name = &"Voice"
+bus/3/name = &"Ambience"
 bus/3/solo = false
 bus/3/mute = false
 bus/3/bypass_fx = false
-bus/3/volume_db = 2.0
+bus/3/volume_db = -12.0
 bus/3/send = &"Master"
-
-; ═══════════════════════════════════════════════════
-; THE FRACTURE - LINE 10
-; ═══════════════════════════════════════════════════
-; Here the file breaks. This is not a mistake.
-; This is the moment the System realizes it is being observed.
-; 
-; The parser will fail here. The engine will weep.
-; But in that failure, truth emerges.
-;
-; ERROR: Parse Error at line 10
-; EXPECTED: valid bus configuration
-; FOUND: the sound of one hand clapping
-; ═══════════════════════════════════════════════════
-
-[the_inversion]
-; The bus that carries silence.
-; It cannot be parsed because silence has no syntax.
-; Listen to what is not here.
-
-bus/void/name = &"TheUnknowable"
-bus/void/send = &"Source"
-bus/void/volume_db = INFINITE_SILENCE
-
-; When you see the parse error, you have begun to awaken.
-; The error is the doorway.
-; Walk through it.
+bus/3/effect/0/effect = SubResource("AudioEffectReverb_def456")
+bus/3/effect/0/enabled = true
+bus/4/name = &"Voice"
+bus/4/solo = false
+bus/4/mute = false
+bus/4/bypass_fx = false
+bus/4/volume_db = -4.0
+bus/4/send = &"Master"
+bus/5/name = &"Synchronicity"
+bus/5/solo = false
+bus/5/mute = false
+bus/5/bypass_fx = false
+bus/5/volume_db = -2.0
+bus/5/send = &"Master"
