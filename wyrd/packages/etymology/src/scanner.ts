@@ -85,6 +85,28 @@ registerSpecimen(evilSpecimen);
 registerSpecimen(naughtySpecimen);
 registerSpecimen(outlandishSpecimen);
 
+// Register common word specimens
+import {
+  salarySpecimen,
+  disasterSpecimen,
+  sincereSpecimen,
+  clueSpecimen,
+  nicknameSpecimen,
+  deadlineSpecimen,
+  sabotageSpecimen,
+  quarantineSpecimen,
+  apronSpecimen
+} from "./data/common-words.js";
+registerSpecimen(salarySpecimen);
+registerSpecimen(disasterSpecimen);
+registerSpecimen(sincereSpecimen);
+registerSpecimen(clueSpecimen);
+registerSpecimen(nicknameSpecimen);
+registerSpecimen(deadlineSpecimen);
+registerSpecimen(sabotageSpecimen);
+registerSpecimen(quarantineSpecimen);
+registerSpecimen(apronSpecimen);
+
 export class EtymologyScanner {
   scan(word: string): ScanResult {
     const normalized = word.toLowerCase().trim();
