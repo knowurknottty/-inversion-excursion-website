@@ -6,6 +6,7 @@ export * from "./data/weird.js";
 export * from "./data/inversions.js";
 export * from "./data/common-words.js";
 export * from "./data/economic-specimens.js";
+export * from "./data/political-specimens.js";
 
 // Utility to get all registered specimens
 export { fateIndex } from "./scanner.js";

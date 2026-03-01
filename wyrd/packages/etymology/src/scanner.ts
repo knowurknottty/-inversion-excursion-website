@@ -144,6 +144,30 @@ registerSpecimen(valueSpecimen);
 registerSpecimen(wealthSpecimen);
 registerSpecimen(economySpecimen);
 
+// Register political/governance word specimens
+import {
+  democracySpecimen,
+  republicSpecimen,
+  senateSpecimen,
+  bureaucracySpecimen,
+  propagandaSpecimen,
+  citizenSpecimen,
+  lawSpecimen,
+  justiceSpecimen,
+  freedomSpecimen,
+  powerSpecimen
+} from "./data/political-specimens.js";
+registerSpecimen(democracySpecimen);
+registerSpecimen(republicSpecimen);
+registerSpecimen(senateSpecimen);
+registerSpecimen(bureaucracySpecimen);
+registerSpecimen(propagandaSpecimen);
+registerSpecimen(citizenSpecimen);
+registerSpecimen(lawSpecimen);
+registerSpecimen(justiceSpecimen);
+registerSpecimen(freedomSpecimen);
+registerSpecimen(powerSpecimen);
+
 export class EtymologyScanner {
   scan(word: string): ScanResult {
     const normalized = word.toLowerCase().trim();
