@@ -298,45 +298,56 @@
   // NAVIGATION
   // ==========================================================================
 
+  function openSidebar() {
+    elements.sidebar.classList.add('open');
+    elements.menuToggle.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('sidebar-open');
+
+    // Backdrop
+    const backdrop = document.createElement('div');
+    backdrop.className = 'sidebar-backdrop';
+    backdrop.setAttribute('aria-hidden', 'true');
+    backdrop.addEventListener('click', closeSidebar);
+    document.body.appendChild(backdrop);
+  }
+
+  function closeSidebar() {
+    elements.sidebar.classList.remove('open');
+    elements.menuToggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('sidebar-open');
+
+    const backdrop = document.querySelector('.sidebar-backdrop');
+    if (backdrop) backdrop.remove();
+  }
+
   function initNavigation() {
     if (!elements.menuToggle || !elements.sidebar) return;
-    
+
     elements.menuToggle.addEventListener('click', () => {
-      const isOpen = elements.sidebar.classList.toggle('open');
-      elements.menuToggle.setAttribute('aria-expanded', isOpen);
+      const isOpen = elements.sidebar.classList.contains('open');
+      if (isOpen) { closeSidebar(); } else { openSidebar(); }
     });
-    
-    // Close sidebar when clicking outside on mobile
-    document.addEventListener('click', (e) => {
-      if (window.innerWidth <= 768) {
-        if (!elements.sidebar.contains(e.target) && !elements.menuToggle.contains(e.target)) {
-          elements.sidebar.classList.remove('open');
-          elements.menuToggle.setAttribute('aria-expanded', 'false');
-        }
-      }
-    });
-    
+
     // Active nav link highlighting
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     const navLinks = document.querySelectorAll('.nav-link');
-    
+
     navLinks.forEach(link => {
       const href = link.getAttribute('href');
       if (href && (href.includes(currentPage) || (currentPage === '' && href === 'index.html'))) {
         link.classList.add('active');
       }
     });
-    
+
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
+          // Close sidebar on mobile before scrolling
+          if (window.innerWidth <= 900) closeSidebar();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       });
     });
@@ -513,17 +524,14 @@
     document.addEventListener('keydown', (e) => {
       // 'm' key to toggle menu
       if (e.key === 'm' && !e.ctrlKey && !e.metaKey) {
-        if (window.innerWidth <= 768) {
-          const isOpen = elements.sidebar.classList.toggle('open');
-          elements.menuToggle.setAttribute('aria-expanded', isOpen);
+        if (window.innerWidth <= 900) {
+          const isOpen = elements.sidebar.classList.contains('open');
+          if (isOpen) { closeSidebar(); } else { openSidebar(); }
         }
       }
-      
+
       // 'Escape' to close menu
-      if (e.key === 'Escape') {
-        elements.sidebar.classList.remove('open');
-        elements.menuToggle.setAttribute('aria-expanded', 'false');
-      }
+      if (e.key === 'Escape') closeSidebar();
       
       // Arrow keys for chapter navigation
       if (e.key === 'ArrowRight' && document.querySelector('.chapter-nav-link.next')) {
