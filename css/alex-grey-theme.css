@@ -19,8 +19,8 @@
    Cosmic Background: Deep space with nebula gradients
    ========================================================================== */
 
-/* Import self-hosted fonts */
-@import url('../fonts/fonts.css');
+/* Note: Self-hosted fonts removed - using system fonts for reliability */
+/* Original font files were never downloaded to the repo */
 
 :root {
   /* Alex Grey Chakra-Cosmic Palette */
