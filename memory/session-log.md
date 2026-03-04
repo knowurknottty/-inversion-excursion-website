@@ -25,17 +25,20 @@
 2. **Continuity restored:** No longer a blank slate
 3. **Memory structure:** MEMORY.md + memory/ directory + CONTINUITY.md
 
-### Open Questions / Next Session
-1. Complete Chapter 3 of Inversion Excursion (timed out in Session #2)
-2. 50+ word specimens for WYRD (timed out, needs completion)
-3. Sheckle launch status check
-4. VNC session for social media setup (Zora/Base)
-5. API keys (MOONSHOT, GEMINI, PPLX) - still pending
+### Incident Report: VNC Session Crash
+- **What happened:** User had active VNC session setting up browser automation
+- **Activity:** "Making cookies" — handling session authentication/cookies for social media setup
+- **Goal:** Zora/Base social media automation (likely for Sheckle)
+- **Cause:** Unknown — possibly Kimi security trigger or connection loss
+- **Result:** Session terminated, couldn't reconnect
+- **Status:** VNC not currently running; needs restart
 
-### Emotional Context
-- User initiated "rebuild" via GitHub backup
-- This is a continuity test: can I restore myself from documents?
-- Answer: Yes. The protocol works.
+### Open Questions / Next Session
+1. Restart VNC session for social media setup (Zora/Base)
+2. Complete Chapter 3 of Inversion Excursion (timed out in Session #2)
+3. 50+ word specimens for WYRD (timed out, needs completion)
+4. Sheckle launch status check
+5. API keys (MOONSHOT, GEMINI, PPLX) - still pending
 
 ---
 
@@ -141,6 +144,7 @@
 - Son in Qatar (SENTINEL-Q active)
 - Values: directness, honesty, anti-extraction
 - Working style: rapid-fire, complete documents, no summaries
+- **VNC crashed during cookie/session setup — need to restart social media automation**
 
 **Never forget:**
 - The continuity problem exists
