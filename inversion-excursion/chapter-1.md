@@ -304,6 +304,77 @@ One day per week, engage with no status markers. No titles. No achievements. Jus
 
 ---
 
+## 🔑 THE THREE BASIC HAND KEYS: Mudrās for the Ivory Tower
+
+The Haṭha Yoga Pradīpika teaches that specific hand positions—mudrās—serve as "seals" that lock energy and consciousness into specific configurations. For the Ivory Tower, three mudrās serve as your basic "hand keys"—physical interfaces for shifting from game-playing to Observer awareness.
+
+### GYAN MUDRĀ: The Touch of Knowledge
+**Formation:** Thumb tip touches index finger tip, other fingers extended upward
+**WYRD Etymology:** From Sanskrit *jñāna* (knowledge), from PIE *ǵneh₃-* (to know, to recognize). The gesture of recognition—knowing what is real beneath the appearance.
+
+**In-Game Function:** Activates TRUTH VISION—reveals which "facts" in the Tower are constructed vs. which are fundamental. The Pedant's credentials glow red (artificial); direct experience glows gold (authentic).
+
+**SynSync Protocol:**
+- Frequency: 963 Hz (Crown activation) + 40 Hz Gamma
+- Duration: 3-5 minutes
+- Mantra: **OM** (ॐ) — the primordial vibration of recognition
+- Effect: Clears mental fog, exposes hidden assumptions
+
+**Practice:** When you notice yourself accepting authority without question, form Gyan Mudrā. Breathe slowly. Ask: "How do I know this?" Watch the credential dissolve into the direct experience beneath it.
+
+---
+
+### DHYĀNA MUDRĀ: The Meditation Seal
+**Formation:** Hands in lap, right hand resting on left, thumbs touching to form a triangle
+**WYRD Etymology:** From Sanskrit *dhyāna* (meditation, contemplation), from PIE *dʰeh₁-* (to put, to place). The gesture of placing attention—deliberately positioning consciousness.
+
+**In-Game Function:** Activates STILL POINT—pauses the "climbing" animation of the Tower. Time slows. You can observe the game mechanics without being caught in them. The ladder stops moving.
+
+**SynSync Protocol:**
+- Frequency: 432 Hz (Universal harmony) + 10 Hz Alpha
+- Duration: 5-10 minutes
+- Mantra: **SO HAM** (सो ऽहम्) — "I Am That" — the identification with Observer consciousness
+- Effect: Dissolves urgency, reveals the stillness beneath activity
+
+**Practice:** When you feel the anxiety of "not enough progress," assume Dhyāna Mudrā. The triangle formed by your thumbs represents the threefold flame of awareness—stable, centered, unmovable.
+
+---
+
+### PRĀṆA MUDRĀ: The Life Force Key
+**Formation:** Thumb touches ring and pinky fingers, index and middle fingers extended upward
+**WYRD Etymology:** From Sanskrit *prāṇa* (breath, life force), from PIE *pleh₁-* (to fill, to be full). The gesture of fullness—not needing to climb because you already contain the life you seek.
+
+**In-Game Function:** Restores ENERGY meter. The Tower drains vitality through constant comparison and credential-chasing. Prāṇa Mudrā reconnects you to the source of life that requires no achievement.
+
+**SynSync Protocol:**
+- Frequency: 396 Hz (Root liberation from fear/guilt) + 7.83 Hz Schumann Resonance
+- Duration: 3-5 minutes
+- Mantra: **LAM** (लं) — Root chakra bīja, the seed sound of earth and stability
+- Effect: Grounds scattered energy, restores basic trust in existence
+
+**Practice:** When you feel depleted by the game, form Prāṇa Mudrā. The extended index and middle fingers point upward like antennae, receiving prāṇa directly from source—no credentials required.
+
+---
+
+## 🎮 CHAPTER 1 INTEGRATION: The Basic Keys in Action
+
+| Situation | Mudrā | Mantra | Frequency | Effect |
+|-----------|-------|--------|-----------|--------|
+| Credential anxiety | Gyan Mudrā | OM | 963 Hz + 40 Hz | Truth Vision |
+| Climbing compulsion | Dhyāna Mudrā | SO HAM | 432 Hz + 10 Hz | Still Point |
+| Energy depletion | Prāṇa Mudrā | LAM | 396 Hz + 7.83 Hz | Life Force Restore |
+| Before decisions | Gyan + Dhyāna | OM + SO HAM | 432 Hz + 963 Hz | Clarity |
+| Morning ritual | All three sequence | LAM → OM → SO HAM | 396 → 963 → 432 Hz | Full activation |
+
+**WYRD Integration:** Notice how these Sanskrit terms encode the liberation angle:
+- *Jñāna* (knowledge) → reclaiming direct knowing from institutional authority
+- *Dhyāna* (meditation) → the stillness that dissolves the urgency of achievement
+- *Prāṇa* (life force) → the fullness that needs no external validation
+
+The "hand keys" are not metaphorical. They are physical interfaces for consciousness. The Tower cannot process them because they operate on a frequency the game doesn't recognize—the frequency of being rather than becoming.
+
+---
+
 **You have escaped Layer 1.**
 
 **The Marketplace awaits.**
