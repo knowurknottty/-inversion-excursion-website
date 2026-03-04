@@ -1,0 +1,353 @@
+[gd_scene load_steps=20 format=3 uid="uid://introsequence001"]
+
+[ext_resource type="Script" path="res://scripts/intro_controller.gd" id="1_controller"]
+[ext_resource type="Shader" path="res://shaders/spiral_tunnel_ps5.gdshader" id="2_spiral_ps5"]
+[ext_resource type="Shader" path="res://shaders/ultra_premium_lighting.gdshader" id="3_lighting"]
+[ext_resource type="Shader" path="res://shaders/particle_density.gdshader" id="4_particles"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_spiral_ps5"]
+shader = ExtResource("2_spiral_ps5")
+shader_parameter/progress = 0.0
+shader_parameter/speed = 1.2
+shader_parameter/color_primary = Color(1.0, 0.85, 0.2, 1.0)
+shader_parameter/color_secondary = Color(0.6, 0.15, 0.95, 1.0)
+shader_parameter/color_tertiary = Color(1.0, 1.0, 1.0, 1.0)
+shader_parameter/ray_count = 12.0
+shader_parameter/density = 2.0
+shader_parameter/bloom_intensity = 2.5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lighting"]
+shader = ExtResource("3_lighting")
+
+[sub_resource type="Gradient" id="Gradient_gold_divine"]
+colors = PackedColorArray(0.1, 0.08, 0.02, 1, 0.4, 0.3, 0.1, 1, 0.9, 0.75, 0.2, 1, 1.0, 0.9, 0.4, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_gold"]
+gradient = SubResource("Gradient_gold_divine")
+width = 2048
+
+[sub_resource type="LabelSettings" id="LabelSettings_title_mega"]
+font_size = 120
+font_color = Color(1, 0.9, 0.4, 1)
+outline_size = 8
+outline_color = Color(0.3, 0.2, 0.05, 1)
+shadow_size = 32
+shadow_color = Color(0.8, 0.6, 0.1, 0.4)
+shadow_offset = Vector2(8, 8)
+
+[sub_resource type="LabelSettings" id="LabelSettings_subtitle_elegant"]
+font_size = 48
+font_color = Color(0.9, 0.85, 0.7, 1)
+outline_size = 2
+outline_color = Color(0.2, 0.15, 0.1, 1)
+shadow_size = 8
+shadow_color = Color(0, 0, 0, 0.5)
+
+[sub_resource type="LabelSettings" id="LabelSettings_question_divine"]
+font_size = 72
+font_color = Color(1, 1, 1, 1)
+outline_size = 4
+outline_color = Color(0.4, 0.2, 0.8, 1)
+shadow_size = 24
+shadow_color = Color(0.6, 0.3, 1.0, 0.6)
+shadow_offset = Vector2(4, 4)
+
+[sub_resource type="LabelSettings" id="LabelSettings_pondering_intimate"]
+font_size = 42
+font_color = Color(0.95, 0.9, 0.8, 1)
+outline_size = 2
+outline_color = Color(0.2, 0.15, 0.3, 0.8)
+shadow_size = 12
+shadow_color = Color(0, 0, 0, 0.6)
+
+[sub_resource type="Gradient" id="Gradient_void_cosmic"]
+colors = PackedColorArray(0.02, 0.01, 0.05, 1, 0.08, 0.03, 0.15, 1, 0.15, 0.05, 0.25, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_void_cosmic"]
+gradient = SubResource("Gradient_void_cosmic")
+width = 1920
+height = 1080
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="Gradient" id="Gradient_snes_purple"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_snes_black"]
+gradient = SubResource("Gradient_snes_purple")
+width = 1920
+height = 1080
+
+[sub_resource type="Gradient" id="Gradient_character_ethereal"]
+colors = PackedColorArray(0, 0, 0, 0, 0.1, 0.05, 0.2, 0.9, 0.3, 0.15, 0.5, 0.95, 0.5, 0.25, 0.8, 1.0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_character"]
+gradient = SubResource("Gradient_character_ethereal")
+width = 512
+height = 768
+fill = 1
+fill_from = Vector2(0.5, 1)
+fill_to = Vector2(0.5, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_press_start"]
+font_size = 56
+font_color = Color(1, 0.85, 0.3, 1)
+outline_size = 4
+outline_color = Color(0.4, 0.3, 0.1, 1)
+shadow_size = 16
+shadow_color = Color(0.8, 0.6, 0.2, 0.5)
+
+[node name="IntroSequence" type="Node2D"]
+script = ExtResource("1_controller")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="VoidBackground" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(960, 540)
+texture = SubResource("GradientTexture2D_void_cosmic")
+
+[node name="SNESBoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="ColorRect" parent="SNESBoot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="LogoText" type="Label" parent="SNESBoot"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -450.0
+offset_top = -80.0
+offset_right = 450.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "SUPER NINTENDO
+ENTERTAINMENT SYSTEM"
+label_settings = SubResource("LabelSettings_subtitle_elegant")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TM" type="Label" parent="SNESBoot"]
+layout_mode = 0
+offset_left = 1400.0
+offset_top = 420.0
+offset_right = 1440.0
+offset_bottom = 460.0
+text = "™"
+label_settings = SubResource("LabelSettings_subtitle_elegant")
+
+[node name="TitleReveal" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="ColorRect" parent="TitleReveal"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.02, 0.015, 0.04, 1)
+
+[node name="TitleText" type="Label" parent="TitleReveal"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -700.0
+offset_top = -150.0
+offset_right = 700.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "INVERSION EXCURSION"
+label_settings = SubResource("LabelSettings_title_mega")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Subtitle" type="Label" parent="TitleReveal"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "A Spiritual Awakening"
+label_settings = SubResource("LabelSettings_subtitle_elegant")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TheQuestion" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="Sprite2D" parent="TheQuestion"]
+position = Vector2(960, 540)
+texture = SubResource("GradientTexture2D_void_cosmic")
+
+[node name="Character" type="Sprite2D" parent="TheQuestion"]
+position = Vector2(960, 480)
+scale = Vector2(1.5, 1.5)
+texture = SubResource("GradientTexture2D_character")
+
+[node name="QuestionText" type="Label" parent="TheQuestion"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = -280.0
+offset_right = 500.0
+offset_bottom = -180.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Who are you?"
+label_settings = SubResource("LabelSettings_question_divine")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ThePondering" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="Sprite2D" parent="ThePondering"]
+position = Vector2(960, 540)
+texture = SubResource("GradientTexture2D_void_cosmic")
+
+[node name="Character" type="Sprite2D" parent="ThePondering"]
+position = Vector2(960, 480)
+scale = Vector2(1.6, 1.6)
+texture = SubResource("GradientTexture2D_character")
+
+[node name="PonderingText" type="Label" parent="ThePondering"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -600.0
+offset_top = -250.0
+offset_right = 600.0
+offset_bottom = -150.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Hmmm... who or even what is I?"
+label_settings = SubResource("LabelSettings_pondering_intimate")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpiralVortex" type="ColorRect" parent="."]
+visible = false
+material = SubResource("ShaderMaterial_spiral_ps5")
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[node name="TitleScreen" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="ColorRect" parent="TitleScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.05, 0.03, 0.08, 1)
+
+[node name="TitleLogo" type="Label" parent="TitleScreen"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -700.0
+offset_top = -200.0
+offset_right = 700.0
+offset_bottom = 0.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "INVERSION EXCURSION"
+label_settings = SubResource("LabelSettings_title_mega")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PressStart" type="Label" parent="TitleScreen"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = -200.0
+offset_right = 300.0
+offset_bottom = -120.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "PRESS START"
+label_settings = SubResource("LabelSettings_press_start")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"Music"
+
+[node name="SFXPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"SFX"
+
+[node name="VoicePlayer" type="AudioStreamPlayer" parent="."]
+bus = &"Voice"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

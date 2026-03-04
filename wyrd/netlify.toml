@@ -1,0 +1,22 @@
+[build]
+  base    = ""                      # monorepo root — resolves workspace:* deps
+  command = "bun install && bun run build:web"
+  publish = "apps/web/dist"
+
+# SPA fallback for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Don't cache index.html
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
