@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none" stroke="currentColor" stroke-width="0.5">
+  <defs>
+    <style>
+      .tetra-up { stroke: rgba(212, 175, 55, 0.6); }
+      .tetra-down { stroke: rgba(147, 112, 219, 0.6); }
+      .connecting { stroke: rgba(0, 123, 167, 0.3); }
+      .center-point { fill: rgba(212, 175, 55, 0.8); }
+    </style>
+  </defs>
+  
+  <!-- Center point -->
+  <circle cx="150" cy="150" r="2" class="center-point"/>
+  
+  <!-- Upward pointing tetrahedron (male/sun) -->
+  <!-- Base triangle -->
+  <polygon points="150,50 236,200 64,200" class="tetra-up"/>
+  <!-- Left edge -->
+  <line x1="150" y1="50" x2="150" y2="150" class="tetra-up"/>
+  <!-- Right edge -->
+  <line x1="236" y1="200" x2="150" y2="150" class="tetra-up"/>
+  <!-- Back edge -->
+  <line x1="64" y1="200" x2="150" y2="150" class="tetra-up"/>
+  
+  <!-- Downward pointing tetrahedron (female/earth) -->
+  <!-- Base triangle -->
+  <polygon points="150,250 64,100 236,100" class="tetra-down"/>
+  <!-- Left edge -->
+  <line x1="150" y1="250" x2="150" y2="150" class="tetra-down"/>
+  <!-- Right edge -->
+  <line x1="64" y1="100" x2="150" y2="150" class="tetra-down"/>
+  <!-- Back edge -->
+  <line x1="236" y1="100" x2="150" y2="150" class="tetra-down"/>
+  
+  <!-- Intersection lines -->
+  <line x1="150" y1="50" x2="150" y1="250" class="connecting"/>
+  <line x1="236" y1="200" x2="64" y2="100" class="connecting"/>
+  <line x1="64" y1="200" x2="236" y2="100" class="connecting"/>
+</svg>

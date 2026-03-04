@@ -1,0 +1,12 @@
+# Inversion Excursion Website - Robots.txt
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://inversion-excursion.netlify.app/sitemap.xml
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/

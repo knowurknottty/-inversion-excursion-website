@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="0.8">
+  <defs>
+    <style>
+      .outer-triangle { stroke: rgba(212, 175, 55, 0.5); }
+      .inner-triangle-up { stroke: rgba(147, 112, 219, 0.5); }
+      .inner-triangle-down { stroke: rgba(0, 123, 167, 0.5); }
+      .bindu { fill: rgba(212, 175, 55, 0.8); }
+      .petals { stroke: rgba(255, 107, 53, 0.3); }
+    </style>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="190" stroke="rgba(212, 175, 55, 0.2)"/>
+  
+  <!-- Outer square with gates (simplified as circle for this view) -->
+  <circle cx="200" cy="200" r="170" stroke="rgba(212, 175, 55, 0.15)"/>
+  
+  <!-- 16-petal circle -->
+  <circle cx="200" cy="200" r="140" stroke="rgba(255, 107, 53, 0.2)"/>
+  
+  <!-- 8-petal circle -->
+  <circle cx="200" cy="200" r="110" stroke="rgba(147, 112, 219, 0.2)"/>
+  
+  <!-- Outer triangle (pointing down) -->
+  <polygon points="200,40 360,320 40,320" class="outer-triangle"/>
+  
+  <!-- Second triangle (pointing up) -->
+  <polygon points="200,360 40,80 360,80" class="inner-triangle-up"/>
+  
+  <!-- Third triangle (pointing down) -->
+  <polygon points="200,80 330,300 70,300" class="inner-triangle-down"/>
+  
+  <!-- Fourth triangle (pointing up) -->
+  <polygon points="200,320 70,100 330,100" class="inner-triangle-up"/>
+  
+  <!-- Fifth triangle (pointing down) -->
+  <polygon points="200,120 300,280 100,280" class="inner-triangle-down"/>
+  
+  <!-- Sixth triangle (pointing up) -->
+  <polygon points="200,280 100,120 300,120" class="inner-triangle-up"/>
+  
+  <!-- Seventh triangle (pointing down) -->
+  <polygon points="200,160 270,260 130,260" class="inner-triangle-down"/>
+  
+  <!-- Eighth triangle (pointing up) -->
+  <polygon points="200,260 130,140 270,140" class="inner-triangle-up"/>
+  
+  <!-- Innermost triangle (pointing down) -->
+  <polygon points="200,180 240,240 160,240" class="outer-triangle"/>
+  
+  <!-- Bindu (central point) -->
+  <circle cx="200" cy="210" r="3" class="bindu"/>
+</svg>

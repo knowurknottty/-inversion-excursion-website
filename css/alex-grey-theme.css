@@ -1,0 +1,917 @@
+/* ==========================================================================
+   INVERSION EXCURSION v2.0 — ALEX GREY EDITION
+   
+   Inspired by the visionary art of Alex Grey:
+   - Sacred Mirrors: Layered anatomical/energetic/spiritual bodies
+   - Sacred Geometry: Flower of Life, Sri Yantra, Merkaba
+   - Net of Being: Interconnected consciousness
+   - Chapel of Sacred Mirrors: Cathedral-like reverence
+   
+   Color Palette (Chakra-Inspired):
+   - Root: Deep Crimson #8B0000
+   - Sacral: Electric Orange #FF6B35
+   - Solar: Gold #FFD700
+   - Heart: Emerald #50C878
+   - Throat: Cerulean #007BA7
+   - Third Eye: Indigo #4B0082
+   - Crown: Violet/White #E6E6FA
+   
+   Cosmic Background: Deep space with nebula gradients
+   ========================================================================== */
+
+/* Import self-hosted fonts */
+@import url('../fonts/fonts.css');
+
+:root {
+  /* Alex Grey Chakra-Cosmic Palette */
+  --color-root: #8B0000;
+  --color-sacral: #FF6B35;
+  --color-solar: #FFD700;
+  --color-heart: #50C878;
+  --color-throat: #007BA7;
+  --color-third-eye: #4B0082;
+  --color-crown: #E6E6FA;
+  
+  /* Cosmic Background Layers */
+  --color-void: #050508;
+  --color-space-deep: #0a0a12;
+  --color-space-mid: #12121c;
+  --color-nebula-1: rgba(75, 0, 130, 0.15);
+  --color-nebula-2: rgba(0, 123, 167, 0.1);
+  --color-nebula-3: rgba(139, 0, 0, 0.08);
+  
+  /* Energy Body Layers (Alex Grey style) */
+  --color-physical: rgba(255, 255, 255, 0.9);
+  --color-etheric: rgba(147, 112, 219, 0.6);
+  --color-astral: rgba(255, 107, 53, 0.5);
+  --color-mental: rgba(0, 123, 167, 0.4);
+  --color-causal: rgba(255, 215, 0, 0.3);
+  --color-spirit: rgba(230, 230, 250, 0.2);
+  
+  /* Sacred Light */
+  --color-gold-primary: #D4AF37;
+  --color-gold-secondary: #B8941F;
+  --color-gold-glow: rgba(212, 175, 55, 0.4);
+  --color-divine-light: rgba(255, 255, 255, 0.95);
+  
+  /* Typography */
+  --font-serif: 'Crimson Text', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Sacred Geometry Constants */
+  --phi: 1.618033988749895;
+  --sacred-radius: 120px;
+  --mandala-scale: 1;
+  
+  /* Spacing (Golden Ratio) */
+  --space-xs: 0.618rem;
+  --space-sm: 1rem;
+  --space-md: 1.618rem;
+  --space-lg: 2.618rem;
+  --space-xl: 4.236rem;
+  --space-xxl: 6.854rem;
+  
+  /* Transitions */
+  --transition-sacred: all 0.618s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-breath: all 2.618s ease-in-out;
+  --transition-cosmic: all 4.236s ease-in-out;
+  
+  /* Z-Index Layers (like energy bodies) */
+  --z-void: -100;
+  --z-nebula: -50;
+  --z-sacred-geo: 0;
+  --z-content: 10;
+  --z-sidebar: 100;
+  --z-overlay: 1000;
+  --z-divine: 10000;
+}
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-serif);
+  background: var(--color-void);
+  color: var(--color-physical);
+  line-height: 1.7;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   COSMIC BACKGROUND — Multi-layered nebula effect
+   ========================================================================== */
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(ellipse 80% 50% at 20% 40%, var(--color-nebula-1) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 60%, var(--color-nebula-2) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 80% at 50% 20%, var(--color-nebula-3) 0%, transparent 40%),
+    radial-gradient(ellipse 100% 100% at 50% 50%, var(--color-space-mid) 0%, var(--color-void) 100%);
+  z-index: var(--z-void);
+  pointer-events: none;
+  animation: nebula-drift 60s ease-in-out infinite;
+}
+
+@keyframes nebula-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.8; }
+  25% { transform: translate(2%, -1%) scale(1.02); opacity: 0.9; }
+  50% { transform: translate(-1%, 2%) scale(1); opacity: 0.85; }
+  75% { transform: translate(-2%, -1%) scale(1.01); opacity: 0.9; }
+}
+
+/* Starfield overlay */
+.cosmic-stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-void);
+  pointer-events: none;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 50px 100px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 80px 50px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 200px 150px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 300px 200px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(2px 2px at 400px 100px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 500px 300px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 600px 150px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 700px 250px, rgba(255,255,255,0.4), transparent);
+  background-size: 800px 400px;
+  animation: twinkle 8s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+}
+
+/* ==========================================================================
+   SACRED GEOMETRY BACKGROUND ELEMENTS
+   ========================================================================== */
+
+.sacred-geometry-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vmin;
+  height: 100vmin;
+  z-index: var(--z-sacred-geo);
+  pointer-events: none;
+  opacity: 0.1;
+}
+
+.flower-of-life {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  animation: sacred-spin 120s linear infinite;
+}
+
+@keyframes sacred-spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.sri-yantra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  opacity: 0.6;
+  animation: sacred-spin-reverse 90s linear infinite;
+}
+
+@keyframes sacred-spin-reverse {
+  from { transform: translate(-50%, -50%) rotate(360deg); }
+  to { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
+/* ==========================================================================
+   SIDEBAR — Chapel-like reverence
+   ========================================================================== */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 18, 0.98) 0%,
+    rgba(18, 18, 28, 0.95) 50%,
+    rgba(10, 10, 18, 0.98) 100%
+  );
+  border-right: 1px solid var(--color-gold-primary);
+  padding: var(--space-xl);
+  overflow-y: auto;
+  z-index: var(--z-sidebar);
+  transition: var(--transition-sacred);
+  backdrop-filter: blur(20px);
+}
+
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(135deg, transparent 40%, rgba(212, 175, 55, 0.03) 50%, transparent 60%);
+  pointer-events: none;
+}
+
+.sidebar-header {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  text-align: center;
+  position: relative;
+}
+
+.sidebar-header::after {
+  content: '✦';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-gold-primary);
+  font-size: 1.2rem;
+  background: var(--color-space-mid);
+  padding: 0 10px;
+}
+
+.book-title {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-gold-primary);
+  margin-bottom: var(--space-xs);
+  line-height: 1.2;
+  text-shadow: 0 0 30px var(--color-gold-glow);
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-crown);
+  opacity: 0.8;
+}
+
+.nav-section {
+  margin-bottom: var(--space-lg);
+  position: relative;
+}
+
+.nav-section-title {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-gold-secondary);
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-sm);
+  border-left: 2px solid var(--color-gold-secondary);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  margin-bottom: var(--space-xs);
+  position: relative;
+}
+
+.nav-link {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(230, 230, 250, 0.7);
+  text-decoration: none;
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  transition: var(--transition-sacred);
+  border-left: 2px solid transparent;
+  margin-left: calc(-1 * var(--space-sm));
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background: linear-gradient(90deg, var(--color-gold-primary), transparent);
+  transition: width 0.4s ease;
+  opacity: 0.2;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-gold-primary);
+  border-left-color: var(--color-gold-primary);
+  padding-left: calc(var(--space-sm) + 4px);
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 100%;
+}
+
+/* ==========================================================================
+   MAIN CONTENT — Cathedral of text
+   ========================================================================== */
+
+.main-content {
+  margin-left: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: var(--z-content);
+}
+
+.page-header {
+  display: none;
+  padding: var(--space-md);
+  background: rgba(10, 10, 18, 0.9);
+  border-bottom: 1px solid var(--color-gold-primary);
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  backdrop-filter: blur(10px);
+}
+
+.content {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-xxl) var(--space-xl);
+  position: relative;
+}
+
+/* ==========================================================================
+   HERO SECTION — Divine portal
+   ========================================================================== */
+
+.hero {
+  text-align: center;
+  padding: var(--space-xxl) 0;
+  margin-bottom: var(--space-xxl);
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--color-gold-glow) 0%, transparent 70%);
+  opacity: 0.3;
+  pointer-events: none;
+  animation: divine-pulse 4s ease-in-out infinite;
+}
+
+@keyframes divine-pulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
+  50% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.5; }
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 700;
+  color: var(--color-gold-primary);
+  margin-bottom: var(--space-sm);
+  text-shadow: 
+    0 0 40px var(--color-gold-glow),
+    0 0 80px rgba(212, 175, 55, 0.2),
+    0 0 120px rgba(212, 175, 55, 0.1);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+.hero-subtitle {
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  font-style: italic;
+  color: var(--color-crown);
+  margin-bottom: var(--space-xs);
+  opacity: 0.9;
+}
+
+.hero-tagline {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(230, 230, 250, 0.6);
+  margin-bottom: var(--space-xl);
+}
+
+/* Tower visual with sacred geometry */
+.hero-visual {
+  margin: var(--space-xl) 0;
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tower-visual {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid;
+  border-bottom-color: var(--color-gold-primary);
+  opacity: 0.6;
+  position: relative;
+  animation: tower-breathe 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px var(--color-gold-glow));
+}
+
+.tower-visual::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--color-crown);
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: rotate-slow 20s linear infinite;
+}
+
+@keyframes tower-breathe {
+  0%, 100% { transform: scale(1) translateY(0); opacity: 0.6; }
+  50% { transform: scale(1.05) translateY(-5px); opacity: 0.8; }
+}
+
+@keyframes rotate-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   BUTTONS — Sacred touch
+   ========================================================================== */
+
+.cta-buttons {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 4px;
+  transition: var(--transition-sacred);
+  cursor: pointer;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-gold-primary), var(--color-gold-secondary));
+  color: var(--color-void);
+  box-shadow: 0 4px 20px var(--color-gold-glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--color-gold-glow);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-crown);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-gold-primary);
+  color: var(--color-gold-primary);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+/* ==========================================================================
+   SECTIONS — Text as scripture
+   ========================================================================== */
+
+.section {
+  margin-bottom: var(--space-xxl);
+  position: relative;
+}
+
+.section h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  color: var(--color-gold-primary);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  position: relative;
+}
+
+.section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-gold-primary), transparent);
+}
+
+.section h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-crown);
+  margin: var(--space-lg) 0 var(--space-sm);
+}
+
+.section p {
+  margin-bottom: var(--space-md);
+  color: rgba(230, 230, 250, 0.8);
+  font-size: 1.05rem;
+}
+
+.section ol,
+.section ul {
+  margin-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+  color: rgba(230, 230, 250, 0.8);
+}
+
+.section li {
+  margin-bottom: var(--space-xs);
+}
+
+.section li strong {
+  color: var(--color-gold-primary);
+}
+
+/* Practice Box — Sacred container */
+.practice-box {
+  background: linear-gradient(
+    135deg,
+    rgba(18, 18, 28, 0.8) 0%,
+    rgba(30, 30, 45, 0.6) 100%
+  );
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.practice-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold-primary), transparent);
+}
+
+.practice-box h4 {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-gold-primary);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   CHAPTER GRID — Sacred Mirrors
+   ========================================================================== */
+
+.chapter-grid h2 {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.chapter-grid h2::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.chapter-card {
+  background: linear-gradient(
+    135deg,
+    rgba(18, 18, 28, 0.6) 0%,
+    rgba(10, 10, 18, 0.8) 100%
+  );
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  padding: var(--space-lg);
+  text-decoration: none;
+  transition: var(--transition-sacred);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(212, 175, 55, 0) 0%,
+    rgba(212, 175, 55, 0.05) 50%,
+    rgba(212, 175, 55, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.chapter-card:hover {
+  border-color: var(--color-gold-primary);
+  transform: translateY(-4px);
+  box-shadow: 
+    0 8px 30px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(212, 175, 55, 0.1);
+}
+
+.chapter-card:hover::before {
+  opacity: 1;
+}
+
+.chapter-card .chapter-number {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-gold-primary);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.1em;
+}
+
+.chapter-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-crown);
+  margin-bottom: var(--space-xs);
+  margin-top: 0;
+}
+
+.chapter-card p {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: rgba(230, 230, 250, 0.6);
+  margin: 0;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.page-footer {
+  text-align: center;
+  padding: var(--space-xl);
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  margin-top: var(--space-xl);
+  position: relative;
+}
+
+.page-footer::before {
+  content: '✦ ✦ ✦';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-gold-primary);
+  font-size: 0.75rem;
+  letter-spacing: 1em;
+  background: var(--color-space-mid);
+  padding: 0 20px;
+}
+
+.page-footer p {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: rgba(230, 230, 250, 0.6);
+  margin-bottom: var(--space-xs);
+}
+
+.page-footer a {
+  color: var(--color-gold-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.page-footer a:hover {
+  color: var(--color-crown);
+}
+
+.page-footer .small {
+  font-size: 0.75rem;
+  color: rgba(230, 230, 250, 0.4);
+  font-style: italic;
+}
+
+/* ==========================================================================
+   SKIP LINK
+   ========================================================================== */
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-gold-primary);
+  color: var(--color-void);
+  padding: 8px 16px;
+  z-index: var(--z-divine);
+  text-decoration: none;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  border-radius: 0 0 4px 4px;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+    width: 280px;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .main-content {
+    margin-left: 0;
+  }
+  
+  .page-header {
+    display: block;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .content {
+    padding: var(--space-lg) var(--space-md);
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .sacred-geometry-bg {
+    opacity: 0.05;
+  }
+}
+
+/* ==========================================================================
+   SELECTION & SCROLLBAR
+   ========================================================================== */
+
+::selection {
+  background: var(--color-gold-primary);
+  color: var(--color-void);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-space-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-primary);
+}
+
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+
+@media print {
+  .sidebar,
+  .page-header,
+  .sacred-geometry-bg,
+  .cosmic-stars {
+    display: none;
+  }
+  
+  .main-content {
+    margin-left: 0;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .hero-title {
+    color: #8B6914;
+    text-shadow: none;
+  }
+}

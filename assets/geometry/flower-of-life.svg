@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" stroke="currentColor" stroke-width="0.5">
+  <defs>
+    <style>
+      .center-circle { stroke: rgba(212, 175, 55, 0.6); }
+      .inner-ring { stroke: rgba(147, 112, 219, 0.4); }
+      .outer-ring { stroke: rgba(0, 123, 167, 0.3); }
+      .outermost-ring { stroke: rgba(255, 107, 53, 0.2); }
+    </style>
+  </defs>
+  
+  <!-- Center circle -->
+  <circle cx="300" cy="300" r="60" class="center-circle"/>
+  
+  <!-- First ring (6 circles) -->
+  <circle cx="300" cy="240" r="60" class="inner-ring"/>
+  <circle cx="352" cy="270" r="60" class="inner-ring"/>
+  <circle cx="352" cy="330" r="60" class="inner-ring"/>
+  <circle cx="300" cy="360" r="60" class="inner-ring"/>
+  <circle cx="248" cy="330" r="60" class="inner-ring"/>
+  <circle cx="248" cy="270" r="60" class="inner-ring"/>
+  
+  <!-- Second ring (12 circles) -->
+  <circle cx="300" cy="180" r="60" class="outer-ring"/>
+  <circle cx="390" cy="228" r="60" class="outer-ring"/>
+  <circle cx="404" cy="300" r="60" class="outer-ring"/>
+  <circle cx="390" cy="372" r="60" class="outer-ring"/>
+  <circle cx="300" cy="420" r="60" class="outer-ring"/>
+  <circle cx="210" cy="372" r="60" class="outer-ring"/>
+  <circle cx="196" cy="300" r="60" class="outer-ring"/>
+  <circle cx="210" cy="228" r="60" class="outer-ring"/>
+  <circle cx="352" cy="210" r="60" class="outer-ring"/>
+  <circle cx="404" cy="258" r="60" class="outer-ring"/>
+  <circle cx="404" cy="342" r="60" class="outer-ring"/>
+  <circle cx="352" cy="390" r="60" class="outer-ring"/>
+  <circle cx="248" cy="390" r="60" class="outer-ring"/>
+  <circle cx="196" cy="342" r="60" class="outer-ring"/>
+  <circle cx="196" cy="258" r="60" class="outer-ring"/>
+  <circle cx="248" cy="210" r="60" class="outer-ring"/>
+  
+  <!-- Third ring (partial, for boundary) -->
+  <circle cx="300" cy="120" r="60" class="outermost-ring"/>
+  <circle cx="428" cy="186" r="60" class="outermost-ring"/>
+  <circle cx="456" cy="300" r="60" class="outermost-ring"/>
+  <circle cx="428" cy="414" r="60" class="outermost-ring"/>
+  <circle cx="300" cy="480" r="60" class="outermost-ring"/>
+  <circle cx="172" cy="414" r="60" class="outermost-ring"/>
+  <circle cx="144" cy="300" r="60" class="outermost-ring"/>
+  <circle cx="172" cy="186" r="60" class="outermost-ring"/>
+</svg>

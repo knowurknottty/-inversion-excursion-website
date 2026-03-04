@@ -1,0 +1,19 @@
+{
+  "name": "Inversion Excursion - The Complete Guide",
+  "short_name": "Inversion Excursion",
+  "description": "A Field Manual for Frequency Warriors. Or: How the Haṭha Yoga Pradīpika Becomes Your Liberation Technology",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#c9a227",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["books", "education", "lifestyle"],
+  "lang": "en"
+}

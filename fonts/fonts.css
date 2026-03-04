@@ -1,0 +1,110 @@
+/* Inversion Excursion - Self-Hosted Fonts */
+/* Downloaded from: https://fonts.google.com */
+
+/* ==========================================================================
+   Crimson Text - Serif font for body text
+   ========================================================================== */
+
+/* Regular 400 */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-Regular.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-Regular.ttf') format('truetype');
+}
+
+/* Regular 400 Italic */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-Italic.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-Italic.ttf') format('truetype');
+}
+
+/* SemiBold 600 */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-SemiBold.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-SemiBold.ttf') format('truetype');
+}
+
+/* SemiBold 600 Italic */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-SemiBoldItalic.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+}
+
+/* Bold 700 */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-Bold.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-Bold.ttf') format('truetype');
+}
+
+/* Bold 700 Italic */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('crimson-text/CrimsonText-BoldItalic.woff2') format('woff2'),
+       url('crimson-text/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+
+/* ==========================================================================
+   Inter - Sans-serif font for UI elements
+   ========================================================================== */
+
+/* Light 300 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('inter/Inter-Light.woff2') format('woff2'),
+       url('inter/Inter-Light.ttf') format('truetype');
+}
+
+/* Regular 400 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('inter/Inter-Regular.woff2') format('woff2'),
+       url('inter/Inter-Regular.ttf') format('truetype');
+}
+
+/* Medium 500 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('inter/inter-Medium.woff2') format('woff2'),
+       url('inter/Inter-Medium.ttf') format('truetype');
+}
+
+/* SemiBold 600 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('inter/Inter-SemiBold.woff2') format('woff2'),
+       url('inter/Inter-SemiBold.ttf') format('truetype');
+}
