@@ -263,7 +263,7 @@
     div.style.color = 'rgba(212, 175, 55, 0.1)';
     
     // Fetch and insert SVG
-    fetch(`assets/geometry/${filename}`)
+    fetch(`/assets/geometry/${filename}`)
       .then(response => response.text())
       .then(svg => {
         div.innerHTML = svg;
