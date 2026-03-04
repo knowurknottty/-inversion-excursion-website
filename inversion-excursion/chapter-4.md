@@ -105,13 +105,22 @@ Khecarī Mudrā manifests in Inversion Excursion as **The Sky-Walker's Key** —
 
 ---
 
-## III. VAJROLĪ MUDRĀ: The Thunderbolt
+## III. VAJROLĪ MUDRĀ: The Conservation Key
+### The Practice of Not-Losing
 
-### The Horizontal Axis Complete
+If Khecarī is the ascending practice — drawing prāṇa up through the central channel to the crown — Vajrolī is the conserving practice. It does not send energy upward. It stops energy from draining downward.
 
-If Khecarī completes the Vertical Axis (body-energy), Vajrolī completes the **Horizontal Axis** (sound-consciousness). This is the axis of mantra, of vibration, of the sonic encoding of reality.
+This distinction matters. The HYP does not describe these as opposing axes. They are complementary phases of a single movement: conserve below, ascend above. The river rises only when the lower gates are closed.
 
-The HYP places Vajrolī last in its list of ten mudrās — not because it is least, but because it is **most**. It is the technique that requires the most preparation, the most energy, the most mastery.
+To say Vajrolī "completes a horizontal axis" is a useful teaching metaphor — an invented frame that helps the intellectual mind grasp the relationship — but the texts themselves do not use this framing.
+
+What the HYP does say is unambiguous:
+
+> "Death comes by discharging bindu, and life is prolonged by its preservation. Mind controls bindu; bindu controls life."
+
+Bindu — the concentrated life force expressed as sexual essence — is the physical basis of vitality. Every system that drains human energy wants your bindu scattered: the attention economy through overstimulation, the financial system through scarcity stress, the information environment through perpetual novelty. Vajrolī is the refusal. The closed lower gate. The energy that stays home.
+
+The "Horizontal Axis" framework is a map. Maps are useful. Do not confuse the map with what Vajrolī actually does in the body.
 
 ### The Practice: Conservation and Transmutation
 
@@ -142,15 +151,17 @@ The HYP is explicit that women can also practice Vajrolī:
 - **Vajra**: From *vaj* (to be strong, to be hard). The thunderbolt, the diamond — that which is indestructible.
 - **Vajrolī**: The practice that creates the thunderbolt body — indestructible, immortal, divine.
 
-### The Three Variants
+### The Traditional Context: Kāpālika Variants
 
-The HYP describes three related practices:
+The HYP describes two practices related to Vajrolī that are worth knowing about, though not for personal practice outside a traditional initiatic lineage:
 
-1. **Vajrolī** — The primary practice of bindu conservation through urethral suction
-2. **Sahajolī** — Mixing bindu with ash (burnt cow-dung) and rubbing on the body
-3. **Amarolī** — Drinking/snuffing the mid-stream of urine, combined with Vajrolī
+**Sahajolī** involves mixing bindu with ash (traditionally burnt cow-dung) and applying it to the body. **Amarolī** involves drinking the mid-stream of urine and using it in conjunction with the Vajrolī technique.
 
-These are extreme practices, clearly derived from Kāpālika (skull-bearing) traditions. They are not for the faint-hearted, and they require expert guidance.
+These practices belong to the Kāpālika and Aghora traditions — schools within Tantric Śaivism that deliberately transgressed social norms as a method of dissolving ego-attachment to purity and pollution. The practices were never meant as hygiene prescriptions; they were initiation shocks, rituals designed to break a specific psychological structure in a specific student, supervised by a teacher who knew that student's precise inner obstacles.
+
+Out of that context, they are neither effective nor safe. The HYP includes them because it is a complete survey of the tradition's technology, not because it recommends them to general readers. The same text advises keeping these practices secret from "the wicked and faithless" — which is less about moral judgment than about readiness. A student who needs ego dissolution via Kāpālika transgression practices is a student with a very specific obstacle that most readers do not have.
+
+The Vajrolī that matters for the Inversion is the core principle: conservation and redirection of life force. The bindu retention practices achievable through Mūla Bandha, sexual sublimation, and conscious energy management produce the same fundamental result — the thunderbolt body — without requiring practices that require decades of supervised preparation to do correct.
 
 ### SynSync Frequency Mapping
 
