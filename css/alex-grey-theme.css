@@ -1055,6 +1055,281 @@ tr:nth-child(even) td {
 }
 
 /* ============================================================
+   AMERICA EDITION — badge, blueprint card, chapter callouts
+   ============================================================ */
+
+.edition-badge {
+  display: inline-block;
+  margin: 0.5rem auto 0;
+  padding: 0.3em 1em;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 2px;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  background: rgba(212, 175, 55, 0.06);
+  backdrop-filter: blur(4px);
+}
+
+/* Blueprint card — front page dedicated section */
+.blueprint-section {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.blueprint-card {
+  position: relative;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 4px;
+  padding: 2.5rem 2.5rem 2rem;
+  background: linear-gradient(135deg,
+    rgba(10, 5, 30, 0.85) 0%,
+    rgba(20, 8, 50, 0.7) 50%,
+    rgba(10, 5, 30, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+.blueprint-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.blueprint-header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding-bottom: 1.25rem;
+}
+
+.blueprint-header .edition-label {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.blueprint-header h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  font-weight: 700;
+  color: var(--gold);
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+  margin: 0 0 0.3rem;
+}
+
+.blueprint-header .blueprint-born {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.blueprint-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.blueprint-stat {
+  text-align: center;
+  padding: 1rem 0.75rem;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.25);
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.blueprint-stat:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(212, 175, 55, 0.04);
+}
+
+.blueprint-stat .stat-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.blueprint-stat .stat-number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+  margin-bottom: 0.3rem;
+}
+
+.blueprint-stat .stat-name {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--text-body);
+}
+
+.blueprint-stat .stat-tagline {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.blueprint-hd {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+.blueprint-hd-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.blueprint-hd-item .hd-label {
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.blueprint-hd-item .hd-value {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--gold-pale);
+  font-weight: 600;
+}
+
+.blueprint-hd-item .hd-desc {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.blueprint-note {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+/* Chapter-level America callout box */
+.america-callout {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid rgba(212, 175, 55, 0.6);
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(90deg,
+    rgba(212, 175, 55, 0.05) 0%,
+    rgba(10, 5, 30, 0.4) 100%);
+}
+
+.america-callout .callout-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 0.5rem;
+}
+
+.america-callout p {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-body);
+  line-height: 1.65;
+}
+
+.america-callout strong {
+  color: var(--gold-pale);
+}
+
+@media (max-width: 480px) {
+  .blueprint-card {
+    padding: 1.5rem 1rem 1.25rem;
+  }
+
+  .blueprint-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .blueprint-stat .stat-number {
+    font-size: 1.6rem;
+  }
+
+  .blueprint-hd {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ============================================================
+   TOOL LINKS — SynSync / WYRD inline references
+   ============================================================ */
+
+/* Inherit surrounding color so they blend naturally into headings,
+   paragraphs, callouts. A dotted underline is the only indicator. */
+a.tool-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(212, 175, 55, 0.55);
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+
+a.tool-link:hover {
+  color: var(--gold-pale);
+  border-bottom-color: var(--gold);
+}
+
+a.tool-link:visited {
+  color: inherit;
+}
+
+/* General content prose links (blockquotes, practice-box, etc.) */
+.content p a:not(.btn):not(.tool-link),
+.content li a:not(.btn):not(.tool-link),
+.content td a:not(.btn):not(.tool-link),
+.practice-box a:not(.btn):not(.tool-link) {
+  color: var(--gold-dim);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  transition: border-color 0.25s, color 0.25s;
+}
+
+.content p a:not(.btn):not(.tool-link):hover,
+.content li a:not(.btn):not(.tool-link):hover {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+/* ============================================================
    SKIP LINK
    ============================================================ */
 
