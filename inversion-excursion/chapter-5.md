@@ -228,10 +228,15 @@ Each energy center has a corresponding frequency in the SynSync system:
 | **Crown** | Top of head | Divine Connection | 963 Hz + 40 Hz Gamma |
 
 **Protocol:**
+
 1. Move through frequencies sequentially
+
 2. Spend 3-5 minutes at each center
+
 3. Visualize the associated color
+
 4. Notice sensations, emotions, memories
+
 5. End with all frequencies (the chord of the body)
 
 ⚠️ **Note:** Earlier editions listed the diatonic scale (256-480 Hz). These have been corrected to the Solfeggio-based protocols actually available in SynSync.
@@ -245,10 +250,15 @@ Each energy center has a corresponding frequency in the SynSync system:
 **WARNING:** Powerful work. Do not attempt if you have untreated trauma or mental health conditions.
 
 1. Start with extended Delta (30+ min) for grounding
+
 2. Slowly introduce Theta at the root (396 Hz)
+
 3. Gradually raise frequency over 60-90 minutes
+
 4. Move through each chakra center
+
 5. Peak at Crown with Gamma (963 Hz)
+
 6. Return to Alpha for integration
 
 This can trigger spontaneous energetic releases. Treat with respect.
