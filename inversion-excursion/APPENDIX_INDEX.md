@@ -3,6 +3,19 @@
 
 ---
 
+### Appendix E: The 28-Day Awakening Protocol
+**File:** `APPENDIX-28DAY.md`
+
+Structured 28-day program through the Five Dungeons:
+- Week 1: Ivory Tower (credentials)
+- Week 2: Mint of Chains (finance)
+- Week 3: Tower of Babel (language)
+- Week 4: Temple + Bio-Lab (direct experience)
+
+**Start here if:** You want a structured daily practice program.
+
+---
+
 ## Available Appendices
 
 ### Appendix A: The 12 Universal Laws
