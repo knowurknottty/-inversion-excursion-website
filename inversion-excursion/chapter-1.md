@@ -161,7 +161,9 @@ The Ivory Tower operates at a specific frequency—anxiety, comparison, scarcity
 
 The Tower vibrates at a frequency of fear and scarcity. It cannot exist without your participation at that frequency. When you shift—when you drop into the Observer state—you literally vibrate differently. The Tower's hooks lose their grip.
 
-**SynSync Protocol:** 432 Hz + 10 Hz Alpha | Duration: 15 minutes
+**SynSync Protocol:** 432 Hz + 10 Hz Alpha | Duration: 15 minutes | Category: Inversion Excursion IE-01
+
+This is the foundational protocol for all Inversion Excursion work. It establishes the Observer state—the capacity to witness experience without identification. Use this before entering any dungeon, before credential challenges, and as daily practice.
 
 This frequency combination entrains the brain to the alpha state—the relaxed awareness where the Observer naturally lives. Practice daily.
 

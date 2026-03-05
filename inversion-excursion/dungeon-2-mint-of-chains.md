@@ -192,6 +192,7 @@ but has no form itself. The confusion clears when you realize:
 the flow was never blocked—you were standing in your own way.*
 
 **Mudrā Unlocked:** Mūla Bandha (Root Lock)
+**SynSync Category:** Inversion Excursion IE-D2 (The Mint Protocol)
 **Frequency:** 396 Hz (Liberation from Fear) + 174 Hz (Grounding)
 **Mantra:** LAM (Root chakra seed syllable, 396 Hz)
 
