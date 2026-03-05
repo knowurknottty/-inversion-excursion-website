@@ -16,6 +16,20 @@ Structured 28-day program through the Five Dungeons:
 
 ---
 
+### Appendix F: SynSync Master Reference
+**File:** `SYNCSYNC_MASTER_REFERENCE.md`
+
+Complete guide to all 17 SynSync protocols:
+- All frequencies and durations
+- Protocol-by-protocol breakdown
+- Quick reference tables
+- Application by dungeon
+- Contraindications and safety
+
+**Start here if:** You want to master the frequency work.
+
+---
+
 ## Available Appendices
 
 ### Appendix A: The 12 Universal Laws
