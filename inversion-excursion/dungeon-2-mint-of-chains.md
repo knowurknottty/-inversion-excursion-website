@@ -10,7 +10,7 @@
 
 ## The Descent Into Debt
 
-You step through the door from the Ivory Tower and find yourself not in freedom, but in a different prison.
+You step through the door from the Ivory Tower—past the Pedant's defeated form, past the credentials that no longer bind you—and find yourself not in freedom, but in a different prison.
 
 The air here smells of copper and anxiety. The light is fluorescent and unflattering. You are standing in a line—a very long line—that snakes through a marble lobby toward a counter made of polished stone and bulletproof glass.
 

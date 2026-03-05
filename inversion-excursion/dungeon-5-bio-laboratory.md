@@ -10,7 +10,7 @@
 
 ## The Cult of the Measurable
 
-You leave the Temple and enter the cleanest place you have ever seen. Sterile. White. Every surface gleams. Every instrument is calibrated. Every result is recorded in triplicate.
+You leave the Temple—the Inquisitor's guilt dissolved by direct nectar experience, the Kingdom recognized as within—and enter the cleanest place you have ever seen. Sterile. White. Every surface gleams. Every instrument is calibrated. Every result is recorded in triplicate.
 
 Welcome to the Bio-Laboratory.
 

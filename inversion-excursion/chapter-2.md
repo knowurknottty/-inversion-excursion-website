@@ -102,6 +102,8 @@ From the sacred-texts.com corpus, specifically the Haṭha Yoga Pradīpika and K
 
 ### WYRD Etymology:
 
+*(WYRD = tracing words to their roots to reveal hidden control structures. See Chapter 6 for full methodology.)*
+
 - **Pṛthivī** (Earth): From *pṛthu* (broad, expansive) + *vī* (covering). The broad covering. The ground that holds all.
 - **Ap** (Water): From PIE *h₂ep-* (water, river). The flowing one. The element that takes the shape of its container.
 - **Tejas** (Fire): From *tij* (to sharpen, to whet). The sharpener. The illuminator that cuts through darkness.

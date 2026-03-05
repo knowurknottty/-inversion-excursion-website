@@ -10,7 +10,7 @@
 
 ## The Architecture of Intermediation
 
-You exit the Tower of Babel and see it: a structure of impossible beauty. Columns of jasper and ivory. Incense that smells of longing. The sound of chanting, of bells, of weeping.
+You exit the Tower of Babel—the Puppeteer's spells dissolved by your etymological clarity, your voice reclaimed—and see it: a structure of impossible beauty. Columns of jasper and ivory. Incense that smells of longing. The sound of chanting, of bells, of weeping.
 
 The Pharisee Temple.
 

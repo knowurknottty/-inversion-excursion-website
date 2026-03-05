@@ -197,6 +197,52 @@ The Pedant is the result of a lifetime of causes: the choice to value credential
 
 ---
 
+## The Pedant: Your First Boss Battle
+
+You meet the Pedant on the thirty-seventh floor. He is the Boss of this Layer, though he would never use such a vulgar term. He prefers "Senior Knowledge Coordinator."
+
+The Pedant is terrifying not because he's evil, but because he's logical. He's played the game perfectly. He's optimized every variable. He's collected every credential. And he's absolutely miserable.
+
+**THE PEDANT SPEAKS:**
+
+> "Actually, studies show that the average return on investment for a graduate degree is..."
+
+He can cite statistics forever. He has data for everything. He knows all the rules and follows them perfectly.
+
+### 🧘 THE MAHĀ MUDRĀ RESPONSE
+
+Remember your training. Form the Great Seal:
+
+1. Left heel presses the perineum
+2. Right leg extended, grasp the toes
+3. Chin to chest (Jālandhara Bandha)
+4. Inhale deeply, drawing energy down
+5. Hold, visualizing roots extending deep
+
+**The Effect:** Mahā Mudrā grounds you below the Pedant's level of abstraction. While he operates in credentials and statistics, you operate in direct experience.
+
+### DIALOGUE: Defeating the Pedant
+
+| The Pedant's Language | The Mahā Mudrā Response |
+|----------------------|-------------------------|
+| "Actually, studies show..." | "I don't need studies to know what I experienced." |
+| "You're not an expert..." | "I am the expert of my own life." |
+| "The research indicates..." | "The research isn't here. I am." |
+| "You haven't read the literature" | "I've lived the literature." |
+| "Have you considered the counterarguments?" | "Which one concerns you most? Let's examine it directly." |
+
+**The Decisive Move:**
+
+The Pedant's power comes from altitude—the higher you climb, the more real the Tower feels. Mahā Mudrā grounds you below his level of operation.
+
+Ask: **"Where does the ladder lead? Have you seen the top?"**
+
+The Pedant has not seen the top. No one has. The ladder extends forever because the game requires infinite climbing.
+
+When you stop climbing, the door becomes visible.
+
+<br>
+
 ## The Three Hand Keys
 
 Before you leave this chapter, you receive three tools. They are not weapons—they are interfaces. Ways of redirecting your own energy system when the Tower's pull becomes strong.

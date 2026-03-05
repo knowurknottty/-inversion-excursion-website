@@ -10,7 +10,7 @@
 
 ## The Confusion of Tongues
 
-You leave the Mint and walk until you see it: a tower that reaches into cloud.
+You leave the Mint—the Golem dissolved into confetti, the chains recognized as imaginary—and walk until you see it: a tower that reaches into cloud.
 
 Not the Ivory Tower—that was about credentials. This is something else. This is the Tower of Babel, and it is made entirely of language. Words stacked on words, meanings piled on meanings, until the original sense is buried under layers of abstraction.
 
