@@ -114,7 +114,7 @@ From altitude, trace words to their roots. The Puppeteer's spells dissolve when 
 - "Contract" = to draw together (not binding forever)
 - "Legal" = pertaining to law (not to truth)
 
-The WYRD lens reveals: The Tower is built on etymological quicksand. The deeper you dig, the less foundation you find.
+The WYRD lens (see Chapter 6 for the full method) reveals: The Tower is built on etymological quicksand. The deeper you dig, the less foundation you find.
 
 <br>
 
@@ -165,7 +165,7 @@ You leave the Tower not with a new vocabulary, but with a new freedom: the freed
 *Fire separates. It transforms. It burns away the dross to reveal the gold. Let your words be fire—purifying, illuminating, warm. The Tower cannot stand against one who speaks their own truth.*
 
 **Mudrā Unlocked:** Uḍḍīyāna Bandha (Flying Up) + Jālandhara Bandha (Throat Seal)
-**Frequency:** 852 Hz (Third Eye) + 40 Hz (Gamma/Clarity)
+**Frequency:** 417 Hz (Solar Plexus/Transformation) + 15 Hz (Beta/Alert) for Uḍḍīyāna; 741 Hz + 10 Hz for Jālandhara
 **Mantra:** HAM (Throat chakra seed syllable)
 
 <br>

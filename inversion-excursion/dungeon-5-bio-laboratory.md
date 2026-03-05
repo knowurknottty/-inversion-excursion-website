@@ -26,7 +26,7 @@ Your body enters through the door. But your consciousness—that inconvenient, u
 
 The Laboratory reduces everything to its lowest measurable form—chemistry, electricity, mechanics. But consciousness is the higher-order pattern that transforms the material. The observer affects the observed. The belief shapes the biology.
 
-**The Inversion:** What the Laboratory calls "placebo" is actually proof that consciousness creates reality. What they call "anomaly" is the mechanism of healing. The "side effect" is the main effect they don't want you to notice.
+**The Inversion:** ⚠️ *Speculative:* What the Laboratory calls "placebo" may be evidence that consciousness affects matter. What they call "anomaly" may be the mechanism of healing. The "side effect" is the main effect they don't want you to notice.
 
 <br>
 
@@ -71,6 +71,8 @@ The Alchemist cannot explain consciousness. The "hard problem"—why there is so
 ---
 
 ### 🧘 THE VAJROLĪ MUDRĀ RESPONSE
+
+*(Note: This mudrā is a Master Key, detailed fully in Chapter 4. What follows is sufficient for this dungeon, but deeper practice awaits.)*
 
 **The Doctrine of Bindu:**
 

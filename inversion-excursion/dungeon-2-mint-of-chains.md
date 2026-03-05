@@ -124,8 +124,10 @@ Where is the binding? Who holds the key?
 **Step 2: Contract and Release**
 Mūla Bandha is a contraction—but contractions create heat, and heat transforms. The debt that feels solid begins to soften.
 
-**Step 3: Move the Goddess**
-Śakti Chālana directs energy upward—away from the root of survival fear and into the higher centers of creativity and connection.
+**Step 3: Move the Goddess (Śakti Chālana)**
+Sit in siddhāsana or comfortable seat. Perform Uḍḍīyana Bandha while mentally stirring 
+the Kuṇḍalinī Śakti at the base. Visualize the coiled serpent energy 
+awakening and moving upward. (Full instructions in Chapter 3.)
 
 **Step 4: The Unmasking**
 The Golem is not a monster. It is a piece of paper with a seal. Mūla Bandha reveals: you were never bound. You only believed you were.
@@ -154,13 +156,15 @@ You leave the Mint not with gold, but with something more valuable: the recognit
 
 ## Dungeon Exit: Scroll Fragment Earned
 
-**THE SCROLL OF FLOW**
+**THE SCROLL OF CONFUSION**
 
-*Water finds its way around every obstacle. It does not resist the rock; it wears it down. It does not compete with other water; it joins it. Be like water. The chains cannot hold what refuses to be solid.*
+*Water reflects but does not hold. It shows you what you want to see, 
+but has no form itself. The confusion clears when you realize: 
+the flow was never blocked—you were standing in your own way.*
 
 **Mudrā Unlocked:** Mūla Bandha (Root Lock)
 **Frequency:** 396 Hz (Liberation from Fear) + 174 Hz (Grounding)
-**Mantra:** LAM (Root chakra seed syllable)
+**Mantra:** LAM (Root chakra seed syllable, 396 Hz)
 
 <br>
 

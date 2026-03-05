@@ -4,7 +4,7 @@
 
 ---
 
-**[VISUAL: A beautiful temple with high walls. Inside, people worshipping intermediaries—priests, gurus, books, rituals. The door to the inner sanctum is open, but everyone is facing away from it, toward the altar of the中介.]**
+**[VISUAL: A beautiful temple with high walls. Inside, people worshipping intermediaries—priests, gurus, books, rituals. The door to the inner sanctum is open, but everyone is facing away from it, toward the altar of the intermediary.]**
 
 ---
 
@@ -15,6 +15,8 @@ You exit the Tower of Babel and see it: a structure of impossible beauty. Column
 The Pharisee Temple.
 
 It is not ugly. That is the trap. It is gorgeous, curated, Instagram-worthy spirituality. And it stands between you and the direct experience of the sacred.
+
+> **Note:** This dungeon addresses spiritual *institutions* that intermediate between you and your own direct experience. It is not a critique of sincere faith, devotion, or the communities that support them. The trap is institutionalization—not spirituality itself.
 
 The Temple has a simple but devastating premise: **You cannot approach the divine directly.** You need an intermediary. A priest. A guru. A tradition. A text. Someone who has what you lack, who can sell you access to what was always free.
 
