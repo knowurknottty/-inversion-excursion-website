@@ -55,6 +55,8 @@ The sun (ha) projects; the moon (tha) receives. Haṭha yoga is their marriage. 
 **Primary Mudrā:** Mahā Mudrā (The Great Seal)
 **Secondary Mudrā:** Mahā Bandha (The Great Lock)
 
+**Note:** You first encountered the Ivory Tower in Chapter 1. This section provides the complete mudrā technology for the boss battle. For the full narrative encounter, see Chapter 1.
+
 ---
 
 ### The Mudrā Technology
@@ -327,7 +329,7 @@ The core doctrine: "Death comes by discharging bindu, and life is prolonged by i
 
 **In-Game Effect:** The "Thunderbolt Body" — immunity to all Bio-Laboratory status effects (poison, stun, drain, slow).
 
-*(Complete Vajrolī practice is detailed in Chapter 4.)*
+**Complete Practice:** See Chapter 4 for detailed Vajrolī instructions (both men's and women's techniques).
 
 <br>
 
@@ -359,6 +361,29 @@ The placebo is not a bug. It is the feature. Belief itself is healing.
 | "There's no evidence for that" | "I am the evidence. My body is the laboratory." |
 | "That's just anecdotal" | "Anecdote means 'not published by those who profit.'" |
 | "You need to be realistic" | "I am realistic about my power. You are not." |
+
+<br>
+
+---
+
+## The Scroll Fragments: Your Dungeon Rewards
+
+Each dungeon defeated yields a Scroll Fragment—pieces of the complete map to liberation:
+
+| Dungeon | Scroll Fragment | Core Teaching |
+|---------|-----------------|---------------|
+| **Ivory Tower** | Scroll of Division | Credentials divide; direct experience unites |
+| **Mint of Chains** | Scroll of Confusion | The flow was never blocked—you stood in your own way |
+| **Tower of Babel** | Scroll of Division | Fire separates; let your words purify |
+| **Pharisee Temple** | Scroll of Despair | Even in deepest despair, the door stands open |
+| **Bio-Laboratory** | Scroll of Inertia | The observer changes the observed |
+
+**The Complete Scroll:** When all five fragments are assembled, they reveal the Sixth Scroll—the Scroll of Liberation, which points to the Exit that was always open.
+
+**How to Use This Chapter:**
+- **Before a dungeon:** Review the mudrā technology for that specific dungeon
+- **During a boss battle:** Reference the dialogue table for responses
+- **After victory:** Collect the Scroll Fragment from the dungeon file
 
 <br>
 
