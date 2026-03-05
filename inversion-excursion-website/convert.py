@@ -94,7 +94,7 @@ def create_chapter_page(chapter_num, title, subtitle, content):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter {chapter_num}: {title} | Inversion Excursion</title>
+    <title>{title} | Inversion Excursion</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
