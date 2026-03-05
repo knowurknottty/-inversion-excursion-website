@@ -75,7 +75,7 @@ Their weapon is guilt. The sense that you are not enough, not ready, not worthy.
 - Advanced: Touch to the roof of the mouth as flexibility allows
 
 **The Effect:**
-Khecarī Mudrā gives direct access to the soma—the divine nectar the Temple promises but cannot deliver. The "nectar" may be the body's own chemistry: DMT, endorphins, neurochemicals of bliss released when the tongue stimulates the soft palate below the pituitary.
+Khecarī Mudrā gives direct access to the soma—the divine nectar the Temple promises but cannot deliver. ⚠️ **Speculative:** The "nectar" may involve the body's own chemistry—substances released when the tongue stimulates the soft palate below the pituitary. Traditional texts describe amṛta (immortality nectar); modern understanding suggests possible endocrine activation. The experience is real; the mechanism is debated.
 
 You don't need their intermediaries. The Kingdom is within—literally, physically, experientially.
 

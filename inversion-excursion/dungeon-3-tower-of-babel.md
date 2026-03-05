@@ -87,9 +87,11 @@ Remember the teaching: Fly Up.
 - Release by relaxing the abdomen before inhaling
 
 **The Effect:**
-Uḍḍīyāna means "flying up." Prāṇa flies up Suṣumnā—the central channel. In the Tower, this means rising above the plane of language entirely.
+Uḍḍīyāna means "flying up." Prāṇa flies up through the central channel. In the Tower, this means rising above the plane of language entirely.
 
-From above, you see the Tower for what it is: a game of definitions. The words are not the things. The map is not the territory.
+When you "fly up," you see what the Tower hides: the Puppeteer is not standing on solid ground. It is balancing on definitions that shift like sand. From above, you see that every word in the Tower is contested—every definition is a choice someone made for their benefit. The language that seemed absolute from below reveals itself as arbitrary from above.
+
+The "flying up" is not escape—it is perspective. You can still see the Tower. You can still speak its languages. But you are no longer trapped inside its assumptions.
 
 <br>
 
@@ -103,18 +105,38 @@ From above, you see the Tower for what it is: a game of definitions. The words a
 | "Legally speaking..." | "I see that 'legal' is a game I can choose not to play." |
 | "You're being deliberately obtuse." | "I'm being precise. What specifically did I say that seemed unclear?" |
 
+**The Puppeteer's Defeat:**
+
+When you speak from altitude—when you refuse to accept the Tower's definitions—the Puppeteer begins to unravel. Its three mouths start speaking the same words, but the words contradict each other. The Legal mouth says "binding contract" while the Common mouth says "just a piece of paper" while the Spiritual mouth says "an illusion anyway."
+
+The Puppeteer cannot survive consistency. It relies on your confusion. When you see clearly, it has no power.
+
+The creature that seemed so threatening dissolves into what it always was: three dictionaries stacked on top of each other, speaking in circles. You step over it and continue upward.
+
+At the top of the Tower, there is no throne. There is only a window, and through it, you see the Temple.
+
 <br>
 
 **The Decisive Move:**
 
 From altitude, trace words to their roots. The Puppeteer's spells dissolve when you see their origins.
 
+**WYRD IN ACTION - The Word "Person":**
+
+**Step 1 (Surface):** "Person" means a human being, an individual, someone with rights.
+
+**Step 2 (Root):** Latin *persōna* = "mask worn by actors." Etruscan *phersu* = mask. The person is literally the mask, not the actor.
+
+**Step 3 (Shift):** The mask became the identity. What was temporary (the role) became permanent (the legal entity). The actor was forgotten.
+
+**Step 4 (Liberation):** The Puppeteer asks if you understand the "person"—but which person? The legal fiction? The human being? The mask? When you see the word has three meanings, you cannot be bound by any single one.
+
+The same applies to:
 - "Government" = to steer (not to control minds)
-- "Person" = mask (you are not the mask)
 - "Contract" = to draw together (not binding forever)
 - "Legal" = pertaining to law (not to truth)
 
-The WYRD lens (see Chapter 6 for the full method) reveals: The Tower is built on etymological quicksand. The deeper you dig, the less foundation you find.
+The Tower is built on etymological quicksand. The deeper you dig, the less foundation you find.
 
 <br>
 
@@ -165,7 +187,7 @@ You leave the Tower not with a new vocabulary, but with a new freedom: the freed
 *Fire separates. It transforms. It burns away the dross to reveal the gold. Let your words be fire—purifying, illuminating, warm. The Tower cannot stand against one who speaks their own truth.*
 
 **Mudrā Unlocked:** Uḍḍīyāna Bandha (Flying Up) + Jālandhara Bandha (Throat Seal)
-**Frequency:** 417 Hz (Solar Plexus/Transformation) + 15 Hz (Beta/Alert) for Uḍḍīyāna; 741 Hz + 10 Hz for Jālandhara
+**Frequency:** 417 Hz (Solar Plexus/Transformation) + 10 Hz (Alpha/Flow) for Uḍḍīyāna; 741 Hz + 10 Hz for Jālandhara
 **Mantra:** HAM (Throat chakra seed syllable)
 
 <br>
