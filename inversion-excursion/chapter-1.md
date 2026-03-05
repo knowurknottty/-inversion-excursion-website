@@ -275,7 +275,9 @@ These mudrās are physical anchors for the Observer state:
 - Breath Anchor
 - Three Foundation Mudrās
 
-**Next Level Preview:** The Five Scrolls—elemental keys that unlock what was never locked.
+**Next Level Preview:** 
+- The Five Scrolls—elemental keys that unlock what was never locked
+- The Master Keys—advanced practices for when the basic keys reach their limit (Chapter 4)
 
 <br>
 

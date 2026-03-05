@@ -119,12 +119,33 @@ The HYP states:
 
 **Vajrolī Technique:**
 
-The HYP describes practice for those who have engaged in sexual activity:
+The HYP describes practice for those who have engaged in sexual activity. The technique involves three components:
 
-1. Through muscular training, learn to draw discharged bindu back upward
-2. Done through urethral suction and internal locks (bandhas)
-3. Bindu is redirected upward through Suṣumnā
-4. It nourishes higher centers rather than being lost
+**1. Mūla Bandha Foundation:**
+Before any Vajrolī practice, establish the root lock:
+- Contract the perineum (the area between genitals and anus)
+- Draw the energy upward, not downward
+- Hold the contraction for 5-10 seconds, then release
+- Repeat 10 times to establish awareness
+
+**2. The Conservation Practice (For Men):**
+At the moment of ejaculation:
+- Immediately apply strong Mūla Bandha
+- Draw the perineum upward with force
+- Visualize the energy moving up the spine, not out
+- Breathe deeply, holding the lock for 30-60 seconds
+- The HYP claims this draws the bindu back upward through Suṣumnā
+
+**3. The Non-Loss Practice (Prevention):**
+More advanced than conservation is non-emission:
+- As climax approaches, stop all stimulation
+- Apply Mūla Bandha firmly
+- Breathe slowly and deeply
+- Visualize energy rising to the crown
+- With practice, orgasm can occur without ejaculation
+- The energy is redirected inward and upward
+
+**⚠️ Safety Note:** These are advanced practices. Begin with Mūla Bandha only. Gradually introduce timing and breath control. Never force or strain.
 
 **For Women:**
 
@@ -132,10 +153,32 @@ The HYP is explicit that women can practice Vajrolī:
 
 > "When a woman retains her rajas by Vajrolī, she, too, becomes a yoginī with Khecarī-like knowledge."
 
-**Rajas** refers to menstrual essence. Through conservation and redirection, women achieve the same results.
+**Women's Technique:**
+
+**1. Yoni Mudrā Foundation:**
+- Sit in siddhāsana or comfortable cross-legged position
+- Contract the vaginal muscles (similar to Kegel exercise)
+- Draw the contraction upward toward the navel
+- Hold for 5-10 seconds, then release
+- Repeat 10 times to establish awareness
+
+**2. Rajas Conservation:**
+- During menstruation or sexual activity:
+- Apply Yoni Mudrā firmly
+- Visualize the menstrual/sexual energy moving upward
+- Draw it through the central channel to the crown
+- The HYP suggests this transmutes what would be "lost" into spiritual power
+
+**3. Non-Loss Practice:**
+- As climax approaches, stop stimulation
+- Apply Yoni Mudrā and Mūla Bandha together
+- Breathe deeply, visualizing energy rising
+- Orgasm can occur without energetic "spillage"
+- The conserved energy nourishes higher centers
 
 **WYRD Etymology:**
 - **Vajra**: From *vaj* (to be strong). The thunderbolt, the diamond — indestructible.
+- **Rajas**: From *raj* (to shine, to glow). The principle of activity and change.
 
 ### SynSync Frequency Mapping
 
@@ -240,6 +283,52 @@ The HYP describes **bīja mantras** (seed syllables) that activate specific ener
 
 ---
 
+## The Master Keys in the Dungeons
+
+### When to Use Each Master Key
+
+You have encountered mudrās in each dungeon. The Master Keys are not replacements—they are amplifiers for when the standard mudrās reach their limit.
+
+| Dungeon | Standard Mudrā | When to Add Master Key | Which Master Key | Effect |
+|---------|----------------|------------------------|------------------|--------|
+| **Ivory Tower** | Dhyāna Mudrā | When the Pedant's logic traps you | **Khecarī** | Rises above mental plane entirely |
+| **Mint of Chains** | Mūla Bandha | When the Golem's fear is overwhelming | **Vajrolī** | Conserves energy the Golem tries to drain |
+| **Tower of Babel** | Uḍḍīyāna Bandha | When the Puppeteer's words won't stop | **Khecarī** | Throat seal + crown nectar = word immunity |
+| **Pharisee Temple** | Khecarī Mudrā | When the Inquisitor's guilt is crushing | **Vajrolī** | Conserves the bindu the Inquisitor wants scattered |
+| **Bio-Laboratory** | Vajrolī Mudrā | When the Alchemist denies your body wisdom | **Khecarī** | Direct somatic knowing beyond science |
+
+### Progression: From Hand Keys to Master Keys
+
+**You are ready for the Master Keys when:**
+
+1. **The Three Hand Keys feel natural**
+   - You form Gyan Mudrā without thinking when questioning authority
+   - Dhyāna Mudrā is your default in stressful moments
+   - Prāṇa Mudrā restores you within minutes, not hours
+
+2. **You face a door that won't open**
+   - The Pedant's logic is internally consistent—you cannot argue your way out
+   - The Golem's threat feels physically real—not abstract
+   - The Inquisitor's guilt touches something deeper than surface shame
+
+3. **You have completed at least three dungeons**
+   - The foundation must be solid before the roof is added
+   - Master Keys without preparation can destabilize
+
+**The Graduation Ritual:**
+
+Before using your first Master Key in a dungeon:
+1. Form all three Hand Keys in sequence
+2. Acknowledge what each has given you
+3. State: "I have used the keys given to me. I am ready for the Master Key."
+4. Then assume Khecarī or Vajrolī
+
+This is not superstition. It is ensuring the foundation is present before building higher.
+
+<br>
+
+---
+
 ## Emergency Protocols
 
 ### The 3 AM Wake: Khecarī Protocol
@@ -275,12 +364,19 @@ When feeling drained or invaded:
 - Vajrolī Mudrā conserves the bindu (Horizontal Axis)
 - Together they form the complete system
 - Bīja mantras activate specific frequencies
+- Master Keys amplify standard mudrās when doors won't open
 
 **Practices Mastered:**
 - Khecarī Mudrā (soft form)
-- Vajrolī Mudrā (visualization)
+- Vajrolī Mudrā (conservation technique)
 - The Seven Bīja Mantras
 - Daily Master Practice sequence
+- Master Key → Dungeon integration
+
+**Progression Criteria:**
+- ✅ Three Hand Keys feel natural
+- ✅ Face a door that won't open with basic keys
+- ✅ Completed at least three dungeons
 
 **Next Level Preview:** The Ascension — becoming the Frequency Warrior.
 

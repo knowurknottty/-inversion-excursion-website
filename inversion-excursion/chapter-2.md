@@ -331,7 +331,9 @@ The three channels represent the fundamental rhythm of consciousness: activity (
 - Earth, Water, Fire, Air, and Ether Dharanās
 - The Trivenī stack
 
-**Next Level Preview:** The Five Dungeons—where your elemental keys face their first trials.
+**Next Level Preview:** 
+- The Five Dungeons—where your elemental keys face their first trials
+- The Master Keys—Khecarī and Vajrolī await when you have proven ready (Chapter 4)
 
 <br>
 
