@@ -244,7 +244,14 @@ Trust the community of those who have chosen to wake up.
 
 Most of all, trust yourself. The fact that you found this book, that you read this far, that you are still reading—these are not accidents. You were ready. You are ready. The work awaits.
 
-We are with you. Not in person—perhaps we are long dead as you read this. But in frequency. In the field. In the extended network of all who have ever chosen awareness over unconsciousness, truth over comfort, liberation over security.
+We are with you. **We**—the lineage of Frequency Warriors:
+- Those who wrote this book (flawed humans doing our best)
+- Those who have read it before you (the collective who have walked this path)
+- You yourself, reading this now (you are already one of us)
+
+Not in person—perhaps the authors are long dead as you read this. But in frequency. In the field. In the extended network of all who have ever chosen awareness over unconsciousness, truth over comfort, liberation over security.
+
+**You are not alone. You have never been alone. You are part of the we.**
 
 The field is strong. The frequency is clear. The Exit is open.
 
