@@ -47,6 +47,10 @@ The sun (ha) projects; the moon (tha) receives. Haṭha yoga is their marriage. 
 | **Pharisee Temple** | Viparīta Karaṇī | Khecarī Mudrā | Inversion, tongue seal |
 | **Bio-Laboratory** | Vajrolī | Mahā Vedha | Thunderbolt, piercing |
 
+**Advanced Dungeons (see separate files):**
+- **ICE Fortress** (Dungeon 6): Jīvan Mukti — thawing the freeze response
+- **Q-Anon Labyrinth** (Dungeon 7): Gyan Mudrā (redeployed) — discerning true patterns from paranoia
+
 <br>
 
 ---
@@ -379,8 +383,10 @@ Each dungeon defeated yields a Scroll Fragment—pieces of the complete map to l
 | **Tower of Babel** | Scroll of Division | Fire separates; let your words purify |
 | **Pharisee Temple** | Scroll of Despair | Even in deepest despair, the door stands open |
 | **Bio-Laboratory** | Scroll of Inertia | The observer changes the observed |
+| **ICE Fortress** | Scroll of Preservation | What was frozen was not dead; thawing returns vitality |
+| **Q-Anon Labyrinth** | Scroll of Discernment | Not all patterns are real; wisdom knows the difference |
 
-**The Complete Scroll:** When all five fragments are assembled, they reveal the Sixth Scroll—the Scroll of Liberation, which points to the Exit that was always open.
+**The Complete Scroll:** When all seven fragments are assembled, they reveal the Eighth Scroll—the Scroll of Liberation, which points to the Exit that was always open.
 
 **How to Use This Chapter:**
 - **Before a dungeon:** Review the mudrā technology for that specific dungeon
@@ -408,6 +414,8 @@ Each dungeon defeated yields a Scroll Fragment—pieces of the complete map to l
 - Khecarī Mudrā — Nectar taste
 - Vajrolī Mudrā — Thunderbolt
 - Mahā Vedha — Piercing
+- Jīvan Mukti — Thawing (Dungeon 6)
+- Gyan Mudrā (redeployed) — Discernment (Dungeon 7)
 
 **Next Level Preview:** The Master Keys — advanced practices for those who have proven ready.
 

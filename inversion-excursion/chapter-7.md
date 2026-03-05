@@ -12,11 +12,11 @@
 
 You have cleared the Five Dungeons at the core of the Inversion Excursion.
 
-There are more. There are always more. Future work may map:
+There are more. There are always more. Two additional dungeons now await:
 - **The Q-Anon Labyrinth**—where pattern recognition tips into paranoia
 - **The ICE Fortress**—where the nervous system's freeze response becomes the final dungeon
 
-These dungeons are referenced in the Daily Practice Guide and Mudrā Database as advanced material, but their full narrative mapping awaits future editions. The keys you carry work on any lock built by the same system.
+See `dungeon-7-qanon-labyrinth.md` and `dungeon-6-ice-fortress.md` for the complete narratives. The keys you carry work on any lock built by the same system.
 
 For now: know they exist, know you have the tools, and know that the keys you carry work on any lock built by the same system.
 
