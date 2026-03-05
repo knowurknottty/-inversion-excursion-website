@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.0",
+  "category": {
+    "id": "inversion-excursion",
+    "display_name": "Inversion Excursion",
+    "description": "Brainwave entrainment protocols aligned with the five dungeons and seven chapters of Inversion Excursion. Each protocol targets specific consciousness states for navigating credentials, finance, language, religion, science, and self-liberation.",
+    "author": "knowurknot",
+    "book_reference": "Inversion Excursion: A Frequency Warrior's Guide",
+    "license": "CC0-1.0",
+    "total_protocols": 14,
+    "difficulty_progression": "linear",
+    "prerequisites": ["foundations"]
+  },
+  "schema": {
+    "protocol_id": {
+      "type": "string",
+      "pattern": "^IE-(0[1-9]|D[2-5]|EM[1-3])$",
+      "description": "IE-01 to IE-07 (chapters), IE-D2 to IE-D5 (dungeons), IE-EM1 to IE-EM3 (emergency)"
+    },
+    "frequency": {
+      "carrier": {
+        "type": "number",
+        "enum": [174, 285, 396, 417, 432, 528, 639, 741, 852, 963],
+        "description": "Solfeggio and extended frequencies in Hz"
+      },
+      "entrainment": {
+        "type": "number",
+        "enum": [6, 7.83, 10, 40],
+        "description": "Brainwave frequencies: Theta, Schumann, Alpha, Gamma"
+      },
+      "carrier_secondary": {
+        "type": ["number", "null"],
+        "enum": [174, 285, 396, 417, 432, 528, 639, 741, 852, 963, null],
+        "description": "Optional second carrier for dual-frequency protocols"
+      }
+    },
+    "duration": {
+      "min": { "type": "integer", "minimum": 5, "maximum": 30 },
+      "max": { "type": "integer", "minimum": 5, "maximum": 30 },
+      "unit": { "type": "string", "enum": ["minutes"] }
+    },
+    "mudra": {
+      "type": "string",
+      "enum": [
+        "Dhyāna Mudrā",
+        "Gyan Mudrā",
+        "Mahā Mudrā",
+        "Mūla Bandha",
+        "Uḍḍīyāna Bandha",
+        "Jālandhara Bandha",
+        "Viparīta Karaṇī",
+        "Khecarī Mudrā",
+        "Vajrolī Mudrā",
+        "Śakti Chālana",
+        "Mahā Bandha",
+        "Mahā Vedha"
+      ]
+    },
+    "mantra": {
+      "type": ["string", "null"],
+      "description": "Optional seed syllable or mantra"
+    },
+    "chapter": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 7,
+      "description": "Associated book chapter, null for dungeon-only protocols"
+    },
+    "dungeon": {
+      "type": ["integer", "null"],
+      "minimum": 2,
+      "maximum": 5,
+      "description": "Associated dungeon (2-5), null for chapter-only protocols"
+    },
+    "effect": {
+      "type": "string",
+      "enum": ["liberation", "clarity", "grounding", "transformation", "protection", "activation"]
+    },
+    "evidence": {
+      "type": "string",
+      "enum": ["traditional", "emerging", "speculative"]
+    },
+    "contraindications": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

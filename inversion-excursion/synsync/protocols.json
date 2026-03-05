@@ -1,0 +1,356 @@
+{
+  "category": "inversion-excursion",
+  "protocols": [
+    {
+      "id": "IE-01",
+      "name": "Observer Foundation",
+      "description": "Establishes the Observer perspective—the foundation of all Inversion Excursion work. Cultivates the capacity to witness experience without identification.",
+      "frequency": {
+        "carrier": 432,
+        "entrainment": 10,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "unit": "minutes"
+      },
+      "mudra": "Dhyāna Mudrā",
+      "mantra": "SO HAM",
+      "chapter": 1,
+      "dungeon": null,
+      "effect": "clarity",
+      "evidence": "traditional",
+      "contraindications": [],
+      "indications": ["credential anxiety", "identity confusion", "beginning IE practice"],
+      "book_reference": "Chapter 1 - The Observer",
+      "narrative_context": "Use before entering the Ivory Tower. Establishes the perspective that credentials are costumes, not essence."
+    },
+    {
+      "id": "IE-02",
+      "name": "Third-Person Shift",
+      "description": "Creates distance from identity claims by shifting to third-person perspective. Dissolves the grip of credentials and social masks.",
+      "frequency": {
+        "carrier": 417,
+        "entrainment": 6,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 10,
+        "max": 10,
+        "unit": "minutes"
+      },
+      "mudra": "Gyan Mudrā",
+      "mantra": "I am the Observer",
+      "chapter": 1,
+      "dungeon": null,
+      "effect": "liberation",
+      "evidence": "emerging",
+      "contraindications": ["dissociative disorders"],
+      "indications": ["before interviews", "before evaluations", "identity exploration"],
+      "book_reference": "Chapter 1 - Third-Person Shift",
+      "narrative_context": "Use when facing the Pedant or any credential challenge. The shift from 'I am' to '[Name] is' breaks identification."
+    },
+    {
+      "id": "IE-03",
+      "name": "Elemental Grounding",
+      "description": "Sequential activation of all five elements through their associated frequencies. Establishes complete energetic foundation.",
+      "frequency": {
+        "carrier": 396,
+        "entrainment": 7.83,
+        "carrier_secondary": 417,
+        "sequence": [396, 417, 528, 639, 741]
+      },
+      "duration": {
+        "min": 25,
+        "max": 25,
+        "unit": "minutes"
+      },
+      "mudra": "Mahā Mudrā",
+      "mantra": "LAM VAM RAM YAM HAM",
+      "chapter": 2,
+      "dungeon": null,
+      "effect": "grounding",
+      "evidence": "traditional",
+      "contraindications": [],
+      "indications": ["before elemental dharanā", "energetic preparation", "full system reset"],
+      "book_reference": "Chapter 2 - The Five Elemental Dharanās",
+      "narrative_context": "Use before attempting the five elemental concentrations. Each 5-minute segment corresponds to one element."
+    },
+    {
+      "id": "IE-04",
+      "name": "Fear Dissolution",
+      "description": "Targets root chakra fear and survival anxiety. Combines 396 Hz (liberation from fear) with Schumann resonance for earthly grounding.",
+      "frequency": {
+        "carrier": 396,
+        "entrainment": 7.83,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 10,
+        "max": 15,
+        "unit": "minutes"
+      },
+      "mudra": "Mūla Bandha",
+      "mantra": "LAM",
+      "chapter": 2,
+      "dungeon": 2,
+      "effect": "grounding",
+      "evidence": "traditional",
+      "contraindications": ["pregnancy"],
+      "indications": ["financial anxiety", "survival fear", "root instability"],
+      "book_reference": "Chapter 2 - Earth Dharanā / Dungeon 2",
+      "narrative_context": "Use when facing the Golem or any financial threat. The lock grounds you below the level of abstraction where money operates."
+    },
+    {
+      "id": "IE-05",
+      "name": "Linguistic Clarity",
+      "description": "Activates throat chakra for clear expression and elevated perspective above linguistic manipulation.",
+      "frequency": {
+        "carrier": 741,
+        "entrainment": 10,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "unit": "minutes"
+      },
+      "mudra": "Uḍḍīyāna Bandha",
+      "mantra": "HAM",
+      "chapter": 3,
+      "dungeon": 3,
+      "effect": "clarity",
+      "evidence": "traditional",
+      "contraindications": ["high blood pressure", "pregnancy"],
+      "indications": ["before WYRD work", "difficult conversations", "decoding euphemisms"],
+      "book_reference": "Chapter 3 / Chapter 6 / Dungeon 3",
+      "narrative_context": "Use when facing the Polyglot Puppeteer or any linguistic trap. 'Flying up' gives perspective on the Tower."
+    },
+    {
+      "id": "IE-06",
+      "name": "Direct Access",
+      "description": "Bypasses spiritual intermediaries through combined third-eye and crown activation. For direct experience without hierarchy.",
+      "frequency": {
+        "carrier": 852,
+        "entrainment": 10,
+        "carrier_secondary": 963
+      },
+      "duration": {
+        "min": 20,
+        "max": 30,
+        "unit": "minutes"
+      },
+      "mudra": "Khecarī Mudrā",
+      "mantra": "OM",
+      "chapter": 4,
+      "dungeon": 4,
+      "effect": "activation",
+      "evidence": "traditional",
+      "contraindications": ["hastening tongue extension"],
+      "indications": ["religious guilt", "spiritual seeking", "intermediary frustration"],
+      "book_reference": "Chapter 4 / Dungeon 4",
+      "narrative_context": "Use when facing the Grand Inquisitor. The tongue position gives direct access to the nectar the Temple promises but cannot deliver."
+    },
+    {
+      "id": "IE-07",
+      "name": "Diamond Body",
+      "description": "Cellular transformation through 528 Hz DNA repair frequency combined with Gamma for peak cognition. Embodied authority.",
+      "frequency": {
+        "carrier": 528,
+        "entrainment": 40,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 15,
+        "max": 20,
+        "unit": "minutes"
+      },
+      "mudra": "Vajrolī Mudrā",
+      "mantra": "HRĪṀ",
+      "chapter": 5,
+      "dungeon": 5,
+      "effect": "transformation",
+      "evidence": "emerging",
+      "contraindications": ["epilepsy"],
+      "indications": ["medical decisions", "N-of-1 experiments", "embodied knowing"],
+      "book_reference": "Chapter 5 / Dungeon 5",
+      "narrative_context": "Use when facing the Alchemist of Inertia or making health decisions. Your body becomes the laboratory."
+    },
+    {
+      "id": "IE-D2",
+      "name": "The Mint Protocol",
+      "description": "Deep dungeon work for financial liberation. Combines root grounding with 174 Hz pain reduction for moving frozen financial energy.",
+      "frequency": {
+        "carrier": 396,
+        "entrainment": 7.83,
+        "carrier_secondary": 174
+      },
+      "duration": {
+        "min": 20,
+        "max": 20,
+        "unit": "minutes"
+      },
+      "mudra": "Śakti Chālana",
+      "mantra": "Oṃ Śrīṃ Mahālakṣmyai Namaḥ",
+      "chapter": null,
+      "dungeon": 2,
+      "effect": "liberation",
+      "evidence": "traditional",
+      "contraindications": [],
+      "indications": ["debt stress", "abundance work", "financial decisions"],
+      "book_reference": "Dungeon 2 - The Mint of Chains",
+      "narrative_context": "Complete protocol for the Mint dungeon. Moving the Goddess dissolves what was frozen."
+    },
+    {
+      "id": "IE-D3",
+      "name": "The Tower Protocol",
+      "description": "Advanced linguistic analysis combining WYRD methodology with pattern recognition. For seeing through the Tower's confusion.",
+      "frequency": {
+        "carrier": 741,
+        "entrainment": 40,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 25,
+        "max": 25,
+        "unit": "minutes"
+      },
+      "mudra": "Uḍḍīyāna Bandha + Jālandhara Bandha",
+      "mantra": "AIṄ",
+      "chapter": null,
+      "dungeon": 3,
+      "effect": "clarity",
+      "evidence": "emerging",
+      "contraindications": [],
+      "indications": ["etymology work", "institutional language", "pattern recognition"],
+      "book_reference": "Dungeon 3 - The Tower of Babel",
+      "narrative_context": "The full combination for the Puppeteer battle. Flying up plus throat seal = complete linguistic immunity."
+    },
+    {
+      "id": "IE-D4",
+      "name": "The Temple Protocol",
+      "description": "Complete inversion of spiritual intermediation. Combines inversion posture with crown activation for direct access.",
+      "frequency": {
+        "carrier": 432,
+        "entrainment": 10,
+        "carrier_secondary": 963
+      },
+      "duration": {
+        "min": 30,
+        "max": 30,
+        "unit": "minutes"
+      },
+      "mudra": "Viparīta Karaṇī + Khecarī Mudrā",
+      "mantra": "Oṃ Hrīṃ",
+      "chapter": null,
+      "dungeon": 4,
+      "effect": "liberation",
+      "evidence": "traditional",
+      "contraindications": ["glaucoma", "high blood pressure"],
+      "indications": ["religious trauma", "spiritual bypassing", "direct experience"],
+      "book_reference": "Dungeon 4 - The Pharisee Temple",
+      "narrative_context": "Inverts the inversion. The Temple's teachings are already inverted; this inverts them again, returning to direct access."
+    },
+    {
+      "id": "IE-D5",
+      "name": "The Laboratory Protocol",
+      "description": "Embodied experimentation combining transformation frequency with earthly grounding. For treating the body as laboratory.",
+      "frequency": {
+        "carrier": 528,
+        "entrainment": 7.83,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 20,
+        "max": 20,
+        "unit": "minutes"
+      },
+      "mudra": "Vajrolī visualization",
+      "mantra": "Oṃ Vajrāyai Namaḥ",
+      "chapter": null,
+      "dungeon": 5,
+      "effect": "transformation",
+      "evidence": "speculative",
+      "contraindications": [],
+      "indications": ["health protocols", "body awareness", "N-of-1 experiments"],
+      "book_reference": "Dungeon 5 - The Bio-Laboratory",
+      "narrative_context": "Master Key preview of Chapter 4. The body is the only laboratory that matters for your own consciousness."
+    },
+    {
+      "id": "IE-EM1",
+      "name": "3 AM Anxiety",
+      "description": "Emergency protocol for night waking and financial panic. Immediate root stabilization.",
+      "frequency": {
+        "carrier": 396,
+        "entrainment": 7.83,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 5,
+        "max": 10,
+        "unit": "minutes"
+      },
+      "mudra": "Mūla Bandha",
+      "mantra": "I am grounded. I am safe.",
+      "chapter": null,
+      "dungeon": null,
+      "effect": "grounding",
+      "evidence": "traditional",
+      "contraindications": [],
+      "indications": ["night waking", "financial panic", "acute anxiety"],
+      "book_reference": "Chapter 4 - Emergency Protocols",
+      "narrative_context": "The 3 AM protocol. When the mind races with worst-case scenarios, return to the root."
+    },
+    {
+      "id": "IE-EM2",
+      "name": "Pre-Interview Shield",
+      "description": "Protection protocol for credential challenges. Maintains truth despite institutional pressure.",
+      "frequency": {
+        "carrier": 741,
+        "entrainment": 10,
+        "carrier_secondary": 963
+      },
+      "duration": {
+        "min": 10,
+        "max": 10,
+        "unit": "minutes"
+      },
+      "mudra": "Jālandhara Bandha",
+      "mantra": "I know what I know",
+      "chapter": null,
+      "dungeon": null,
+      "effect": "protection",
+      "evidence": "emerging",
+      "contraindications": [],
+      "indications": ["job interviews", "evaluations", "credential challenges"],
+      "book_reference": "Chapter 6 - Linguistic Self-Defense",
+      "narrative_context": "The throat seal prevents your truth from falling into their digestive fire."
+    },
+    {
+      "id": "IE-EM3",
+      "name": "Post-Argument Reset",
+      "description": "Clears linguistic residue and emotional charge from difficult conversations.",
+      "frequency": {
+        "carrier": 417,
+        "entrainment": 10,
+        "carrier_secondary": null
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "unit": "minutes"
+      },
+      "mudra": "Śakti Chālana",
+      "mantra": "This too shall pass",
+      "chapter": null,
+      "dungeon": null,
+      "effect": "transformation",
+      "evidence": "emerging",
+      "contraindications": [],
+      "indications": ["after arguments", "linguistic residue", "emotional clearing"],
+      "book_reference": "Chapter 6 - Truth Dialogues",
+      "narrative_context": "Words stick like burrs. Moving the Goddess shakes them loose."
+    }
+  ]
+}
