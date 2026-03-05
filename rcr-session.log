@@ -1,0 +1,74 @@
+# RCR v2.0 SESSION LOG
+## Pass 1: Full Book Review
+
+**Started:** 2026-03-06 07:30 GMT+8
+**Reasoning:** High
+**Scope:** All chapters (1-7) + All dungeons (2-7)
+
+---
+
+## SPACING ISSUES IDENTIFIED
+
+### Pattern 1: Numbered Lists Without Spacing
+**Location:** Throughout all files
+**Issue:** Numbered list items (1., 2., 3.) have no blank line between them, making them hard to read.
+
+**Example from Chapter 2:**
+```
+1. Sit with left heel pressing the perineum (yoni-sthāna/mūla-sthāna)
+2. Extend the right leg, grasp the right toes with the right hand
+3. Apply Jālandhara Bandha (chin lock)
+```
+
+**Fix:** Add blank line between each numbered item.
+
+### Pattern 2: Practice/Technique Labels Too Close to Content
+**Location:** Chapter 1 primarily
+**Issue:** "Technique 1:" followed immediately by text without proper breathing room.
+
+**Fix:** Ensure <br> spacing after technique headers.
+
+### Pattern 3: Dialogue Tables May Need Review
+**Location:** All dungeons
+**Issue:** Check if dialogue tables need spacing adjustments.
+
+---
+
+## FILES TO PROCESS
+
+- [ ] Chapter 1: The Ivory Tower
+- [ ] Chapter 2: The Five Scrolls  
+- [ ] Chapter 3: The Seven Dungeons
+- [ ] Chapter 4: The Master Keys
+- [ ] Chapter 5: The Ascension
+- [ ] Chapter 6: The Grimoire
+- [ ] Chapter 7: The Transmission
+- [ ] Dungeon 2: Mint of Chains
+- [ ] Dungeon 3: Tower of Babel
+- [ ] Dungeon 4: Pharisee Temple
+- [ ] Dungeon 5: Bio-Laboratory
+- [ ] Dungeon 6: ICE Fortress
+- [ ] Dungeon 7: Q-Anon Labyrinth
+
+---
+
+## CSS FONT SIZE UPDATE
+
+**Current:** `font-size: 16px` in html selector
+**Target:** `font-size: 17px` (+1pt equivalent)
+
+---
+
+## REVISION STRATEGY
+
+Due to scope (13 files), will apply fixes systematically:
+1. Fix numbered list spacing in all files
+2. Fix technique/practice spacing 
+3. Update CSS font size
+4. Regenerate HTML files
+5. Run RCR Pass 2 for verification
+
+**Time Tracking:**
+- Phase 1 Review: ~30 min (all files skimmed)
+- Phase 2 Critique: Documenting as we go
+- Phase 3 Revise: Beginning now

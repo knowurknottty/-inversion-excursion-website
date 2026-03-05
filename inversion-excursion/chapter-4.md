@@ -58,18 +58,27 @@ Advanced Khecarī involves gradually lengthening the tongue through cutting the 
 ### The Practice: From Physical to Subtle
 
 **Beginner Khecarī:**
+
 1. Draw the tongue back
+
 2. Touch the tip to the soft palate behind the upper teeth
+
 3. Breathe normally while holding this position
 
 **Intermediate Khecarī:**
+
 1. As the tongue becomes more flexible
+
 2. Touch the tip to the hard palate on the roof of the mouth
+
 3. Eventually reach the soft palate further back
 
 **Advanced Khecarī (Teacher Required):**
+
 1. The frenum is gradually cut under supervision
+
 2. The tongue is stretched using traditional methods
+
 3. Eventually touches the nasopharyngeal vault
 
 **WYRD Etymology:**
@@ -123,26 +132,41 @@ The HYP describes practice for those who have engaged in sexual activity. The te
 
 **1. Mūla Bandha Foundation:**
 Before any Vajrolī practice, establish the root lock:
+
 - Contract the perineum (the area between genitals and anus)
+
 - Draw the energy upward, not downward
+
 - Hold the contraction for 5-10 seconds, then release
+
 - Repeat 10 times to establish awareness
 
 **2. The Conservation Practice (For Men):**
 At the moment of ejaculation:
+
 - Immediately apply strong Mūla Bandha
+
 - Draw the perineum upward with force
+
 - Visualize the energy moving up the spine, not out
+
 - Breathe deeply, holding the lock for 30-60 seconds
+
 - The HYP claims this draws the bindu back upward through Suṣumnā
 
 **3. The Non-Loss Practice (Prevention):**
 More advanced than conservation is non-emission:
+
 - As climax approaches, stop all stimulation
+
 - Apply Mūla Bandha firmly
+
 - Breathe slowly and deeply
+
 - Visualize energy rising to the crown
+
 - With practice, orgasm can occur without ejaculation
+
 - The energy is redirected inward and upward
 
 **⚠️ Safety Note:** These are advanced practices. Begin with Mūla Bandha only. Gradually introduce timing and breath control. Never force or strain.
@@ -156,24 +180,39 @@ The HYP is explicit that women can practice Vajrolī:
 **Women's Technique:**
 
 **1. Yoni Mudrā Foundation:**
+
 - Sit in siddhāsana or comfortable cross-legged position
+
 - Contract the vaginal muscles (similar to Kegel exercise)
+
 - Draw the contraction upward toward the navel
+
 - Hold for 5-10 seconds, then release
+
 - Repeat 10 times to establish awareness
 
 **2. Rajas Conservation:**
+
 - During menstruation or sexual activity:
+
 - Apply Yoni Mudrā firmly
+
 - Visualize the menstrual/sexual energy moving upward
+
 - Draw it through the central channel to the crown
+
 - The HYP suggests this transmutes what would be "lost" into spiritual power
 
 **3. Non-Loss Practice:**
+
 - As climax approaches, stop stimulation
+
 - Apply Yoni Mudrā and Mūla Bandha together
+
 - Breathe deeply, visualizing energy rising
+
 - Orgasm can occur without energetic "spillage"
+
 - The conserved energy nourishes higher centers
 
 **WYRD Etymology:**
@@ -259,24 +298,34 @@ The HYP describes **bīja mantras** (seed syllables) that activate specific ener
 ## Daily Master Practice (45 minutes)
 
 **Phase 1: Vertical Axis (20 min)**
+
 1. Mahā Mudrā (3 min each side)
+
 2. Mūla Bandha (3 min)
+
 3. Uḍḍīyāna Bandha (3 min)
+
 4. Khecarī Mudrā (10 min)
    - SynSync: 963 Hz + 40 Hz
    - Mantra: **OM**
 
 **Phase 2: Horizontal Axis (20 min)**
+
 1. Mūla Bandha (engaged throughout)
+
 2. Vajrolī visualization (bindu rising)
+
 3. Bīja repetition (108 times)
    - Morning: **HRĪM**
    - Evening: **KRĪM**
    - SynSync: 528 Hz + 40 Hz
 
 **Phase 3: Integration (5 min)**
+
 1. Release all positions
+
 2. Sit in silence
+
 3. Feel the union of body and sound
 
 <br>
@@ -318,9 +367,13 @@ You have encountered mudrās in each dungeon. The Master Keys are not replacemen
 **The Graduation Ritual:**
 
 Before using your first Master Key in a dungeon:
+
 1. Form all three Hand Keys in sequence
+
 2. Acknowledge what each has given you
+
 3. State: "I have used the keys given to me. I am ready for the Master Key."
+
 4. Then assume Khecarī or Vajrolī
 
 This is not superstition. It is ensuring the foundation is present before building higher.
@@ -336,10 +389,15 @@ This is not superstition. It is ensuring the foundation is present before buildi
 When anxiety strikes at night:
 
 1. Do NOT check your phone
+
 2. Assume Khecarī Mudrā position
+
 3. Breathe slowly through the nose
+
 4. Visualize nectar dripping from crown to throat
+
 5. SynSync: 963 Hz on loop
+
 6. The anxiety cannot survive the nectar
 
 ### The Energy Attack: Vajrolī Protocol
@@ -347,10 +405,15 @@ When anxiety strikes at night:
 When feeling drained or invaded:
 
 1. Assume seated position
+
 2. Engage Mūla Bandha strongly
+
 3. Visualize a diamond sphere surrounding you
+
 4. The thunderbolt body repels all interference
+
 5. SynSync: 528 Hz + 40 Hz
+
 6. State: "I am the Vajra. Nothing passes without my consent."
 
 <br>

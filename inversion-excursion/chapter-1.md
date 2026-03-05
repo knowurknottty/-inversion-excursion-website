@@ -239,9 +239,13 @@ He can cite statistics forever. He has data for everything. He knows all the rul
 Remember your training. Form the Great Seal:
 
 1. Left heel presses the perineum
+
 2. Right leg extended, grasp the toes
+
 3. Chin to chest (Jālandhara Bandha)
+
 4. Inhale deeply, drawing energy down
+
 5. Hold, visualizing roots extending deep
 
 **The Effect:** Mahā Mudrā grounds you below the Pedant's level of abstraction. While he operates in credentials and statistics, you operate in direct experience.

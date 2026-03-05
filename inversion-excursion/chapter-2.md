@@ -126,12 +126,19 @@ This is not physical invulnerability in the comic-book sense. It is something mo
 ### The Practice: Mahā Mudrā (The Great Seal)
 
 **Physical Formation:**
+
 1. Sit with left heel pressing the perineum (yoni-sthāna/mūla-sthāna)
+
 2. Extend the right leg, grasp the right toes with the right hand
+
 3. Apply Jālandhara Bandha (chin lock)
+
 4. Inhale deeply, drawing prāṇa downward
+
 5. Hold the breath, visualizing energy at the root
+
 6. Exhale slowly
+
 7. Practice equally on both sides
 
 **WYRD Etymology:**
@@ -160,11 +167,17 @@ The Water Dharanā develops **emotional immunity**—the capacity to feel withou
 ### The Practice: Mahā Bandha (The Great Lock)
 
 **Physical Formation:**
+
 1. From Mahā Mudrā position, place right foot on left thigh
+
 2. Apply Jālandhara Bandha (chin lock)
+
 3. Apply Mūla Bandha (root lock—contracting the perineum)
+
 4. Hold the breath, directing attention to the svādhiṣṭhāna (below navel)
+
 5. Visualize a silver crescent moon, cool and fluid
+
 6. Exhale slowly, releasing the locks
 
 **SynSync Protocol:**
@@ -197,11 +210,17 @@ Fire is the visible demonstration of this law. It transforms wood to ash, ice to
 ### The Practice: Mahā Vedha (The Great Piercing)
 
 **Physical Formation:**
+
 1. From Mahā Bandha, with full inhalation and Jālandhara applied
+
 2. Place hands on the ground beside the hips
+
 3. Gently lift and drop the buttocks, creating a subtle "piercing" sensation at the perineum
+
 4. This forces prāṇa into Suṣumnā (the central channel)
+
 5. Hold until prāṇa feels "as if dead" (completely still)
+
 6. Exhale slowly
 
 **SynSync Protocol:**
@@ -226,8 +245,11 @@ The Air Dharanā confers "freedom from all pain and the ability to move through 
 ### The Practice: Uḍḍīyana Bandha (Flying Up)
 
 1. After a full exhalation, draw the belly strongly back toward the spine
+
 2. Lift the diaphragm up into the chest cavity
+
 3. Hold the breath out while maintaining the lock — this is the "flying up" of prāṇa
+
 4. Release by relaxing the abdomen before inhaling
 
 **SynSync Protocol:**
@@ -260,11 +282,17 @@ Ether is the element that most directly points to this truth. It is the space be
 ### The Practice: Jālandhara Bandha (The Throat Lock)
 
 **Physical Formation:**
+
 1. Inhale deeply
+
 2. Press chin firmly against the chest, touching the throat cavity
+
 3. The throat is compressed, preventing energy from escaping upward
+
 4. Visualize violet-white light at the throat, expanding infinitely in all directions
+
 5. Hold as long as comfortable
+
 6. Release chin before exhaling
 
 **SynSync Protocol:**
