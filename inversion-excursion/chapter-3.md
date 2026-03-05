@@ -2,6 +2,8 @@
 ## The Five Dungeons
 ### Or: How the Haṭha Yoga Pradīpika Becomes Your Field Manual
 
+**How to Use This Chapter:** This is your **reference manual** for the dungeons—a quick guide to which mudrās apply where. For the **full narrative experience** of each dungeon (the story, the boss battles, the atmosphere), see the individual dungeon files (dungeon-2.md through dungeon-5.md). Use this chapter during gameplay to check which technique to use; read the dungeon files for immersive experience.
+
 ---
 
 **[VISUAL: A weathered field manual, coffee-stained and annotated in the margins. Five dungeon entrances arranged in a pentagon. Each entrance is marked with a different mudra hand position.]**

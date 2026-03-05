@@ -36,6 +36,29 @@ The Tower wants you to forget this. It wants you to believe you are alone, climb
 
 ---
 
+## How to Use This Book
+
+**If you're new to this path:** Read Chapters 1 and 2 straight through. These are your foundation. Then enter the dungeons (Chapter 3 and the individual dungeon files). Return to Chapters 4-7 as you progress.
+
+**If you're in crisis right now:** Skip to Chapter 4 (Emergency Protocols) or Appendix E (28-Day Protocol) for immediate tools. Come back to the beginning when you're stable.
+
+**If you're reading this for the second time:** You already know the path. Use this as a reference—jump to the chapter that addresses your current dungeon.
+
+**The structure:**
+- **Chapters 1-2:** Foundation (Observer state, elemental keys)
+- **Chapter 3 + Dungeon Files:** The journey through the Five Dungeons
+- **Chapter 4:** Master Keys (for when basic keys reach their limit)
+- **Chapter 5:** Daily practice for Frequency Warriors
+- **Chapter 6:** The Grimoire (linguistic liberation)
+- **Chapter 7:** Transmission (passing the torch)
+- **Appendices:** Reference materials (Laws, Glossary, 28-Day Protocol, etc.)
+
+**You don't have to read it all.** Use what serves. Leave what doesn't. The Exit is always open.
+
+<br>
+
+---
+
 ## The Psychology of the Unconscious Game
 
 The human mind is a pattern-recognition machine. It loves games—structures with rules, rewards, and progress indicators. Evolutionarily, this made sense: games taught us survival skills. Tracking prey was a game. Learning which berries didn't kill you was a game. The dopamine hit from "winning" kept us alive.
