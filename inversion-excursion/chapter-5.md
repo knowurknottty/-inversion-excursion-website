@@ -16,6 +16,30 @@ You have completed the Inversion Excursion.
 
 Or so you thought.
 
+### ✅ You Are Ready for The Ascension When:
+
+1. **You have collected at least 3 Scroll Fragments**
+   - The dungeons have yielded their teachings
+   - You have integrated the boss battles
+   - The mudrās feel natural in your body
+
+2. **You can form all Three Hand Keys without thinking**
+   - Gyan, Dhyāna, and Prāṇa are automatic
+   - They arise spontaneously in challenging moments
+
+3. **You have completed the 28-Day Protocol OR**
+   - At least 14 days of consistent practice
+   - You understand the Observer state experientially, not just conceptually
+
+4. **You feel the call, not the should**
+   - This chapter is not required reading
+   - It is for those ready to go beyond escape into creation
+   - If you don't feel the call, return to the dungeons. They have more to teach.
+
+**If these criteria are not met:** Return to Chapter 3 and complete another dungeon. The Ascension requires foundation.
+
+---
+
 Here is the final inversion: **The dungeons were never the obstacle. They were the training ground.** The bosses were never your enemies. They were your teachers. The game was never about winning—it was about waking up to the fact that you were always already free.
 
 This chapter is for those who are ready to go beyond escape. Beyond survival. Beyond merely seeing through the deception.
@@ -70,8 +94,16 @@ The Five Dungeons each operated at specific discordant frequencies—fear, scarc
 
 ### 🧘 PRACTICE: The Frequency Body Scan
 
-**Duration:** 15-20 minutes
-**Frequency:** Daily for 30 days
+**Duration:** 15-20 minutes  
+**Frequency:** Daily for 30 days  
+**Tracking:** Use the Daily Practice Guide (Appendix D) to mark completion
+
+**Purpose:** Process dungeon residue and establish baseline frequency awareness
+
+**Before Starting:**
+- Complete at least one dungeon review (which boss was hardest?)
+- Note which emotions still trigger you
+- These become your "tracking points" for the 30 days
 
 **Preparation:**
 Lie down. Close your eyes. Take seven deep breaths, each slower than the last.
@@ -118,7 +150,9 @@ Once you can feel your frequency body, you can tune it.
 | **Delta** | Deep sleep, healing | 0.5-4 Hz | Restoration | 396 Hz + Delta |
 | **Theta** | Meditation, creativity | 4-8 Hz | Intuition | 417 Hz + Theta |
 | **Alpha** | Relaxed awareness | 8-13 Hz | Flow | 432 Hz + 10 Hz |
-| **Beta** | Active thinking | 13-30 Hz | Analysis | 15 Hz Beta |
+| **Beta** | Active thinking | 13-30 Hz | Analysis | 10 Hz Alpha (see note) |
+
+**Note:** SynSync does not include a Beta-dominant protocol. For active thinking, use 10 Hz Alpha which provides alert relaxation without anxiety. The 15 Hz frequency is not in the SynSync system.
 | **Gamma** | Peak consciousness | 30-100 Hz | Unity | 40 Hz Gamma |
 
 Most people are stuck in Beta—anxious, overthinking, reactive. The Frequency Warrior learns to drop into Alpha at will, access Theta for insight, and touch Gamma for transformation.
@@ -262,7 +296,26 @@ The shields are not about blocking. They are about **selective resonance**. You 
 
 Frequency work amplifies exponentially in groups.
 
-**The Setup:**
+### Forming Your Circle
+
+**Finding Participants:**
+- Start with 1-2 people from the dungeons (if playing with others)
+- Online: SynSync community forums, meditation groups, WYRD circles
+- Local: Yoga studios, consciousness meetups, book clubs
+- The book itself: Start a reading group that practices together
+
+**Screening Questions (ask potential participants):**
+- "Have you experienced the Observer state?" (ensures foundation)
+- "Are you currently in trauma therapy or processing major grief?" (safety)
+- "Can you commit to showing up consistently?" (group coherence)
+
+**Warning Signs (exclude if present):**
+- Seeking to "fix" or "save" others
+- Competitive spirituality
+- Unprocessed psychosis or mania
+- Inability to respect boundaries
+
+### The Setup:
 - 3-12 participants
 - Circular seating (circles create coherent fields)
 - Shared intention established beforehand
