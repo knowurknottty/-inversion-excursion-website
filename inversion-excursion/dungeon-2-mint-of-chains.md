@@ -139,12 +139,19 @@ Mūla Bandha is a contraction—but contractions create heat, and heat transform
 **Step 3: Move the Goddess (Śakti Chālana)**
 
 **Physical Formation:**
+
 1. Sit in siddhāsana (left heel at perineum, right ankle on left) or comfortable cross-legged seat
+
 2. Place palms on knees, breathe deeply
+
 3. Exhale completely, performing Uḍḍīyana Bandha (abdominal lock)
+
 4. Mentally stir the Kuṇḍalinī Śakti at the base of the spine
+
 5. Visualize the coiled serpent energy awakening, vibrating, moving upward
+
 6. Hold the lock for 10-20 seconds, then release
+
 7. Repeat 3-5 times, feeling the energy rise
 
 **The Effect:**
