@@ -10,13 +10,15 @@
 
 ## Preamble: This Is Not The End
 
-You have cleared the Five Dungeons at the core of the Inversion Excursion.
+You have cleared the Seven Dungeons of the Inversion Excursion.
 
-There are more. There are always more. Two additional dungeons now await:
+The Five Core Dungeons: The Ivory Tower, the Mint of Chains, the Tower of Babel, the Pharisee Temple, and the Bio-Laboratory—where credentialism, finance, language, religion, and scientism were faced and navigated.
+
+The Two Advanced Dungeons:
+- **The ICE Fortress**—where the freeze response meets industrial-scale horror
 - **The Q-Anon Labyrinth**—where pattern recognition tips into paranoia
-- **The ICE Fortress**—where the nervous system's freeze response becomes the final dungeon
 
-See `dungeon-7-qanon-labyrinth.md` and `dungeon-6-ice-fortress.md` for the complete narratives. The keys you carry work on any lock built by the same system.
+See `dungeon-6-ice-fortress.md` and `dungeon-7-qanon-labyrinth.md` for the complete narratives of the advanced dungeons. The keys you carry work on any lock built by the same system.
 
 For now: know they exist, know you have the tools, and know that the keys you carry work on any lock built by the same system.
 

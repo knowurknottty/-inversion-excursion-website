@@ -1,12 +1,12 @@
 # INVERSION EXCURSION - CHAPTER 3
-## The Five Dungeons
+## The Seven Dungeons
 ### Or: How the Haṭha Yoga Pradīpika Becomes Your Field Manual
 
-**How to Use This Chapter:** This is your **reference manual** for the dungeons—a quick guide to which mudrās apply where. For the **full narrative experience** of each dungeon (the story, the boss battles, the atmosphere), see the individual dungeon files (dungeon-2.md through dungeon-5.md). Use this chapter during gameplay to check which technique to use; read the dungeon files for immersive experience.
+**How to Use This Chapter:** This is your **reference manual** for the dungeons—a quick guide to which mudrās apply where. For the **full narrative experience** of each dungeon (the story, the boss battles, the atmosphere), see the individual dungeon files (dungeon-2.md through dungeon-7.md). Use this chapter during gameplay to check which technique to use; read the dungeon files for immersive experience.
 
 ---
 
-**[VISUAL: A weathered field manual, coffee-stained and annotated in the margins. Five dungeon entrances arranged in a pentagon. Each entrance is marked with a different mudra hand position.]**
+**[VISUAL: A weathered field manual, coffee-stained and annotated in the margins. Seven dungeon entrances arranged in a septagon. Each entrance is marked with a different mudra hand position.]**
 
 ---
 
@@ -37,7 +37,7 @@ The sun (ha) projects; the moon (tha) receives. Haṭha yoga is their marriage. 
 
 ---
 
-## The Five Dungeons: Mudrā Assignments
+## The Seven Dungeons: Mudrā Assignments
 
 | Dungeon | Primary Mudrā | Secondary Mudrā | Function |
 |---------|---------------|-----------------|----------|
@@ -46,10 +46,8 @@ The sun (ha) projects; the moon (tha) receives. Haṭha yoga is their marriage. 
 | **Tower of Babel** | Uḍḍīyāna Bandha | Jālandhara Bandha | Flying up, throat seal |
 | **Pharisee Temple** | Viparīta Karaṇī | Khecarī Mudrā | Inversion, tongue seal |
 | **Bio-Laboratory** | Vajrolī | Mahā Vedha | Thunderbolt, piercing |
-
-**Advanced Dungeons (see separate files):**
-- **ICE Fortress** (Dungeon 6): Jīvan Mukti — thawing the freeze response
-- **Q-Anon Labyrinth** (Dungeon 7): Gyan Mudrā (redeployed) — discerning true patterns from paranoia
+| **ICE Fortress** | Jīvan Mukti | — | Thawing the freeze response |
+| **Q-Anon Labyrinth** | Gyan Mudrā (redeployed) | — | Discerning patterns from paranoia |
 
 <br>
 
@@ -380,10 +378,10 @@ Each dungeon defeated yields a Scroll Fragment—pieces of the complete map to l
 |---------|-----------------|---------------|
 | **Ivory Tower** | Scroll of Division | Credentials divide; direct experience unites |
 | **Mint of Chains** | Scroll of Confusion | The flow was never blocked—you stood in your own way |
-| **Tower of Babel** | Scroll of Division | Fire separates; let your words purify |
+| **Tower of Babel** | Scroll of Fire | Words can separate or purify; choose the flame |
 | **Pharisee Temple** | Scroll of Despair | Even in deepest despair, the door stands open |
 | **Bio-Laboratory** | Scroll of Inertia | The observer changes the observed |
-| **ICE Fortress** | Scroll of Preservation | What was frozen was not dead; thawing returns vitality |
+| **ICE Fortress** | Scroll of Witness | The machine processes statistics; you carry souls |
 | **Q-Anon Labyrinth** | Scroll of Discernment | Not all patterns are real; wisdom knows the difference |
 
 **The Complete Scroll:** When all seven fragments are assembled, they reveal the Eighth Scroll—the Scroll of Liberation, which points to the Exit that was always open.
