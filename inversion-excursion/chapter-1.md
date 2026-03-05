@@ -46,7 +46,7 @@ The Tower wants you to forget this. It wants you to believe you are alone, climb
 
 **The structure:**
 - **Chapters 1-2:** Foundation (Observer state, elemental keys)
-- **Chapter 3 + Dungeon Files:** The journey through the Five Dungeons
+- **Chapter 3 + Dungeon Files:** The journey through the Seven Dungeons
 - **Chapter 4:** Master Keys (for when basic keys reach their limit)
 - **Chapter 5:** Daily practice for Frequency Warriors
 - **Chapter 6:** The Grimoire (linguistic liberation)

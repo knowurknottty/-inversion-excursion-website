@@ -168,6 +168,6 @@ You are the N-of-1 experiment that matters most.
 
 **The Exit stands open. The body was never a machine.**
 
-**The Five Dungeons are complete.**
+**The First Five Dungeons are complete.**
 
 **Proceed to Chapter 4: The Master Keys.**

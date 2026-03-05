@@ -10,7 +10,7 @@
 
 ## The Master Keys Revealed
 
-You have learned the ten mudrās of the Haṭha Yoga Pradīpika. You have mapped them to the Five Dungeons. You have practiced Mahā Mudrā, Mūla Bandha, Uḍḍīyāna Bandha, and the rest.
+You have learned the ten mudrās of the Haṭha Yoga Pradīpika. You have mapped them to the Seven Dungeons. You have practiced Mahā Mudrā, Mūla Bandha, Uḍḍīyāna Bandha, and the rest.
 
 But among these ten, two stand apart. Two are called "master keys" — not because the others are unimportant, but because these two **unlock doors that the others cannot touch**.
 

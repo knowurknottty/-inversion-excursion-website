@@ -4,7 +4,7 @@
 
 ---
 
-**[VISUAL: A figure standing at the threshold of a portal made of pure light. Behind them, the Five Dungeons crumble into dust. Before them, infinite possibility.]**
+**[VISUAL: A figure standing at the threshold of a portal made of pure light. Behind them, the Seven Dungeons crumble into dust. Before them, infinite possibility.]**
 
 ---
 
@@ -84,7 +84,7 @@ Science confirms:
 
 *Everything is energy in motion; your "frequency" shapes how you experience reality.*
 
-The Five Dungeons each operated at specific discordant frequencies—fear, scarcity, confusion, guilt, inertia. You defeated them not by fighting, but by shifting your own frequency. By refusing to resonate with their vibration.
+The Seven Dungeons each operated at specific discordant frequencies—fear, scarcity, confusion, guilt, inertia, freeze, paranoia. You defeated them not by fighting, but by shifting your own frequency. By refusing to resonate with their vibration.
 
 **The Inversion:** You are not victim to external frequencies. You are the tuner. The dial is in your hands.
 

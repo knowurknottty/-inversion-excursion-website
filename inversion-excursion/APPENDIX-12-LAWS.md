@@ -7,7 +7,7 @@
 
 The Twelve Universal Laws are the operating system of reality. They are not rules imposed by authority, but descriptions of how energy, consciousness, and manifestation actually work. Understanding them is not about obedience—it is about alignment. When you work with these laws, you work with reality instead of against it.
 
-Each law has a "liberation angle"—a way of understanding it that dissolves rather than reinforces the traps of the Five Dungeons.
+Each law has a "liberation angle"—a way of understanding it that dissolves rather than reinforces the traps of the Seven Dungeons.
 
 ---
 
@@ -250,7 +250,7 @@ Every dungeon is an INVERSION: Knowledge → Pedant's trap, Money → Golem's ch
 Everything flows, out and in. Rise and fall. Expansion and contraction. The pendulum swings.
 
 **Liberation Angle:**
-The Five Dungeons are not faced once but again and again. Each round deeper. Spiral, not circle. Mastery through repetition.
+The Seven Dungeons are not faced once but again and again. Each round deeper. Spiral, not circle. Mastery through repetition.
 
 **SynSync Protocol:**
 - The Trivenī Stack:

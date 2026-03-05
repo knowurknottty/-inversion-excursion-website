@@ -12,7 +12,7 @@
 
 ## The Dungeon Map
 
-You have forged your weapons in the Elemental Forge. Now you face the Five Dungeons—not as theory, but as lived experience.
+You have forged your weapons in the Elemental Forge. Now you face the Seven Dungeons—not as theory, but as lived experience.
 
 The Haṭha Yoga Pradīpika (HYP) — that 15th-century manual of physical yoga — contains a complete technology for liberation. In Chapter III, "On Mudrās," the text lists ten specific techniques:
 

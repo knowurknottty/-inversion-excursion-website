@@ -1,11 +1,13 @@
 # APPENDIX E: THE 28-DAY AWAKENING PROTOCOL
-## A Structured Journey Through the Five Dungeons
+## A Structured Journey Through the First Five Dungeons
 
 ---
 
 ## Overview
 
-This 28-day protocol provides a structured path through the Five Dungeons. Each week focuses on one dungeon, with daily practices building toward mastery.
+This 28-day protocol provides a structured path through the First Five Dungeons. Each week focuses on one dungeon, with daily practices building toward mastery.
+
+**Note:** This protocol covers the First Five Dungeons (Ivory Tower through Bio-Laboratory). The Advanced Dungeons (ICE Fortress and Q-Anon Labyrinth) are addressed after completing this foundation.
 
 **Time Required:** 15-45 minutes daily  
 **Materials:** This book, SynSync (optional), journal  

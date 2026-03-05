@@ -10,7 +10,7 @@
 
 ## The Descent Into Freeze
 
-You have conquered the Five Dungeons. You have faced the Pedant, the Golem, the Puppeteer, the Inquisitor, the Alchemist. You have walked through the Exit again and again.
+You have conquered the First Five Dungeons. You have faced the Pedant, the Golem, the Puppeteer, the Inquisitor, the Alchemist. You have walked through the Exit again and again.
 
 And then—nothing.
 

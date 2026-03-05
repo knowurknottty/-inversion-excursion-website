@@ -6,7 +6,7 @@
 ### Appendix E: The 28-Day Awakening Protocol
 **File:** `APPENDIX-28DAY.md`
 
-Structured 28-day program through the Five Dungeons:
+Structured 28-day program through the First Five Dungeons:
 - Week 1: Ivory Tower (credentials)
 - Week 2: Mint of Chains (finance)
 - Week 3: Tower of Babel (language)
@@ -91,7 +91,7 @@ Navigation guide showing how chapters connect:
 
 ---
 
-## The Five Dungeons (Expanded Chapters)
+## The Seven Dungeons (Expanded Chapters)
 
 ### Dungeon 1: The Ivory Tower
 **Location:** Chapter 1 of main book
@@ -138,6 +138,24 @@ Navigation guide showing how chapters connect:
 
 ---
 
+### Dungeon 6: The ICE Fortress
+**File:** `dungeon-6-ice-fortress.md`
+**Theme:** Trauma, freeze response, industrial-scale horror
+**Boss:** The Cryonic Warden
+**Mudrā:** Jīvan Mukti (Thawing)
+**Law:** Inspired Action (Shadow)
+
+---
+
+### Dungeon 7: The Q-Anon Labyrinth
+**File:** `dungeon-7-qanon-labyrinth.md`
+**Theme:** Paranoia, pattern recognition, identity fusion
+**Boss:** The Identity-Protector
+**Mudrā:** Gyan Mudrā (Redeployed)
+**Law:** Correspondence (Shadow)
+
+---
+
 ## Suggested Reading Order
 
 ### For First-Time Readers
@@ -147,12 +165,14 @@ Navigation guide showing how chapters connect:
 4. **Dungeon 3:** The Tower of Babel
 5. **Dungeon 4:** The Pharisee Temple
 6. **Dungeon 5:** The Bio-Laboratory
-7. Ch 3: The Five Dungeons (complete reference)
+7. Ch 3: The Seven Dungeons (complete reference)
 8. Ch 4: The Master Keys
 9. Ch 5: The Ascension
 10. Ch 6: The Grimoire
 11. Ch 7: The Transmission
-12. Appendices as needed
+12. **Dungeon 6:** The ICE Fortress (advanced)
+13. **Dungeon 7:** The Q-Anon Labyrinth (advanced)
+14. Appendices as needed
 
 ### For Quick Reference
 - **SynSync Protocols:** Ch 5 + Appendix A
