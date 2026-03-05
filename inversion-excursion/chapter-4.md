@@ -307,7 +307,7 @@ When feeling drained or invaded:
 - Contraindications: high blood pressure, pregnancy
 
 ### SynSync Protocols Referenced
-- Protocol #14: Crown Activation (963 Hz + 40 Hz, 20-30 min)
-- Protocol #15: Thunderbolt Body (528 Hz + 40 Hz, 15-20 min)
+- Protocol #10: Crown Activation (963 Hz + 40 Hz Gamma, 20-30 min) - Khecarī practice
+- Protocol #6: Thunderbolt Body (528 Hz + 40 Hz Gamma, 15-20 min) - Vajrolī practice
 - Protocol #16: Emergency Nectar (963 Hz solo, as needed)
-- Protocol #17: Diamond Shield (528 Hz + 40 Hz, 10 min)
+- Protocol #17: Diamond Shield (528 Hz solo, 10 min)

@@ -367,6 +367,6 @@ Say it. Feel it. If it resonates, keep it. If not, adjust.
 - Etymology: *Online Etymology Dictionary* (etymonline.com)
 
 ### SynSync Protocols for Language Work
-- Protocol #27: Alpha-Theta Bridge (10 Hz) for linguistic insight
-- Protocol #28: Gamma (40 Hz) for pattern recognition
-- Protocol #29: The WYRD Stack (741 Hz + 10 Hz for expression)
+- Protocol #13: Alpha-Theta Bridge (10 Hz Alpha) for linguistic insight
+- Protocol #14: Gamma Pattern (40 Hz) for pattern recognition  
+- Protocol #8: The WYRD Stack (741 Hz + 10 Hz Alpha for expression)

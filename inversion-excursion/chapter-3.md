@@ -410,7 +410,7 @@ The placebo is not a bug. It is the feature. Belief itself is healing.
 - Practice on empty stomach only
 
 ### SynSync Protocols Referenced
-- Protocol #10: Root Grounding (396 Hz + 174 Hz)
-- Protocol #11: Third Eye Clarity (852 Hz + 40 Hz)
-- Protocol #12: Crown Activation (963 Hz + 40 Hz)
-- Protocol #13: Thunderbolt Body (528 Hz + 40 Hz)
+- Protocol #4: Root Grounding (396 Hz + 7.83 Hz Schumann, 10-15 min)
+- Protocol #11: Third Eye Clarity (852 Hz + 10 Hz Alpha, 10-15 min)  
+- Protocol #10: Crown Activation (963 Hz + 40 Hz Gamma, 15-20 min)
+- Protocol #6: Thunderbolt Body (528 Hz + 40 Hz Gamma, 10-15 min)

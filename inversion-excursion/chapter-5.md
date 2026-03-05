@@ -353,15 +353,15 @@ The Circle is not passive receipt. It is active co-creation. Each participant mu
 - Shield work: Don't sleep with shields active
 
 ### SynSync Protocols Referenced
-- Protocol #18: Root Liberation (396 Hz + 7.83 Hz)
-- Protocol #19: Facilitation (417 Hz)
-- Protocol #20: Transformation (528 Hz + 40 Hz)
-- Protocol #21: Heart Connection (639 Hz)
-- Protocol #22: Expression (741 Hz + 10 Hz)
-- Protocol #23: Intuition (852 Hz + 10 Hz)
-- Protocol #24: Crown Activation (963 Hz + 40 Hz)
-- Protocol #25: The Chakra Stack (Sequential, 35 min)
-- Protocol #26: Kundalini Activation (90 min)
+- Protocol #4: Root Liberation (396 Hz + 7.83 Hz Schumann, 10-15 min)
+- Protocol #5: Facilitation (417 Hz, 15-20 min)
+- Protocol #6: Transformation (528 Hz + 40 Hz Gamma, 10-15 min)
+- Protocol #7: Heart Connection (639 Hz, 10-15 min)
+- Protocol #8: Expression (741 Hz + 10 Hz Alpha, 10-15 min)
+- Protocol #9: Intuition (852 Hz + 10 Hz Alpha, 10-15 min)
+- Protocol #10: Crown Activation (963 Hz + 40 Hz Gamma, 15-20 min)
+- Protocol #11: The Chakra Stack (Sequential, 35 min)
+- Protocol #12: Kundalini Activation (Multi-frequency, 90 min)
 
 ### Evidence Classification
 - Brainwave frequencies: ✅ Established

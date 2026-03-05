@@ -363,8 +363,10 @@ Always practice on an empty stomach. Stop if you feel pain or dizziness.
 
 ### SynSync Protocols Referenced
 - Protocol #4: Root Grounding (396 Hz + 7.83 Hz, 10-15 min)
-- Protocol #5: Emotional Flow (417 Hz + Theta, 15-20 min)
+- Protocol #5: Emotional Flow (417 Hz + 6 Hz Theta, 15-20 min)
 - Protocol #6: Transformation (528 Hz + 40 Hz Gamma, 10-15 min)
-- Protocol #7: Heart Opening (639 Hz + 852 Hz, 10-15 min)
-- Protocol #8: Ether Space (741 Hz + 963 Hz, 15-20 min)
-- Protocol #9: The Trivenī Stack (Schumann → Alpha → Gamma, 15 min)
+- Protocol #7: Heart Connection (639 Hz, 10-15 min)
+- Protocol #8: Throat Expression (741 Hz + 10 Hz Alpha, 10-15 min)
+- Protocol #9: Third Eye Intuition (852 Hz + 10 Hz Alpha, 10-15 min)
+- Protocol #10: Crown Activation (963 Hz + 40 Hz Gamma, 15-20 min)
+- Protocol #11: The Trivenī Stack (Schumann → Alpha → Gamma, 15 min)
