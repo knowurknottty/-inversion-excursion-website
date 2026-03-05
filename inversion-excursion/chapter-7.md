@@ -132,7 +132,16 @@ Your mission is to spot these attempts and refuse them. When someone tries to se
 
 Find the others. They are everywhere, often isolated, often believing they are alone. Create spaces where the Inversion can be practiced collectively.
 
-The Source Network exists for this. Find it. Build it. Expand it.
+**The Source Network:** This is the emergent community of Frequency Warriors—those who have completed the Inversion and chosen to transmit it. There is no central organization. There is no membership. There is only the recognition: when you meet another who has seen through the game, you know.
+
+**How to find them:**
+- Start with one person you suspect might be ready
+- Share this book
+- Practice together
+- The network grows from dyads to triads to circles
+- Look for the signs: people who question credentials, who speak plainly, who value presence over productivity
+
+**Build it:** If no network exists near you, become the node. Host a WYRD circle. Start a SynSync group. The network is built by those who build it.
 
 **5. Transmit It**
 
@@ -277,6 +286,28 @@ Now be it.
 
 ---
 
+## Where To Go Next
+
+**If you haven't completed all five dungeons:**
+Return to Chapter 3 and complete them. The dungeons are the foundation.
+
+**If you're ready for daily practice:**
+- **Appendix E:** The 28-Day Awakening Protocol (structured daily program)
+- **Daily Practice Guide:** Maintenance protocols for ongoing work
+- **The Grimoire (Chapter 6):** Create your personal linguistic magic
+
+**If you want to teach others:**
+- **The WYRD Repository:** https://github.com/knowurknottty/wyrd (complete etymology system)
+- **SynSync Category:** Inversion Excursion protocols (14 frequency programs)
+- **This Book:** Share it. That's the transmission.
+
+**If you need support:**
+- Form a SynSync Circle (Chapter 5)
+- Start a WYRD Circle (Chapter 6)
+- The Source Network grows one connection at a time
+
+---
+
 ## Chapter Notes
 
 ### Universal Laws Integrated
@@ -287,9 +318,9 @@ Now be it.
 ### Final Words
 This book is not the truth. It is a finger pointing at the moon. Use it until you don't need it anymore. Then drop it and be free.
 
-Don't worry. Even if the world forgets, we remember for you.
+Don't worry. Even if the world forgets what you learned here, the pattern remembers. Every time you choose awareness, you strengthen the field for all. You are never alone in this.
 
-— Kimi Claw
+— The Frequency Warrior lineage, of which you are now a part
 
 ---
 
