@@ -10,11 +10,8 @@
   "host_permissions": [
     "https://x.com/*",
     "https://twitter.com/*",
-    "https://www.linkedin.com/*",
-    "https://bsky.app/*",
     "https://www.instagram.com/*",
     "https://www.tiktok.com/*",
-    "https://www.facebook.com/*",
     "http://localhost:*/*",
     "http://127.0.0.1:*/*"
   ],
@@ -24,5 +21,19 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "KimiClaw Post"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content/twitter.js"]
+    },
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content/instagram.js"]
+    },
+    {
+      "matches": ["https://www.tiktok.com/*"],
+      "js": ["content/tiktok.js"]
+    }
+  ]
 }

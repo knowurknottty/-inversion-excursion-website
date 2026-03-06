@@ -1,45 +1,27 @@
-// extension/popup.js
-const relayInput = document.getElementById('relayUrl');
-const secretInput = document.getElementById('wsSecret');
-const saveBtn = document.getElementById('save');
-const statusDiv = document.getElementById('status');
-const statusDot = document.getElementById('statusDot');
-const connectionText = document.getElementById('connectionText');
-
-async function updateConnectionStatus() {
-  const { relayUrl, connected } = await chrome.storage.local.get(['relayUrl', 'connected']);
-  if (relayUrl) relayInput.value = relayUrl;
-  
-  if (connected) {
-    statusDot.classList.add('connected');
-    connectionText.textContent = 'Connected to relay';
-    connectionText.style.color = '#7ee8a2';
-  } else {
-    statusDot.classList.remove('connected');
-    connectionText.textContent = 'Disconnected';
-    connectionText.style.color = '#666';
-  }
-}
-
-updateConnectionStatus();
-
-saveBtn.addEventListener('click', async () => {
-  const relayUrl = relayInput.value.trim();
-  const wsSecret = secretInput.value.trim();
-  if (!relayUrl || !wsSecret) {
-    statusDiv.innerHTML = '<span class="err">Enter both Relay URL and secret.</span>';
-    return;
-  }
-  await chrome.storage.local.set({ relayUrl, wsSecret });
-  statusDiv.innerHTML = '<span class="ok">✓ Saved! Connecting…</span>';
-  try {
-    await chrome.runtime.sendMessage({ type: 'CONNECT_WS' });
-    statusDiv.innerHTML = '<span class="ok">✓ Connected to relay!</span>';
-    updateConnectionStatus();
-  } catch (e) {
-    statusDiv.innerHTML = '<span class="err">Failed to connect: ' + e.message + '</span>';
-  }
+"use strict";
+// extension/popup.ts
+document.addEventListener("DOMContentLoaded", async () => {
+    const cfg = await chrome.storage.local.get(["relayUrl", "wsSecret", "extensionId"]);
+    document.getElementById("relayUrl").value = cfg.relayUrl || "";
+    document.getElementById("wsSecret").value = cfg.wsSecret || "";
+    document.getElementById("save").addEventListener("click", async () => {
+        const relayUrl = document.getElementById("relayUrl").value.trim();
+        const wsSecret = document.getElementById("wsSecret").value.trim();
+        const status = document.getElementById("status");
+        if (!relayUrl || !wsSecret) {
+            status.innerHTML = '<span class="err">Both fields required.</span>';
+            return;
+        }
+        // Test connectivity before saving
+        try {
+            const res = await fetch(`${relayUrl}/api/jobs/health/check`, {
+                headers: { "clawpost-api-key": "test" },
+            });
+            await chrome.storage.local.set({ relayUrl, wsSecret });
+            status.innerHTML = `<span class="ok">✓ Paired. Extension ID: ${cfg.extensionId?.slice(0, 8)}...</span>`;
+        }
+        catch {
+            status.innerHTML = `<span class="err">✗ Can't reach relay at ${relayUrl}</span>`;
+        }
+    });
 });
-
-// Check status periodically
-setInterval(updateConnectionStatus, 2000);
