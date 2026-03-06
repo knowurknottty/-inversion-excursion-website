@@ -5,10 +5,7 @@
   "description": "Browser-session social posting for KimiClaw agent",
   "permissions": [
     "storage",
-    "scripting",
-    "activeTab",
-    "downloads",
-    "background"
+    "activeTab"
   ],
   "host_permissions": [
     "https://x.com/*",
@@ -22,25 +19,10 @@
     "http://127.0.0.1:*/*"
   ],
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
   "action": {
     "default_popup": "popup.html",
     "default_title": "KimiClaw Post"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["content/*.js"],
-      "matches": [
-        "https://x.com/*",
-        "https://twitter.com/*",
-        "https://www.linkedin.com/*",
-        "https://bsky.app/*",
-        "https://www.instagram.com/*",
-        "https://www.tiktok.com/*",
-        "https://www.facebook.com/*"
-      ]
-    }
-  ]
+  }
 }
