@@ -1,0 +1,85 @@
+<!-- extension/popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: monospace; width: 320px; padding: 16px; background: #0d0d0d; color: #e0e0e0; }
+    h2 { color: #7ee8a2; margin: 0 0 12px; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+    h3 { color: #aaa; margin: 16px 0 8px; font-size: 11px; text-transform: uppercase; }
+    label { font-size: 11px; color: #aaa; display: block; margin-top: 10px; }
+    input { width: 100%; box-sizing: border-box; background: #1a1a1a; border: 1px solid #333;
+            color: #e0e0e0; padding: 6px 8px; font-family: monospace; font-size: 12px; margin-top: 4px; }
+    button { margin-top: 14px; width: 100%; padding: 8px; background: #7ee8a2; color: #000;
+             border: none; font-family: monospace; font-weight: bold; cursor: pointer; }
+    button:disabled { background: #333; color: #666; cursor: not-allowed; }
+    #status { margin-top: 10px; font-size: 11px; }
+    .ok { color: #7ee8a2; } .err { color: #ff6b6b; }
+    .platform-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin-top: 8px; }
+    .platform { background: #1a1a1a; padding: 6px; border-radius: 4px; font-size: 10px; }
+    .platform-name { color: #fff; }
+    .platform-status { color: #666; }
+    .platform-status.ready { color: #7ee8a2; }
+    .connection-status { display: flex; align-items: center; gap: 6px; margin-bottom: 12px; padding: 8px; background: #1a1a1a; border-radius: 4px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #ff6b6b; }
+    .status-dot.connected { background: #7ee8a2; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  </style>
+</head>
+<body>
+  <h2>⚡ KimiClaw Post</h2>
+  
+  <div class="connection-status">
+    <div class="status-dot" id="statusDot"></div>
+    <span id="connectionText">Disconnected</span>
+  </div>
+
+  <label>Relay URL</label>
+  <input id="relayUrl" placeholder="http://100.x.x.x:4747" />
+
+  <label>WebSocket Secret</label>
+  <input id="wsSecret" type="password" placeholder="your CLAWPOST_WS_SECRET" />
+
+  <button id="save">Pair Extension</button>
+  
+  <div id="status"></div>
+
+  <h3>Supported Platforms</h3>
+  <div class="platform-grid">
+    <div class="platform">
+      <div class="platform-name">Twitter/X</div>
+      <div class="platform-status ready">✓ Browser</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">LinkedIn</div>
+      <div class="platform-status ready">✓ Browser</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">Instagram</div>
+      <div class="platform-status">Browser</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">TikTok</div>
+      <div class="platform-status">Browser</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">Gmail</div>
+      <div class="platform-status">API</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">Drive</div>
+      <div class="platform-status">API</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">Substack</div>
+      <div class="platform-status">API</div>
+    </div>
+    <div class="platform">
+      <div class="platform-name">Proton</div>
+      <div class="platform-status">SMTP</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
