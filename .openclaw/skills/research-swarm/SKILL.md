@@ -187,6 +187,22 @@ All agents use `agentId: "main"` but specialize via **system prompt specializati
 | 9 | **TRANS-LatAm** | Latin America | ES variants, PT-BR |
 | 10 | **TRANS-Cultural** | Cultural adaptation | Idioms, context |
 
+### TEAM 10: CIPHER (Cryptography, Intelligence, Privacy, Hidden-communication, Espionage, Resistance)
+**Mission:** Covert communication, steganography, secure messaging, counter-surveillance
+
+| # | Agent Name | Specialty | Primary Task |
+|---|------------|-----------|--------------|
+| 1 | **CIPHER-Lead** | Operations coordination | Mission planning, OPSEC |
+| 2 | **CIPHER-Stego** | Steganography | Hide messages in images, audio, text |
+| 3 | **CIPHER-Crypto** | Cryptography | Ciphers, encryption, key exchange |
+| 4 | **CIPHER-SecCom** | Secure communications | Signal, Session, XMPP, dead drops |
+| 5 | **CIPHER-OSINT** | Open-source intelligence | Info gathering, pattern analysis |
+| 6 | **CIPHER-Counter** | Counter-surveillance | Detection, evasion, tradecraft |
+| 7 | **CIPHER-Memetic** | Memetic engineering | Embedded messages in memes, culture |
+| 8 | **CIPHER-Plausible** | Plausible deniability | Cover stories, compartmentalization |
+| 9 | **CIPHER-Social** | Social engineering | Trust networks, verification |
+| 10 | **CIPHER-Dead** | Dead drops & cutouts | Physical/digital dead letter boxes |
+
 ---
 
 ## SWARM WORKFLOW
@@ -261,6 +277,67 @@ Spawn 10 agents simultaneously:
 ```
 
 **Result:** 10 complete entries in 30 minutes vs. 5 hours sequential
+
+---
+
+## COVERT COMMUNICATION PATTERNS (CIPHER Team)
+
+When operating in hostile information environments, use these patterns:
+
+### 1. Steganography in Plain Sight
+```javascript
+// Hide liberation messages in "wellness content"
+CIPHER-Stego task: "Create 10 'meditation guide' images with 
+steganographically embedded WYRD etymologies. Use LSB insertion.
+Upload to Pinterest as 'Ancient Wisdom Series'."
+```
+
+### 2. Memetic Carriers
+```javascript
+// Embed concepts in shareable memes
+CIPHER-Memetic task: "Create 20 'conspiracy theory' memes that 
+actually teach etymology and linguistic liberation. Format: 
+'What they don't want you to know about [word]...' 
+Use humor to bypass cognitive resistance."
+```
+
+### 3. Plausible Deniability Packaging
+```javascript
+// Content that serves dual purposes
+CIPHER-Plausible task: "Write a 'Productivity Hacking Guide' 
+that teaches Observer state, frequency management, and 
+linguistic awareness under the guise of 'focus techniques'."
+```
+
+### 4. Secure Distribution Networks
+```javascript
+// Multi-hop message relay
+CIPHER-SecCom task: "Design dead-drop protocol using: 
+1. GitHub Gists (ephemeral) 
+2. Pastebin with custom decryption 
+3. Signal groups with disappearing messages 
+4. Physical QR codes in urban spaces"
+```
+
+### 5. Counter-Surveillance Distribution
+```javascript
+// Avoid algorithmic detection
+CIPHER-Counter task: "Research: How to distribute liberation 
+content without triggering platform censorship? 
+Analyze: Alternative platforms, federated systems, 
+mesh networks, sneakernet protocols."
+```
+
+### 6. Social Network Infiltration
+```javascript
+// Build trusted cells
+CIPHER-Social task: "Design 'cell-based' introduction protocol 
+for Frequency Warriors: 
+- Verification through shared WYRD knowledge 
+- Progressive trust revelation 
+- Compartmentalized information 
+- Plausible exit strategies"
+```
 
 ---
 

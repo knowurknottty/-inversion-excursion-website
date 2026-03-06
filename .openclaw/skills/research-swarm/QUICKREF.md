@@ -29,6 +29,7 @@ sessions_history(sessionKey: "LABEL-HERE", limit: 50);
 | **MR** | Lead, Biohackers, Revolutionaries, Sovereigns, Conspiracy, Mainstream, Spiritual, Tech, Global, Competitive | Market profiles |
 | **ACAD** | Lead, Neuro, Psych, Yoga, Physics, Anthro, Philosophy, History, Methods, Review | Scholarly validation |
 | **TRANS** | Lead, EU-West, EU-East, Asia-East, Asia-South, Asia-SE, MENA, Africa, LatAm, Cultural | Localized content |
+| **CIPHER** | Lead, Stego, Crypto, SecCom, OSINT, Counter, Memetic, Plausible, Social, Dead | Covert ops, secure comms |
 
 ## SPAWN PATTERNS
 
