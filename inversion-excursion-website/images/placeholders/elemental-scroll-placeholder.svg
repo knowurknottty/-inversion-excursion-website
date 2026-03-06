@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+  <defs>
+    <linearGradient id="scrollBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0f;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="earthGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b6914;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#5c4d26;stop-opacity:0.2" />
+    </linearGradient>
+    
+    <filter id="runeGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="1200" fill="url(#scrollBg)"/>
+  
+  
+  <!-- Scroll container -->
+  <g transform="translate(400, 600)">
+    <!-- Scroll outline -->
+    <rect x="-150" y="-300" width="300" height="600" rx="10" fill="#2d2415" stroke="#8b6914" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Scroll content area -->
+    <rect x="-130" y="-280" width="260" height="560" fill="url(#earthGlow)" opacity="0.3"/>
+    
+    <!-- Rune symbols -->
+    <g filter="url(#runeGlow)" opacity="0.6">
+      <!-- Stylized earth rune -->
+      <circle cx="0" cy="-200" r="30" fill="none" stroke="#c9a227" stroke-width="3"/>
+      
+      <path d="M 0 -230 L 0 -170 M -30 -200 L 30 -200" stroke="#c9a227" stroke-width="3"/>
+      
+      <!-- Additional runes -->
+      <circle cx="-60" cy="-100" r="20" fill="none" stroke="#8b6914" stroke-width="2"/>
+      
+      <circle cx="60" cy="-100" r="20" fill="none" stroke="#8b6914" stroke-width="2"/>
+      
+      
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#c9a227" stroke-width="2"/>
+      
+      <path d="M -20 -20 L 20 20 M 20 -20 L -20 20" stroke="#c9a227" stroke-width="2"/>
+      
+      
+      <circle cx="-50" cy="100" r="15" fill="none" stroke="#8b6914" stroke-width="2"/>
+      
+      <circle cx="50" cy="100" r="15" fill="none" stroke="#8b6914" stroke-width="2"/>
+      
+      <circle cx="0" cy="200" r="25" fill="none" stroke="#c9a227" stroke-width="2"/>
+    </g>
+    
+    
+    <!-- Root elements -->
+    <g opacity="0.4">
+      <path d="M -150 300 Q -200 350 -180 400" fill="none" stroke="#5c4d26" stroke-width="4"/>
+      
+      <path d="M -100 300 Q -120 380 -80 420" fill="none" stroke="#5c4d26" stroke-width="3"/>
+      
+      <path d="M 150 300 Q 200 350 180 400" fill="none" stroke="#5c4d26" stroke-width="4"/>
+      
+      <path d="M 100 300 Q 120 380 80 420" fill="none" stroke="#5c4d26" stroke-width="3"/>
+      
+      <path d="M 0 300 Q 0 400 0 450" fill="none" stroke="#5c4d26" stroke-width="5"/>
+    </g>
+  </g>
+  
+  
+  <!-- Frame -->
+  <rect x="50" y="50" width="700" height="1100" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.2"/>
+  
+  
+  <!-- Text -->
+  <text x="400" y="1050" text-anchor="middle" font-family="serif" font-size="28" fill="#c9a227" opacity="0.5">ELEMENTAL SCROLL</text>
+  
+  <text x="400" y="1090" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#a0a0ac" opacity="0.4">Prithivī • Earth Dharanā</text>
+  
+  <text x="400" y="1130" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#606070" opacity="0.4">See image-prompts.md for AI generation</text>
+</svg>

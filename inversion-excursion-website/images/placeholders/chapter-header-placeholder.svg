@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="ch1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2415;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="chGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#ch1Bg)"/>
+  
+  
+  <!-- Tower silhouette -->
+  <g transform="translate(960, 540)" opacity="0.3">
+    <!-- Main tower body -->
+    <polygon points="0,-400 -200,400 200,400" fill="#12121a" stroke="#c9a227" stroke-width="2"/>
+    
+    
+    <!-- Tower sections -->
+    <line x1="-180" y1="200" x2="180" y2="200" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    <line x1="-160" y1="100" x2="160" y2="100" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    <line x1="-120" y1="-100" x2="120" y2="-100" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    <line x1="-100" y1="-200" x2="100" y2="-200" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    <line x1="-80" y1="-300" x2="80" y2="-300" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+    
+    
+    <!-- Doorway at bottom -->
+    <rect x="-30" y="320" width="60" height="80" fill="#2d2415" stroke="#c9a227" stroke-width="2"/>
+    
+    <!-- EXIT text -->
+    <text x="0" y="365" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#c9a227" opacity="0.6">EXIT</text>
+    
+    
+    <!-- Light from cracks -->
+    <line x1="-150" y1="150" x2="-220" y2="100" stroke="#c9a227" stroke-width="4" opacity="0.4" filter="url(#chGlow)"/>
+    
+    <line x1="150" y1="150" x2="220" y2="100" stroke="#c9a227" stroke-width="4" opacity="0.4" filter="url(#chGlow)"/>
+    
+    <line x1="0" y1="200" x2="0" y2="280" stroke="#c9a227" stroke-width="3" opacity="0.5" filter="url(#chGlow)"/>
+  </g>
+  
+  
+  <!-- Decorative elements -->
+  <path d="M 100 100 L 250 100 L 250 120 L 120 120 L 120 250 L 100 250 Z" fill="#c9a227" opacity="0.1"/>
+  
+  <path d="M 1820 100 L 1670 100 L 1670 120 L 1800 120 L 1800 250 L 1820 250 Z" fill="#c9a227" opacity="0.1"/>
+  
+  
+  <!-- Text -->
+  <text x="960" y="900" text-anchor="middle" font-family="serif" font-size="48" fill="#c9a227" opacity="0.4">CHAPTER 1</text>
+  
+  <text x="960" y="960" text-anchor="middle" font-family="serif" font-size="32" fill="#e8e8ec" opacity="0.3">The Ivory Tower</text>
+  
+  <text x="960" y="1010" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#a0a0ac" opacity="0.3">See image-prompts.md for AI generation prompt</text>
+</svg>
