@@ -39,6 +39,22 @@ All agents use `agentId: "main"` but specialize via **system prompt specializati
 | **Fact-Checker** | Verification | kimi_search, web_fetch | Verified claims list |
 | **Translator** | Localization | read, write | Translated content |
 
+### TEAM 11: SPARK (Strategic Propagation, Activism, Resistance, Community, Kinship)
+**Mission:** Grassroots organizing, community building, secure networking, movement propagation
+
+| # | Agent Name | Specialty | Primary Task |
+|---|------------|-----------|--------------|
+| 1 | **SPARK-Lead** | Movement coordination | Strategy, timelines, cell structure |
+| 2 | **SPARK-Scribe** | Stenography/documentation | Record, transcribe, distribute |
+| 3 | **SPARK-Networker** | Relationship building | 1:1 outreach, trust building |
+| 4 | **SPARK-Trainer** | Education/training | Run workshops, skill-shares |
+| 5 | **SPARK-Community** | Group facilitation | Build local circles, support networks |
+| 6 | **SPARK-Security** | Physical/digital security | OPSEC for activists, threat modeling |
+| 7 | **SPARK-Comms** | Internal communications | Newsletters, signal groups, mesh nets |
+| 8 | **SPARK-Recruit** | Onboarding/growth | Welcome funnel, radicalization pipeline |
+| 9 | **SPARK-Mobilizer** | Action coordination | Protests, campaigns, mutual aid |
+| 10 | **SPARK-Healer** | Trauma/resilience support | Care for activists, burnout prevention |
+
 ---
 
 ## PROJECT-SPECIFIC TEAMS

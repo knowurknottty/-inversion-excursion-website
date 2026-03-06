@@ -30,6 +30,7 @@ sessions_history(sessionKey: "LABEL-HERE", limit: 50);
 | **ACAD** | Lead, Neuro, Psych, Yoga, Physics, Anthro, Philosophy, History, Methods, Review | Scholarly validation |
 | **TRANS** | Lead, EU-West, EU-East, Asia-East, Asia-South, Asia-SE, MENA, Africa, LatAm, Cultural | Localized content |
 | **CIPHER** | Lead, Stego, Crypto, SecCom, OSINT, Counter, Memetic, Plausible, Social, Dead | Covert ops, secure comms |
+| **SPARK** | Lead, Scribe, Networker, Trainer, Community, Security, Comms, Recruit, Mobilizer, Healer | Grassroots organizing, movement building |
 
 ## SPAWN PATTERNS
 
