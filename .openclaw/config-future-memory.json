@@ -1,0 +1,28 @@
+# OpenClaw Future Config Patch
+## Memory Embedding with Local gemma-300M
+## Apply after updating to OpenClaw 2026.3.x+
+
+{
+  "memory": {
+    "embedding": {
+      "provider": "local",
+      "model": "gemma-300m",
+      "fallback": ["gemini", "openai"]
+    },
+    "indexConcurrency": 4,
+    "deltaThreshold": {
+      "bytes": 102400,
+      "messages": 50
+    }
+  }
+}
+
+## Installation commands for future version:
+# openclaw memory install-embedding --provider local --model gemma-300m
+# openclaw memory status --deep
+
+## Features this enables:
+# - Local embeddings (zero API cost)
+# - No OpenAI fallback unless local fails
+# - Parallel batch operations (4 concurrent)
+# - Auto re-index at 100KB or 50 messages
