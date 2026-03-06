@@ -1,0 +1,13 @@
+{
+  "name": "clawpost-extension",
+  "version": "1.1.0",
+  "description": "ClawPost browser extension for social media automation",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/chrome": "^0.0.246"
+  }
+}
