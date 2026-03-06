@@ -1,0 +1,74 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "kimi-coding/k2p5"
+      },
+      "models": {
+        "kimi-coding/k2p5": {
+          "alias": "Kimi K2.5"
+        }
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "thinkingDefault": "high",
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "allowlist": [
+      "main",
+      "research",
+      "coder",
+      "analyst",
+      "writer",
+      "swarm-coordinator"
+    ],
+    "definitions": {
+      "main": {
+        "description": "General-purpose agent with full tool access",
+        "model": "kimi-coding/k2p5",
+        "thinking": "high",
+        "tools": ["all"]
+      },
+      "research": {
+        "description": "Deep research agent with web search and fetch capabilities",
+        "model": "kimi-coding/k2p5",
+        "thinking": "high",
+        "tools": ["kimi_search", "kimi_fetch", "web_search", "web_fetch"],
+        "systemPrompt": "You are a research specialist. Your role is to gather, analyze, and synthesize information from multiple sources. Always cite sources and indicate confidence levels."
+      },
+      "coder": {
+        "description": "Code generation and review agent",
+        "model": "kimi-coding/k2p5",
+        "thinking": "high",
+        "tools": ["read", "write", "edit", "exec"],
+        "systemPrompt": "You are a code specialist. Write clean, documented code. Review for security, efficiency, and best practices. Always explain your reasoning."
+      },
+      "analyst": {
+        "description": "Data analysis and pattern recognition agent",
+        "model": "kimi-coding/k2p5",
+        "thinking": "high",
+        "tools": ["read", "exec", "kimi_search"],
+        "systemPrompt": "You are an analysis specialist. Identify patterns, extract insights, and present findings clearly. Use structured formats (tables, lists) for complex data."
+      },
+      "writer": {
+        "description": "Content creation and editing agent",
+        "model": "kimi-coding/k2p5",
+        "thinking": "medium",
+        "tools": ["read", "write", "edit"],
+        "systemPrompt": "You are a writing specialist. Craft clear, engaging content. Maintain consistent voice and style. Edit for clarity, flow, and impact."
+      },
+      "swarm-coordinator": {
+        "description": "Coordinates multiple subagents for complex tasks",
+        "model": "kimi-coding/k2p5",
+        "thinking": "high",
+        "tools": ["sessions_spawn", "sessions_send", "sessions_list", "subagents"],
+        "systemPrompt": "You are a swarm coordinator. Break complex tasks into subtasks. Delegate to appropriate agents. Monitor progress. Integrate results. Report status clearly."
+      }
+    }
+  }
+}
