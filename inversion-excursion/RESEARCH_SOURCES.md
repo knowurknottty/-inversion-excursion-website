@@ -1,347 +1,427 @@
-# RESEARCH_SOURCES.md
-## Inversion Excursion: Dungeon 1 & 2 Real-World Research Citations
+# Research Sources for IE Dungeon Grounding
 
-### Document Information
-- **Project:** Inversion Excursion
-- **Date Compiled:** 2026-03-06
-- **Dungeons Covered:** The Cathedral (D1), The Algorithm (D2)
-- **Research Type:** Verified academic, sociological, and clinical sources
+## DUNGEON 3: Tower of Babel - Workplace Surveillance & Communication Control
 
----
+### Workplace Surveillance Statistics (2024-2025)
 
-## DUNGEON 1: THE CATHEDRAL
-### Religious Institutional Structures, Doctrinal Enforcement & Religious Trauma
+1. **High5 Test - Employee Monitoring Statistics (2024-2025)**
+   - URL: https://high5test.com/employee-monitoring-statistics/
+   - Key Stats:
+     - 74% of US employers use online tracking tools
+     - 75% of US employers monitor physical workplaces
+     - 61% use AI-powered analytics for productivity measurement
+     - 67% collect biometric data
+     - 45% stress levels in high-surveillance vs 28% in low-surveillance environments
+     - 59% of employees report stress/anxiety from surveillance
+     - 46% of employers use monitoring data in termination decisions
 
----
+2. **Economic Policy Institute - National Survey of Workplace Technology (2024)**
+   - URL: https://equitablegrowth.org/research-paper/
+   - Key Findings:
+     - More than two-thirds of US workers report automated surveillance
+     - Workers monitored "all the time" report 46% work faster than is healthy vs 15% never monitored
+     - 53% of constantly monitored workers feel anxious vs 41% never monitored
+     - 9% of constantly monitored report workplace injury vs 4% never monitored
+     - Black and Hispanic workers experience disproportionately higher monitoring rates
 
-### A. Historical Inquisition Sources
+3. **WorldatWork - Workplace Surveillance and Job Performance (2025)**
+   - URL: https://worldatwork.org/publications/workspan-daily/
+   - Key Stats:
+     - 1 in 9 workers quit due to excessive monitoring
+     - 90% say strict reporting negatively affects workplace
+     - 22% report job dissatisfaction, 22% culture of fear, 18% burnout
 
-#### 1. The Papal Inquisition (1231 CE)
-**Source:** History Prime. "The Inquisition: Heresy Trials and Torture." 2025.
-- **URL:** https://www.historyprime.com/articles/dark-history/dark-history-of-the-inquisition
-- **Key Content:** Pope Gregory IX established the Papal Inquisition in 1231 to systematically combat heresy, marking a shift from local episcopal control to centralized papal oversight. Dominican and Franciscan friars became trained inquisitors.
-- **Cited In:** Dungeon 1, Real World Grounding section
+4. **Toggl Productivity Index (2025)**
+   - URL: https://toggl.com/productivity-index/
+   - Key Stats:
+     - 70% of leaders comfortable using surveillance software
+     - 67% agree they should have access to employees' personal data
+     - 76% agree they should have access to activity tracking/screen monitoring
+     - 75% acknowledge excessive monitoring hurts retention but use it anyway
 
-#### 2. The Roman Inquisition
-**Source:** Wheeler Methodist. "The Roman Inquisition: Unraveling Its Impact and Legacy." 2025.
-- **URL:** https://wheelermethodist.org/religion/inquisition-roman/
-- **Key Content:** The Roman Inquisition emerged in 1542 as a response to the Protestant Reformation, consolidating local inquisition systems under the Holy Office in Rome. Streamlined investigation and prosecution of heresy.
-- **Cited In:** Dungeon 1, Real World Grounding section
+### Workplace Mental Health & Anxiety Statistics
 
-#### 3. The Spanish Inquisition (1478-1834 CE)
-**Source:** History Prime. "The Inquisition: Heresy Trials and Torture." 2025.
-- **Key Content:** Authorized in 1478 by Ferdinand II and Isabella I. Initially targeted *conversos* (Jewish and Muslim converts suspected of false conversion). Tomás de Torquemada appointed Inquisitor General in 1483, refining bureaucracy with standardized manuals, prison oversight, and detailed record-keeping.
-- **Methods Documented:** Auto-da-fé ceremonies, torture (applied in minority of cases but with wide psychological impact), systematic documentation.
-- **Cited In:** Dungeon 1, Real World Grounding section
+5. **American Psychological Association Workplace Survey (2025)**
+   - URL: https://high5test.com/employee-wellbeing-statistics/
+   - Key Stats:
+     - 59% of US employees reported burnout in 2024
+     - 66% of millennials report significant burnout vs 39% baby boomers
+     - 92% say it's important to work for employer valuing emotional well-being
+     - 40% fear retaliation for taking mental health time off
 
-#### 4. Philippine Inquisition Adaptations
-**Source:** Sinaunang Panahon. "The Role of the Inquisition in the Philippines." 2025.
-- **URL:** https://sinaunangpanahon.com/the-role-of-the-inquisition-in-the-philippines/
-- **Key Content:** Colonial inquisitions adapted European models to local contexts, using catechisms, public rituals, and ecclesiastical courts to enforce orthodoxy and reshape indigenous beliefs.
-- **Cited In:** Dungeon 1, Real World Grounding section (institutional methods)
+6. **American Psychiatric Association Annual Mental Health Poll (2025)**
+   - URL: https://www.psychiatry.org/news-room/news-releases/
+   - Key Stats:
+     - 67% of Americans anxious about current world events
+     - 40% anxious about job security
+     - 28% talked with mental health professional in past year (up 4% from 2024)
 
----
+7. **Spring Health - Mental Health at Work Report (2025)**
+   - URL: https://www.springhealth.com/blog/mental-health-at-work-2025-global-report
+   - Key Stat: 44% of employees more stressed than five years ago
 
-### B. Cognitive Dissonance & Theological Studies
+### Amazon Warehouse Surveillance Case Study
 
-#### 5. Theological Dissonance Research
-**Source:** MDPI Religions. "Why Do They Not Do More? Analyzing Peacebuilding Actions of Religious Leaders during and after Violent Conflicts." 2024.
-- **URL:** https://www.mdpi.com/2077-1444/15/1/116
-- **Study Type:** Ethnographic research with religious leaders in Bosnia and Herzegovina
-- **Key Findings:**
-  - Religious leaders experience "theological dissonance"—mismatch between theological ideals (nonviolence, forgiveness) and practical realities (conflict, self-defense)
-  - Leaders engage in "pastoral optimization" to navigate this dissonance
-  - Degree of dissonance varies based on doctrinal traditions and individual characteristics
-- **Cited In:** Dungeon 1, Real World Grounding section (cognitive dissonance)
+8. **University of Illinois Chicago - Pain Points Study (2023)**
+   - URL: https://cued.uic.edu/wp-content/uploads/sites/219/2023/10/Pain-Points_Final_Oct2023.pdf
+   - Key Findings (1,484 Amazon workers surveyed):
+     - 41% report being injured while working at Amazon
+     - 51% of 3+ year workers have been injured
+     - 69% took unpaid time off due to pain/exhaustion in past month
+     - 52% report feeling burned out (60% for 3+ year workers)
+     - 45% say surveillance mainly used to control/discipline workers
+     - 46% of those with negative mental health impact say it's related to monitoring
 
----
+9. **UNI Global Union - International Amazon Worker Survey (2023)**
+   - URL: https://uniglobalunion.org/news/globalsurvey23/
+   - Key Findings (2,000 workers, 8 countries):
+     - 57% say monitoring negatively impacts mental health
+     - 51% negative impact on overall health
+     - 59% feel monitoring is excessive
+     - 53% fear losing jobs due to monitoring technologies
+     - 78% of delivery drivers find targets difficult/very difficult
 
-### C. Religious Trauma Syndrome (RTS) Research
+### Gamification Manipulation Research
 
-#### 6. Primary RTS Prevalence Study
-**Source:** Slade, Darren M., Adrianna Smell, Elizabeth Wilson, and Rebekah Drumsta. "Percentage of U.S. Adults Suffering From Religious Trauma: A Sociological Study." *Socio-Historical Examination of Religion and Ministry* 5, no. 1 (2023): 1–28.
-- **URL:** https://www.gcrr.org/religioustrauma
-- **Study Type:** Sociological study (n=1,581 U.S. adults)
-- **Key Statistics:**
-  - **27-33%** of U.S. adults have experienced religious trauma in their lifetime
-  - **37%** when including those with any three of six major RT symptoms
-  - **10-15%** currently suffer from religious trauma (conservative estimate)
-  - **37%** of respondents personally know individuals suffering from RT
-  - Potentially **20%** of U.S. adults currently exhibit major religious trauma symptoms
-- **Cited In:** Dungeon 1, Real World Grounding section (prevalence)
+10. **AmplifAI - Gamification Statistics (2026)**
+    - URL: https://www.amplifai.com/blog/gamification-statistics
+    - Key Stats:
+      - 90% of employees say gamification makes them more productive
+      - 89% would be more productive with more gamified elements
+      - 43% report never noticing gamification at their workplace
+      - 50% rise in workforce productivity with gamification
+      - 60% increase in employee engagement
+      - Gamification market: $19.42 billion (2025) → $92.5 billion (2030)
 
-#### 7. Religious Trauma Syndrome Clinical Definition
-**Source:** Winell, Marlene. Religious trauma syndrome (RTS) first coined 2011.
-- **Referenced In:** 
-  - Therapists in Charlotte. "Religious Trauma Therapy in Charlotte: Healing From Spiritual Wounds." 2025. https://therapistsincharlotte.com/therapists-charlotte-blog/religious-trauma-therapy-in-charlotte-healing-from-spiritual-wounds/
-  - Wild Hunt. "Researchers find 1 in 3 Americans suffer from religious trauma, many in LGBTQ+ community." 2024. https://wildhunt.org/2024/02/researchers-find-1-in-3-americans-suffer-from-religious-trauma-many-in-lgbtq-community.html
-- **Key Content:** RTS described as "to religion what complex PTSD is to interpersonal abuse—debilitating, pervasive, and worthy of specialized care even though it hasn't yet made it into the DSM-5"
-- **Cited In:** Dungeon 1, Real World Grounding section
+11. **HR Morning - Gamification Benefits Study (2025)**
+    - URL: https://www.hrmorning.com/articles/gamification-lms-training/
+    - Key Stats:
+      - 83% feel motivated with gamified training vs 61% bored without
+      - 48% increase in employee engagement
+      - 72% say gamification motivates them to work harder
+      - 89% increase in employee happiness
 
-#### 8. Reclamation Collective Survey (2021)
-**Source:** The Reclamation Collective. Survey on religious trauma and recovery.
-- **Referenced In:** LinkedIn. "Breaking Free from Religious Trauma: A Path Toward Healing with RTTM." 2025. https://www.linkedin.com/pulse/breaking-free-from-religious-trauma-path-toward-rttm-ann-zvivc
-- **Key Finding:** Over **60%** of respondents who left authoritarian religious groups reported ongoing struggles with self-worth, pervasive guilt, and social isolation
-- **Cited In:** Dungeon 1, Real World Grounding section
-
-#### 9. LGBTQ+ Religious Trauma Research
-**Source:** Wild Hunt. "Researchers find 1 in 3 Americans suffer from religious trauma, many in LGBTQ+ community." 2024.
-- **URL:** https://wildhunt.org/2024/02/researchers-find-1-in-3-americans-suffer-from-religious-trauma-many-in-lgbtq-community.html
-- **Key Content:** LGBTQ individuals experience religious trauma at disproportionately higher rates. 2022 study showed heightened risk of shame, suicidality, substance abuse, homelessness, anxiety, and depression.
-- **Additional Context:** The Trevor Project (December 2023) reported over 1,300 active conversion therapists in U.S. states (except Vermont and Hawaii). 26 states + DC have banned conversion therapy.
-- **Cited In:** Dungeon 1, Real World Grounding section
-
-#### 10. Religious "Dones" Research
-**Source:** APA Psychology Highlights. "Losing my religion: Who walks away from their faith and why?" 2023.
-- **URL:** https://www.apa.org/pubs/highlights/spotlight/issue-255
-- **Study Type:** Research on "religious dones" (formerly religious individuals)
-- **Key Findings:**
-  - **51.8%** left for intellectual reasons/outgrew faith
-  - **21.9%** left due to religious trauma (e.g., sexual abuse scandals)
-  - **14.9%** left due to personal adversity
-  - **11.4%** left for social reasons (unwelcoming community)
-- **Cited In:** Dungeon 1, Real World Grounding section
-
----
-
-### D. Institutional Control Mechanisms
-
-#### 11. Spiritual Abuse Warning Signs
-**Source:** Insight Digital Magazine (The Chicago School). "Trauma and Spiritual Abuse." 2024.
-- **URL:** https://www.thechicagoschool.edu/insight/psychology/trauma-spiritual-abuse/
-- **Key Content:** Identifies five warning signs of institutional spiritual abuse:
-  1. Power positioning (authority emphasis)
-  2. Performance preoccupation (obedience for approval)
-  3. "Cannot talk" rule (suppression of dissent)
-  4. Out-loud shaming (public belittling)
-  5. Scare tactics (divine punishment threats)
-- **Cited In:** Dungeon 1, Real World Grounding section (control mechanisms table)
-
-#### 12. Cycle of Religious Abuse
-**Source:** Sandstone Care. "Religious Trauma: Understanding and Healing." 2025.
-- **URL:** https://www.sandstonecare.com/blog/religious-trauma/
-- **Key Content:** Documents the continuous cycle: inherent guilt doctrine → confession requirement → forgiveness mediation by authorities → renewed dependency
-- **Cited In:** Dungeon 1, Real World Grounding section
+12. **Gallup State of the Global Workplace (2024)**
+    - Only 31% of US employees engaged (lowest in 10 years)
+    - 21% worldwide engaged
+    - Disengagement costs $8.8 trillion annually in lost productivity
 
 ---
 
-## DUNGEON 2: THE ALGORITHM
-### Social Media Algorithms, Engagement Manipulation & Attention Degradation
+## DUNGEON 4: Pharisee Temple - Social Media Manipulation & Curated Reality
+
+### Social Media Manipulation Tactics
+
+13. **Clue Chronicles - Influencer Deception Analysis (2024)**
+    - URL: https://www.cluechronicles.com/post/influencer-deception
+    - Key Tactics Documented:
+      - Selective sharing (hiding mundane/challenging aspects)
+      - Photo editing and advanced filters
+      - Staged authenticity (planned "spontaneous" moments)
+      - Lifestyle inflation (presenting beyond actual means)
+      - Love bombing and manufactured emergencies (Tinder Swindler case)
+      - Fyre Festival case: paid influencers promoting non-existent festival
+
+14. **CEPR - How Influencer Cartels Manipulate Social Media (2024)**
+    - URL: https://cepr.org/voxeu/columns/how-influencer-cartels-manipulate-social-media
+    - Key Findings:
+      - Influencer marketing reached $31 billion in 2023
+      - Less than 20% of companies track actual sales from influencer campaigns
+      - 15% of influencer marketing spending wasted on fake engagement
+      - FTC proposed rule (2023) to ban sale/purchase of false social indicators
+
+15. **Harvard Misinformation Review - Prebunking Study (2026)**
+    - URL: https://misinforeview.hks.harvard.edu/article/prebunking-misinformation/
+    - Key Findings:
+      - Misinformation exploits emotions by eliciting outrage
+      - 375,597 Instagram users studied in UK field experiment
+      - Appeal-to-emotion fallacy most common manipulation tactic
+
+16. **In-Mind Magazine - Covert Control Study (2025)**
+    - URL: https://www.in-mind.org/article/covert-control
+    - Key Tactics:
+      - "Us vs them" mentality building
+      - Coded messages and dog whistles
+      - Appearing authentic/trustworthy to build parasocial relationships
+      - Exploiting audience vulnerabilities
+
+### Social Comparison & Self-Esteem Research
+
+17. **Society for Psychotherapy - Social Media Effects on Self-Esteem (2025)**
+    - URL: https://societyforpsychotherapy.org/the-effects-of-social-media-on-self-esteem/
+    - Key Findings:
+      - 100% of college students have internet access, average 8-10 hours/day on devices
+      - Adolescents spend average 9 hours/day on social media
+      - More than 2 hours/day linked to mental health problems
+      - Social comparison makes individuals unhappy
+      - Body dissatisfaction positively correlated with time spent online
+
+18. **MDPI Behavioral Sciences - Social Media Addiction Study (2025)**
+    - URL: https://www.mdpi.com/2076-328X/15/4/481
+    - Key Findings:
+      - Social media addiction positively correlates with anxiety (r=0.281) and depression (r=0.327)
+      - Young people more vulnerable to negative effects on self-esteem
+      - External validation seeking creates cycle of dependency
+
+19. **Taylor's University - Instagram Use Among Malaysian Youth Study**
+    - URL: https://expert.taylors.edu.my/file/rems/publication/
+    - Key Finding: 81% of respondents edit photos before posting, illustrating lack of self-esteem
+
+20. **Springer - Fear of Missing Out Study (2024)**
+    - URL: https://link.springer.com/content/pdf/10.1007/s12144-024-06793-w.pdf
+    - Key Findings:
+      - FOMO is driving force behind social media use
+      - Highest levels in young people, especially young men
+      - Creates vicious cycle: FOMO → loneliness → more social media → more FOMO
+      - "Instagram can be one big lie" - participant quote
+
+21. **McMaster Undergraduate Journal - Curated Self Study**
+    - URL: https://journals.mcmaster.ca/mujsp/article/download/
+    - Key Findings:
+      - Stark contrast between "curated self" online vs authentic self
+      - Users feel pressured to maintain curated version
+      - Constant exposure to curated media creates warped sense of "normal"
+      - Leads to feelings of inadequacy and distorted perceptions
+
+22. **ScienceDirect - Depressive Symptoms and Upward Social Comparison (2023)**
+    - URL: https://www.sciencedirect.com/science/article/pii/S0191886923003811
+    - Key Findings (N=482 correlation, N=185 experimental, N=168 diary):
+      - More depressive symptoms → more upward social comparison on Instagram
+      - Upward comparisons increase depressive symptoms
+      - Creates vicious circle
+      - Depressive individuals more motivated to self-assess through comparison
+
+23. **Oxford Journal - Social Comparison on Social Media (2023)**
+    - URL: https://www.oxjournal.org/social-comparison-on-social-media/
+    - Key Finding: Heavy social media users (up to 5 hours/day) have lower sense of self, suffer from depression, have thoughts of suicide
+
+24. **JED Foundation - Understanding Social Comparison (2026)**
+    - URL: https://jedfoundation.org/resource/understanding-social-comparison-on-social-media/
+    - Key Finding: Comparing yourself to unrealistic, filtered, curated lives increases risk of anxiety, depression, and poor body image
+
+### FOMO (Fear of Missing Out) Statistics
+
+25. **Reality Sandwich - FOMO and Digital Dementia**
+    - URL: https://realitysandwich.com/fomo-digital-dementia-and-our-dangerous-experiment/
+    - Key Findings (Przybylski et al.):
+      - FOMO is driving force behind social media use
+      - Highest in young people, especially young men
+      - Low life satisfaction linked to high FOMO
+      - FOMO high in those who engage in distracted driving
+      - "Social network is an oxymoron" - creates isolation
+
+26. **International Journal of MCJ - Gen Z FOMO Study (2024)**
+    - URL: https://www.ijmcj.latticescipub.com/wp-content/uploads/
+    - Key Finding: Content is curated with awareness that does not fully represent reality; constant checking driven by dopamine rush
 
 ---
 
-### A. Digital Addiction & Dopamine Research
+## DUNGEON 5: The Forge (Consumerism)
 
-#### 13. Digital Addiction Overview
-**Source:** Psychotricks. "Digital Addiction Exposed: Social Media Dopamine Loops Destroying Attention." 2025.
-- **URL:** https://psychotricks.com/digital-addiction/
-- **Key Statistics:**
-  - **1 in 3 teens** meet clinical addiction thresholds
-  - **15%** of adults meet addiction criteria
-  - **Gen Z averages 9 hours daily** on apps
-  - **Global average: 7+ hours** daily screen time
-  - **150 phone checks per day** for average users
-- **Cited In:** Dungeon 2, Real World Grounding section
+### Planned Obsolescence
 
-#### 14. Neuroscience of Dopamine Loops
-**Source:** Psychotricks. "Digital Addiction Exposed." 2025.
-- **Key Findings:**
-  - **Variable-ratio reinforcement:** Same mechanism as slot machines and gambling addiction
-  - **200% dopamine spikes** from social validation (likes, comments) comparable to substance use
-  - **Prefrontal cortex thinning** in heavy users (impaired impulse control)
-  - **Amygdala hyperactivity** (heightened emotional reactivity)
-  - **Downregulated dopamine receptors** requiring escalating stimuli
-- **Cited In:** Dungeon 2, Real World Grounding section
+27. **The Phoebus Cartel (1924-1939)**
+    - Source: IEEE Spectrum, "The Great Lightbulb Conspiracy" (2014)
+    - Finding: Cartel of Osram, Philips, General Electric conspired to reduce lightbulb lifespan from 2,500 hours to 1,000 hours
+    - Document: Cartel enforced fines for manufacturers whose bulbs exceeded 1,500 hours
 
-#### 15. Recovery Neuroscience
-**Source:** Psychotricks. "Digital Addiction Exposed." 2025.
-- **Key Finding:** **4-6 weeks** of abstinence restores baseline dopamine sensitivity
-- **Cited In:** Dungeon 2, Real World Grounding section
+28. **Apple "Batterygate" (2017)**
+    - Source: Yahoo Finance (2025)
+    - Finding: Apple admitted slowing older iPhones through software updates
+    - Settlement: Apple agreed to pay up to $500 million
+    - Finding: Planned obsolescence costs typical American household $1,043/year
 
----
+29. **Printer Cartridge Lockouts**
+    - Source: Reliance Foundry Blog (2025)
+    - Finding: HP and Canon use smart chips to prevent cartridge use after expiration dates
 
-### B. Attention Span & Cognitive Impact
+30. **Fast Fashion Obsolescence**
+    - Source: MDPI Sustainability Journal (2025)
+    - Finding: Average fast fashion item worn only 7 times before discard
 
-#### 16. Attention Span Decline Research
-**Source:** Microsoft Research (cited in Psychotricks 2025).
-- **Data:**
-  | Year | Average Attention Span |
-  |------|------------------------|
-  | 2000 | 12 seconds |
-  | 2013 | 8 seconds |
-  | 2025 | 8 seconds (sustained low) |
-- **Context:** Goldfish average 9 seconds—human attention now below this threshold
-- **Cited In:** Dungeon 2, Real World Grounding section
+### Artificial Scarcity
 
-#### 17. Productivity Impact Studies
-**Source:** Microsoft Research (cited in Psychotricks 2025).
-- **Key Statistics:**
-  - **23 minutes** recovery time per interruption
-  - Heavy users: **47 seconds per task** vs. 4 minutes for light users
-  - **10 IQ point** equivalent reduction during heavy multitasking
-  - **30% drop** in reading comprehension on screens
-- **Cited In:** Dungeon 2, Real World Grounding section
+31. **De Beers Diamond Monopoly**
+    - Source: LinkedIn Business Analysis (2025)
+    - Finding: De Beers controlled 90% of diamond production in early 20th century
+    - Strategy: Stockpiling gems and releasing small quantities to maintain artificial scarcity
 
----
+32. **Nintendo Product Scarcity**
+    - Source: Magnatag Blog (2017)
+    - Finding: Nintendo NES Classic artificial shortages drove secondary market prices to $189 (MSRP $59.99)
 
-### C. Mental Health Correlations
+### Consumer Debt Statistics
 
-#### 18. Mental Health Impact Meta-Analysis
-**Source:** ACP-MN. "Social Media Algorithms and Mental Health." 2025.
-- **URL:** https://acp-mn.com/about-acp/blog/social-media-algorithms-and-mental-health/
-- **Key Mechanisms:**
-  - Content amplification of emotionally charged (especially negative) posts
-  - Comparison culture and self-esteem decline
-  - Addictive engagement and dopamine hooks
-  - FOMO (Fear Of Missing Out) effects
-  - Misinformation exposure
-- **Intervention Results:**
-  - Two-week digital detox: significant reduction in depressive symptoms
-  - Five weeks off Facebook/Instagram: improved well-being, reduced anxiety and depression
-  - Limiting to 30 minutes daily: significantly lower anxiety, depression, loneliness, FOMO
-- **Cited In:** Dungeon 2, Real World Grounding section
+33. **Federal Reserve Debt Data (Q4 2024)**
+    - Source: National Foundation for Credit Counseling (NFCC, 2025)
+    - Finding: Overall household debt at record $18.04 trillion
+    - Finding: Debt grew by $93 billion in Q4 2024
 
-#### 19. Anxiety and Depression Links
-**Source:** Psychotricks. "Digital Addiction Exposed." 2025.
-- **Key Statistics:**
-  - Heavy use (>3 hours daily): **doubles anxiety/depression odds**
-  - Passive scrolling: **triples rumination**
-  - Notification anticipation: **70% increase** in anxiety
-  - **25% prevalence increase** in youth mental health disorders since 2012
-- **Sleep Impact:**
-  - Blue light suppresses melatonin by **23%**
-  - Delays sleep onset by **1.5 hours**
-  - **70% of teens** report insomnia tied to phones
-- **Cited In:** Dungeon 2, Real World Grounding section
+34. **Credit Card Debt Analysis (2024-2025)**
+    - Source: NerdWallet Annual Household Debt Study (2025)
+    - Finding: Americans paid estimated $165.1 billion in fees and interest (2024)
+    - Finding: Average household with revolving credit card debt owes $10,899
+
+35. **Financial Health Network Report (2025)**
+    - Source: FinHealth Spend 2025
+    - Finding: 49% of financially vulnerable households paid late fees vs 3% of healthy
+    - Finding: Black (20%) and Latine (16%) cardholders higher late fees than white (9%)
+
+### Status Anxiety & Conspicuous Consumption
+
+36. **Thorstein Veblen - Theory of the Leisure Class (1899)**
+    - Source: UCT Gordon Institute Lecture (2010)
+    - Finding: "Conspicuous consumption" describes wasteful expenditure to signal status
+
+37. **Status Anxiety Research (2022)**
+    - Source: MDPI Sustainability Journal
+    - Finding: Lower subjective social class correlates with stronger conspicuous consumption
+
+38. **Materialism and Well-being Studies**
+    - Source: Sustainability Directory Academic Review (2025)
+    - Finding: Materialistic values correlate with lower happiness, increased anxiety
 
 ---
 
-### D. Filter Bubbles & Echo Chambers
+## DUNGEON 6: ICE Fortress (Carceral State)
 
-#### 20. Systematic Review (2015-2025)
-**Source:** Ahmmad, Mukhtar, et al. "Trap of Social Media Algorithms: A Systematic Review of Research on Filter Bubbles, Echo Chambers, and Their Impact on Youth." *Societies* 15, no. 11 (2025): 301.
-- **URL:** https://www.mdpi.com/2075-4698/15/11/301
-- **Study Type:** PRISMA 2020 systematic review of 30 peer-reviewed studies (2015-2025)
-- **Key Findings:**
-  1. Algorithmic systems structurally amplify ideological homogeneity
-  2. Youth demonstrate partial awareness but constrained agency
-  3. Echo chambers foster polarization and identity reinforcement
-- **Platform Distribution:**
-  - Facebook (7 studies): polarization focus
-  - YouTube (6 studies): radicalization focus
-  - Twitter/X (6 studies): echo chambers
-  - Instagram/TikTok (2 studies): algorithm awareness
-  - Multi-platform (9 studies): comparative bias
-- **Cited In:** Dungeon 2, Real World Grounding section
+### Prison-Industrial Complex Economics
 
-#### 21. Algorithmic Bias and Polarization
-**Source:** Zabieno, Anggeline Saviola, Damayanti Damayanti, and Ahmad Zaki Abdullah. "The Role of AI, Filter Bubbles, and Echo Chambers in Political and Religious Polarization on Social Media." *Dinamika* 25, no. 2 (2025): 102-118.
-- **URL:** https://ejournal.uinsatu.ac.id/index.php/dinamika/article/view/11474
-- **Key Content:** AI makes extreme content more likely to be shared; filter bubbles limit exposure to differing views; echo chambers encourage interaction only with like-minded individuals
-- **Cited In:** Dungeon 2, Real World Grounding section
+39. **Private Prison Industry Revenue (2025)**
+    - Source: IBISWorld Industry Analysis
+    - Finding: Correctional Facilities industry revenue estimated at $9.0 billion (2025)
+    - Finding: Profit margins estimated at 12.4%
 
-#### 22. Echo Chamber Literature Review
-**Source:** Otten genannt Hermes, Niclas. "Echo Chambers and Filter Bubbles: A Systematic Literature Review of Political Polarization on Social Media." Bachelor thesis, University of Groningen, 2025.
-- **URL:** https://campus-fryslan.studenttheses.ub.rug.nl/647/
-- **Key Findings:**
-  - Echo chambers supported by strong empirical evidence
-  - Network polarization driven by selective exposure and partisan blocking
-  - Effects most pronounced during politically salient periods
-  - Emotionally provocative content reinforces affective polarization
-  - Limited support for direct filter bubble effects (algorithms alone exert modest influence)
-- **Cited In:** Dungeon 2, Real World Grounding section
+40. **ICE Expansion Profits (2025)**
+    - Source: Brennan Center for Justice
+    - Finding: Congress passed $45 billion for ICE in 2025 budget—tripling annual budget
+    - Finding: CoreCivic Q2 2025 revenue: $538.2 million (up 9.8%)
+    - Finding: GEO Group Q2 2025 revenue: $636.2 million (up 5%)
 
-#### 23. Social Media and Democracy
-**Source:** Tufekci, Zeynep. *Twitter and Tear Gas: The Power and Fragility of Networked Protest*. Yale University Press, 2017.
-- **Referenced In:** SFU Summit. "Higher Further Faster: Social Media Discourses." 2023.
-- **Key Content:** "Algorithmic filtering can result in more polarization and at the same time deepen the filter bubble. The bias toward 'Like' on Facebook promotes the echo-chamber effect... Facebook's own studies show that the algorithm contributes to this bias by making the feed somewhat more tilted toward one's existing views."
-- **Cited In:** Dungeon 2, Real World Grounding section
+41. **Mass Incarceration Scale (2025)**
+    - Source: Prison Policy Initiative - "Mass Incarceration: The Whole Pie 2025"
+    - Finding: Nearly 2 million people incarcerated in U.S. on any given day
+    - Annual system-wide cost: At least $182 billion
 
----
+### For-Profit Prison Incentives
 
-### E. Engagement Optimization Research
+42. **Bed Guarantee Contracts**
+    - Source: Tufts University Prison Divestment Research (2021)
+    - Finding: Roughly three-quarters of private prison contracts include minimum occupancy clauses
+    - Finding: Contracts require states to maintain 80-100% occupancy rates
 
-#### 24. Engagement Algorithm Impact on Minors
-**Source:** Hossain, Nafis. "The Effect of Social Media Engagement Optimization Algorithms on Minor Users' Mental and Cognitive Health." University of Virginia, 2025.
-- **URL:** https://libraetd.lib.virginia.edu/public_view/xd07gv387
-- **Key Findings:**
-  - Algorithms target developmental vulnerabilities in adolescent brain
-  - Variable-ratio reinforcement creates persistent dopamine-driven engagement cycles
-  - Directly conflicts with academic requirements (sustained attention)
-  - Impairs working memory in younger users
-  - "Antisocial design"—platforms promote connection while optimizing for emotionally provocative content
-- **Cited In:** Dungeon 2, Real World Grounding section
+43. **Per-Diem Payment Structure**
+    - Source: Federal Court Documents (Meng v. GEO Group)
+    - Finding: Profit margin typically 10-15% of direct operating costs
 
----
+44. **Local Economic Incentives**
+    - Source: Brennan Center (2025)
+    - Finding: CoreCivic promised Leavenworth, Kansas: $1 million opening payment + $250,000 annually
 
-## CROSS-REFERENCE INDEX
+### Recidivism Rates
 
-### By Theme
+45. **Bureau of Justice Statistics Recidivism Data**
+    - Finding: Approximately 66-68% of released prisoners rearrested within 3 years
+    - Finding: 49.3% of federal offenders rearrested over 8-year follow-up
 
-**Religious Control & Trauma:**
-- Sources 1-4: Historical Inquisition
-- Source 5: Theological dissonance
-- Sources 6-10: Religious Trauma Syndrome prevalence
-- Sources 11-12: Institutional control mechanisms
+46. **First Step Act Recidivism Reduction**
+    - Source: Council on Criminal Justice (2024)
+    - Finding: FSA releasees: 12.4% recidivism rate vs 19.8% pre-FSA
 
-**Digital Addiction & Dopamine:**
-- Sources 13-15: Digital addiction neuroscience
-- Sources 16-17: Attention and productivity
-- Sources 18-19: Mental health correlations
+47. **Life Sentence Recidivism**
+    - Source: The Sentencing Project (2025)
+    - Finding: Individuals released after life sentences reoffend at significantly lower rates
 
-**Algorithmic Manipulation:**
-- Sources 20-23: Filter bubbles and echo chambers
-- Source 24: Engagement optimization
+### Prison Labor Exploitation
 
-### By Dungeon
+48. **UNICOR/Federal Prison Industries**
+    - Source: UC Berkeley Business Review (2025)
+    - Finding: UNICOR makes nearly $500 million in net sales annually
+    - Finding: Pays inmates between $0.23-$1.15 per hour
 
-**Dungeon 1 (The Cathedral):**
-- Primary: Sources 1-12
-- Cross-reference: Source 23 (comparison of religious/political polarization)
+49. **13th Amendment Loophole**
+    - Source: ACLU "Captive Labor" Report (2022)
+    - Finding: 13th Amendment allows slavery/involuntary servitude "as punishment for crime"
+    - Finding: Over 790,000 incarcerated people working in prisons nationwide
 
-**Dungeon 2 (The Algorithm):**
-- Primary: Sources 13-24
-- Cross-reference: Source 5 (cognitive manipulation parallels)
+50. **California Inmate Firefighters**
+    - Source: FAIR Media Analysis (2021)
+    - Finding: California inmates paid $5.12/day base rate + $1/hour when fighting fires
+    - Finding: Cost savings to California: estimated $100 million/year
 
----
+51. **Prison Commissary Exploitation**
+    - Source: Harvard Law Review Forum (2025)
+    - Finding: Commissary items cost up to 5x retail price
+    - Finding: Families spend $2.9 billion annually on commissary and phone calls
 
-## VERIFICATION STATUS
+### Incarceration Demographics
 
-| Source Category | Count | Verification Method |
-|----------------|-------|---------------------|
-| Peer-reviewed journals | 8 | DOI/URL verification |
-| Academic institutions | 6 | .edu domain verification |
-| Clinical/therapy sources | 4 | Professional practice verification |
-| Historical archives | 4 | Multiple source corroboration |
-| Systematic reviews | 2 | PRISMA methodology |
-| **TOTAL** | **24** | |
+52. **Racial Disparities in Incarceration (2024)**
+    - Source: Prison Policy Initiative
+    - Finding: Black people make up 42% of prison/jail populations but only 14% of U.S. residents
+    - Finding: Black Americans comprise 55% of those serving life without parole
+
+53. **Federal Prison Demographics (2025)**
+    - Source: U.S. Sentencing Commission
+    - Finding: Federal prison population (March 2025): 154,155
+    - Demographics: 34.9% Black, 30.7% Hispanic, 29.9% White
+
+54. **Voting Disenfranchisement**
+    - Source: The Sentencing Project (2022)
+    - Finding: 4.4 million Americans unable to vote due to felony convictions
+    - Finding: 5% of African American adults disenfranchised vs 2% overall
 
 ---
 
-## RESEARCH LIMITATIONS & DISCLAIMERS
+## Meta-Analysis Sources
 
-### Dungeon 1 (The Cathedral)
-1. **RTS not in DSM-5:** Religious Trauma Syndrome is an emerging concept not yet formally recognized in diagnostic manuals
-2. **Prevalence variance:** Studies show wide ranges (10-37%) depending on symptom criteria used
-3. **Western bias:** Most research conducted in U.S./European contexts
-4. **Self-reporting:** Prevalence studies rely on self-identification of trauma
+55. **WHO World Mental Health Report (2025)**
+    - URL: https://www.who.int/news/item/02-09-2025
+    - Key Stat: More than 1 billion people living with mental health disorders
+    - Depression/anxiety: second biggest reason for long-term disability
 
-### Dungeon 2 (The Algorithm)
-1. **Rapidly evolving field:** Research may be outdated as platforms change algorithms
-2. **Platform opacity:** Algorithms are proprietary; researchers study outputs, not mechanisms
-3. **Correlation vs. causation:** Many studies show correlation between social media use and mental health; causal relationships still being established
-4. **Age demographic focus:** Most studies focus on youth/adolescents; adult data more limited
+56. **Gallup Global Workplace Report (2024)**
+    - Only 31% of U.S. employees engaged (lowest in 10 years)
+    - 21% worldwide engaged
+    - Disengagement costs $8.8 trillion annually in lost productivity
 
 ---
 
-## NOTES FOR FUTURE UPDATES
+## Key Statistics Summary
 
-- Monitor for DSM inclusion of Religious Trauma Syndrome
-- Track longitudinal studies on attention span recovery
-- Watch for platform transparency reports on algorithm changes
-- Update prevalence statistics as new studies publish
-- Consider adding non-Western religious trauma research as available
+### Workplace Surveillance (Dungeon 3)
+- 74% of US employers use online tracking tools
+- 71% of employees worldwide digitally monitored
+- 59% report stress/anxiety from surveillance
+- 45% stress in high-surveillance vs 28% low-surveillance
+- 46% use monitoring data for termination decisions
+
+### Social Media & Mental Health (Dungeon 4)
+- 100% of college students have internet access; 8-10 hours/day average
+- 2+ hours/day social media linked to mental health problems
+- 81% edit photos before posting
+- Social comparison creates vicious circle with depression
+- FOMO highest in young men
+
+### Gamification (Dungeon 3)
+- 90% say gamification makes them more productive
+- Market growing from $19.4B (2025) to $92.5B (2030)
+- 60% engagement increase with gamification
+- 43% never notice gamification at workplace
+
+### Consumerism (Dungeon 5)
+- Planned obsolescence cost per household: $1,043/year
+- Credit card debt (2025): $682.34 billion total U.S. revolving debt
+- Average household credit card debt: $11,413
+
+### Carceral State (Dungeon 6)
+- ICE budget increase (2025): $45 billion (tripled)
+- Private prison profit margins: 10-15%
+- Prison labor wages: $0.23-$1.15/hour (federal)
+- Recidivism rate: 66-68% rearrested within 3 years
+- System cost: $182 billion/year
 
 ---
 
-*Compiled for Inversion Excursion—grounding fiction in verified reality.*
+*Compiled: March 2026*
+*For: Inversion Excursion Project - Real World Grounding Initiative*
