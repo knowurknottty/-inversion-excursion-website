@@ -100,3 +100,47 @@ pdfinfo report.pdf | grep Pages
 | Python PDF Parsing | pdfplumber | ✅ Installed |
 | Python PDF Reading | PyPDF2 | ✅ Installed |
 | Python PDF Mining | pdfminer.six | ✅ Installed |
+
+---
+
+## Memory System (Mem0 Plugin)
+
+### Configuration
+- **Mode:** Open-source (self-hosted)
+- **Embeddings:** Ollama (nomic-embed-text)
+- **LLM:** Ollama (phi4-mini)
+- **Vector Store:** In-memory (default)
+- **Storage:** SQLite (local file)
+- **User ID:** knowurknottty
+
+### Auto Features
+- **Auto-Recall:** Injects relevant memories before each turn
+- **Auto-Capture:** Stores new facts after each turn
+
+### Agent Tools
+| Tool | Description |
+|------|-------------|
+| `memory_search` | Search memories by natural language |
+| `memory_list` | List all stored memories |
+| `memory_store` | Explicitly save a fact |
+| `memory_get` | Retrieve memory by ID |
+| `memory_forget` | Delete by ID or query |
+
+### CLI Commands
+```bash
+# Search all memories
+openclaw mem0 search "what was discussed about SynSage"
+
+# Search specific scope
+openclaw mem0 search "project priorities" --scope long-term
+openclaw mem0 search "recent decisions" --scope session
+
+# View stats
+openclaw mem0 stats
+```
+
+### Zero Cloud Dependency
+- ✅ No Mem0 API key needed
+- ✅ No OpenAI API key needed
+- ✅ Runs entirely on your VPS
+- ✅ Uses local Ollama for embeddings + LLM
