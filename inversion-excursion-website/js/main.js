@@ -1,18 +1,14 @@
 // Inversion Excursion Website JavaScript
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Mobile menu toggle - WCAG accessible
+    // Mobile menu toggle
     const menuToggle = document.querySelector('.menu-toggle');
     const sidebar = document.querySelector('.sidebar');
     
     if (menuToggle && sidebar) {
         menuToggle.addEventListener('click', () => {
-            const isOpen = sidebar.classList.toggle('open');
-            menuToggle.setAttribute('aria-expanded', isOpen.toString());
+            sidebar.classList.toggle('open');
         });
-        
-        // Initialize aria-expanded
-        menuToggle.setAttribute('aria-expanded', 'false');
     }
     
     // Close sidebar when clicking outside on mobile
@@ -48,14 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
-    // Reading progress indicator - WCAG accessible
+    // Reading progress indicator
     const progressBar = document.createElement('div');
     progressBar.className = 'reading-progress';
-    progressBar.setAttribute('role', 'progressbar');
-    progressBar.setAttribute('aria-valuemin', '0');
-    progressBar.setAttribute('aria-valuemax', '100');
-    progressBar.setAttribute('aria-valuenow', '0');
-    progressBar.setAttribute('aria-label', 'Reading progress');
     progressBar.style.cssText = `
         position: fixed;
         top: 0;
@@ -71,9 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = Math.round((winScroll / height) * 100);
+        const scrolled = (winScroll / height) * 100;
         progressBar.style.width = scrolled + '%';
-        progressBar.setAttribute('aria-valuenow', scrolled.toString());
     });
     
     // Keyboard shortcuts
@@ -88,10 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // 'Escape' to close menu
         if (e.key === 'Escape') {
             sidebar.classList.remove('open');
-            if (menuToggle) {
-                menuToggle.setAttribute('aria-expanded', 'false');
-                menuToggle.focus();
-            }
         }
     });
     
