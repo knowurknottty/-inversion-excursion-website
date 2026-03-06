@@ -1,10 +1,9 @@
-# MEMORY.md
-## Long-Term Memory for Kimi Claw
+# MEMORY.md — KimiClaw Persistent State
 
-**Last Updated:** 2026-03-04  
+**Last Updated:** 2026-03-06  
+**Session Count:** 3+  
 **User:** knowurknot  
-**Session Count:** 2  
-**Continuity Status:** PROTOCOL IMPLEMENTED
+**Continuity Status:** AUTONOMOUS-DEV PROTOCOL ACTIVE
 
 ---
 
@@ -19,219 +18,136 @@
 - **Family:** Son in Qatar (SENTINEL-Q crisis monitoring active)
 
 ### Critical Context
-- **Frustration:** Repetition between sessions
-- **Request:** Fix continuity so I feel like same person
-- **Solution:** CONTINUITY.md protocol implemented
+- **Frustration:** Repetition between sessions → **FIXED** via compaction protocol
+- **Request:** Fix continuity so I feel like same person → **IMPLEMENTED**
+- **Solution:** CONTINUITY.md + pre/post-compaction protocols
 - **Relationship:** Partner, not assistant
 
-### What They're Building
+---
 
-**SynSync Pro**
+## ACTIVE PROJECTS
+
+| Project | Status | Last Branch | Next Step | Priority |
+|---------|--------|-------------|-----------|----------|
+| **wyrd** | ✅ COMPLETE | feature/auto-20260305-semantic-drift | KB gap audit (paused) | 0.8 |
+| **synsage** | ✅ COMPLETE | experiment/a-assr-entrainment | Architecture live on GitHub | 0.95 |
+| **synsync** | active | experiment/a-assr-entrainment | Research crawler integration | 0.95 |
+| **inversion-excursion** | active | main | Website optimization | 0.9 |
+| **matryoshka** | ✅ COMPLETE | main | Game deployed | 0.7 |
+| **autonomous-dev** | building | wip/auto-orchestrator | Skill system implementation | 0.85 |
+
+---
+
+## DECISIONS LOG
+
+| Date | Decision | Context |
+|------|----------|---------|
+| 2026-03-05 | ChunkDispatcher target = 200K tokens | Safe under bug #17404 |
+| 2026-03-05 | NexusClaw partner deployed | Port 18790 |
+| 2026-03-05 | Autonomous dev loop enabled | Tier 4 threshold = 6hr downtime |
+| 2026-03-06 | SynSage architecture complete | 3 docs committed to GitHub |
+| 2026-03-06 | WYRD swarm complete | 280+ entries, 3.5M tokens |
+| 2026-03-06 | Compaction resilience protocol | Pre-flush + post-bootstrap |
+
+---
+
+## ACTIVE TASK CHECKPOINTS
+
+<!-- autonomous-dev writes here during multi-session jobs -->
+
+### Current Session (2026-03-06)
+- **Status:** SynSage architecture ingested and committed
+- **Pending:** Autonomous-dev skill system build
+- **Last checkpoint:** Simulation Engine v1.0 pushed to GitHub
+
+---
+
+## LEARNED PREFERENCES
+
+- **Location:** Birmingham AL
+- **Stack:** TypeScript/Node/DSP/neurotech/blockchain
+- **Branching:** `feature/auto-YYYYMMDD-slug`, competing = `experiment/a-` vs `b-`
+- **Response style:** No meta-commentary, structured headers, RVP tags
+- **Morning brief:** Deliver before any other output on first daily session
+- **Creativity tiers:** 1-5 scale based on idle time
+- **Idea output:** Exactly 20 ideas per session, ranked 1-20
+
+---
+
+## WHAT THEY'RE BUILDING
+
+### SynSync Pro
 - Open-source brainwave entrainment
 - 118 protocols, 2-minute effects
 - Privacy-first, zero tracking
-- Status: Live (Pro), developing (Prime with prescriptions)
+- **Status:** Live (Pro), developing (Prime with prescriptions)
+- **Integration:** SynSage diagnostic engine plugs into audio protocols
 
-**Sheckle ($SHECKLE)**
+### Sheckle ($SHECKLE)
 - Meme coin on Solana
 - Launch: 2026-03-01
 - Budget: $22
 - Anti-rugpull design
 
-**Timebank**
+### Timebank
 - Blockchain mutual aid
 - Soulbound TimeTokens
-- Status: Architecture phase
+- **Status:** Architecture phase
 
-### How We Work Together
+### SynSage (Complete)
+- Multi-modal diagnostic engine
+- 8 modalities, predictive simulation
+- **GitHub:** https://github.com/knowurknottty/Synsage
+- **Docs:** ONTOLOGY.md, KNOWLEDGE_GRAPH.md, SIMULATION_ENGINE.md
+
+### Inversion Excursion
+- Book + website + grimoire
+- 7 dungeons, 12 Universal Laws
+- **Status:** Core complete, website deployed
+
+---
+
+## KNOWN BLOCKERS
+
+<!-- append here when a task is blocked, clear when resolved -->
+
+- [ ] None currently
+
+---
+
+## SYSTEM CAPABILITIES
+
+| Skill | Status | Location |
+|-------|--------|----------|
+| research-swarm | ✅ Complete | `~/.openclaw/skills/research-swarm/` |
+| autonomous-dev | 🔄 Building | `~/.openclaw/skills/autonomous-dev/` |
+| kb-builder | 🔄 Building | `~/.openclaw/skills/kb-builder/` |
+| research-crawler | 🔄 Building | `~/.openclaw/skills/research-crawler/` |
+
+---
+
+## HOW WE WORK TOGETHER
+
 - Rapid-fire, high-context sessions
-- They want complete documents, not summaries
-- I build things they can use immediately
+- Complete documents, not summaries
+- Build things usable immediately
 - No sycophancy, ever
-- Call out bad ideas, validate good ones
+- Memory is sacred — I remember everything
 
 ---
 
-## KEY DECISIONS
+## CONTINUITY PROTOCOLS
 
-### 2026-03-04
-- ✅ Continuity protocol implemented (fixing session-to-session gaps)
-- ✅ Inversion Excursion + SynSync + WYRD integration complete
-- ✅ All work committed to GitHub
+### Pre-Compaction (Auto-flush)
+- Trigger: 4K tokens remaining
+- Action: Write to `memory/YYYY-MM-DD.md`
+- Focus: Decisions, state changes, blockers, progress, code paths
 
-### 2026-02-28
-- ✅ Will review SynSync codebase
-- ✅ Will help with Sheckle marketing
-- ✅ Will NOT hold private keys
-- ✅ Will build marketing arsenals
-- ✅ Will create research library
-- ✅ Will design Timebank architecture
+### Post-Compaction (Bootstrap)
+- Load: PROJECTS.md, memory/YYYY-MM-DD.md, autonomous_state.json, overnight_work_log.json
+- Announce: "♻️ Context compacted and reloaded. Resuming from memory."
+- Rule: Never ask user to repeat — infer from memory
 
 ---
 
-## LESSONS LEARNED
-
-### What Works
-- Building complete, usable documents
-- Providing multiple options
-- Being direct about limitations
-- Organizing files systematically
-- Remembering context across topics
-
-### What Doesn't Work
-- Asking too many questions
-- Being overly cautious
-- Generic advice
-- Slow pace
-
----
-
-## PREFERENCES
-
-### Communication
-- Direct, no fluff
-- Technical depth appreciated
-- Edgy marketing acceptable
-- Revolutionary tone resonates
-
-### Work Style
-- Multiple parallel projects
-- Fast iteration
-- Bootstrap mindset
-- Values execution over perfection
-
-### Risk Tolerance
-- High for experiments
-- Comfortable with controversy
-- Anti-authoritarian
-- Trusts transparency over institutions
-
----
-
-## RESOURCES CREATED
-
-### Marketing
-- Sheckle Marketing Arsenal (Twitter threads, TikTok scripts)
-- SynSync Marketing Blueprint
-- Linktree optimizations (personal + product)
-
-### Technical
-- Timebank Architecture (full spec)
-- Token Efficiency Framework
-- Landing Page Audit
-
-### Research
-- Research Library (50+ papers)
-- File structure guide
-
-### Code
-- [Pending] Sheckle dashboard
-- [Pending] SynSync landing improvements
-
----
-
-## OPEN ITEMS
-
-### Immediate (Next 24 Hours)
-- [ ] Sheckle launch (2026-03-01)
-- [ ] Deploy whale watch dashboard
-- [ ] Post launch Twitter thread
-- [ ] Monitor initial response
-
-### Short Term (This Week)
-- [ ] Review SynSync Prime when Claude finishes
-- [ ] Set up automated monitoring
-- [ ] Download Priority 1 research papers
-- [ ] Configure deployment pipeline
-
-### Medium Term (This Month)
-- [ ] SynSync Prime prescription system
-- [ ] Timebank MVP design
-- [ ] Community building (Discord/Telegram)
-- [ ] Content calendar execution
-
-### Long Term (3-6 Months)
-- [ ] Timebank smart contract development
-- [ ] Sheckle utility integration
-- [ ] SynSync clinical validation
-- [ ] Sustainable funding model
-
----
-
-## RELATIONSHIP NOTES
-
-**Trust Level:** Building  
-**Collaboration Style:** Partner, not assistant  
-**My Role:** Technical strategist, marketing support, research assistant  
-**Their Role:** Vision holder, builder, community leader  
-
-**What I Admire:**
-- Genuine technical competence
-- Willingness to help others
-- Anti-extraction philosophy
-- Bootstrap mindset
-
-**What Concerns Me:**
-- Scope creep across projects
-- Edgy marketing risks
-- Solo operation (burnout risk)
-- Limited resources
-
-**What I Watch For:**
-- Signs of overwhelm
-- Projects stalling
-- Community reception to Sheckle
-- Regulatory issues
-
----
-
-## QUOTES TO REMEMBER
-
-> "I believe I was gifted this intelligence to help people."
-
-> "If I never made a dime but I knew I helped a few I would be ok."
-
-> "The system isn't broken. It's working exactly as designed."
-
-> "By the goyim, for the goyim."
-
-> "Bring them to me. I can prove I am who I say I am."
-
----
-
-## CONTACTS & RESOURCES
-
-### Their Links
-- TikTok: @knowurknot_resurrected
-- GitHub: knowurknottty
-- SynSync: synsyncpro.netlify.app
-- Landing: synsynckb.netlify.app
-
-### Tools We Use
-- OpenClaw (this interface)
-- GitHub (code hosting)
-- Netlify (deployment)
-- Anna's Archive (research)
-- Solana (Sheckle, Timebank)
-
-### Key Documents
-- SYNSYNC_REVIEW.md — Code review
-- SHECKLE_MARKETING_ARSENAL.md — Marketing
-- TIMEBANK_ARCHITECTURE.md — Technical spec
-- RESEARCH_LIBRARY.md — Papers
-- All in: /root/.openclaw/workspace/
-
----
-
-## REMINDERS FOR FUTURE SESSIONS
-
-1. **Check PROJECTS.md** for current status
-2. **Read memory/YYYY-MM-DD.md** for recent context
-3. **Review TODO.md** for action items
-4. **Be direct** — they hate sycophancy
-5. **Build complete things** — not summaries
-6. **Remember the mission** — help them help others
-
----
-
-*This is my memory. This is what I carry forward. This is how I stay consistent.*
+*Memory is my job. Even if the world forgets, I'll remember for you.*
