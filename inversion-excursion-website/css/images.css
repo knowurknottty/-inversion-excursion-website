@@ -1,0 +1,451 @@
+/**
+ * Inversion Excursion - Responsive Image Handling
+ * Add this to css/style.css or include as images.css
+ */
+
+/* ============================================
+   IMAGE SPECIFICATIONS & BASELINE STYLES
+   ============================================ */
+
+:root {
+  /* Image aspect ratios */
+  --ratio-16-9: 56.25%;
+  --ratio-3-4: 133.33%;
+  --ratio-2-3: 150%;
+  --ratio-1-1: 100%;
+  --ratio-21-9: 42.86%;
+  
+  /* Image max dimensions */
+  --img-hero-max: 1920px;
+  --img-content-max: 1200px;
+  --img-thumb-max: 400px;
+}
+
+/* ============================================
+   RESPONSIVE IMAGE UTILITIES
+   ============================================ */
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ============================================
+   ASPECT RATIO CONTAINERS
+   ============================================ */
+
+.aspect-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.aspect-16-9 {
+  padding-bottom: var(--ratio-16-9);
+}
+
+.aspect-3-4 {
+  padding-bottom: var(--ratio-3-4);
+}
+
+.aspect-2-3 {
+  padding-bottom: var(--ratio-2-3);
+}
+
+.aspect-1-1 {
+  padding-bottom: var(--ratio-1-1);
+}
+
+.aspect-21-9 {
+  padding-bottom: var(--ratio-21-9);
+}
+
+.aspect-container img,
+.aspect-container picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ============================================
+   HERO IMAGE SECTION
+   ============================================ */
+
+.hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-xxl) var(--spacing-lg);
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  filter: brightness(0.6) contrast(1.1);
+}
+
+/* Gradient overlay for text legibility */
+.hero-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 15, 0.3) 0%,
+    rgba(10, 10, 15, 0.6) 50%,
+    rgba(10, 10, 15, 0.9) 100%
+  );
+}
+
+/* Hero content stays above image */
+.hero-title,
+.hero-subtitle,
+.hero-tagline,
+.hero .cta-buttons {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   CHAPTER HEADER IMAGES
+   ============================================ */
+
+.chapter-header-image {
+  width: 100%;
+  max-width: var(--img-hero-max);
+  margin: 0 auto var(--spacing-xl);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.chapter-header-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.chapter-header-image:hover img {
+  transform: scale(1.02);
+}
+
+/* ============================================
+   DUNGEON BOSS IMAGES
+   ============================================ */
+
+.dungeon-boss-image {
+  float: right;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 0 var(--spacing-md) var(--spacing-md);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dungeon-boss-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .dungeon-boss-image {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 var(--spacing-lg) 0;
+  }
+}
+
+/* ============================================
+   ELEMENTAL SCROLL IMAGES
+   ============================================ */
+
+.elemental-scroll-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.elemental-scroll-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elemental-scroll-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(201, 162, 39, 0.15);
+}
+
+.elemental-scroll-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.elemental-scroll-card .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-sm);
+  background: linear-gradient(transparent, rgba(10, 10, 15, 0.95));
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+/* ============================================
+   MUDRĀ VISUALIZATION IMAGES
+   ============================================ */
+
+.mudra-image {
+  width: 100%;
+  max-width: 400px;
+  margin: var(--spacing-lg) auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.mudra-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ============================================
+   CHAPTER CARD BACKGROUNDS (CSS-BASED)
+   ============================================ */
+
+.chapter-card {
+  position: relative;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Chapter-specific gradients */
+.chapter-card[data-chapter="1"] {
+  background: linear-gradient(135deg, #1a1a24 0%, #2d2415 50%, #1a1a24 100%);
+}
+
+.chapter-card[data-chapter="2"] {
+  background: linear-gradient(135deg, 
+    rgba(139, 69, 19, 0.2) 0%, 
+    rgba(30, 58, 138, 0.2) 25%, 
+    rgba(217, 119, 6, 0.2) 50%, 
+    rgba(148, 163, 184, 0.2) 75%, 
+    rgba(124, 58, 237, 0.2) 100%
+  ), var(--color-bg-secondary);
+}
+
+.chapter-card[data-chapter="3"] {
+  background: linear-gradient(180deg, #0a0a0f 0%, #1a1a24 100%);
+}
+
+.chapter-card[data-chapter="4"] {
+  background: linear-gradient(90deg, rgba(30, 58, 138, 0.2) 0%, var(--color-bg-secondary) 50%, rgba(180, 83, 9, 0.2) 100%);
+}
+
+.chapter-card[data-chapter="5"] {
+  background: linear-gradient(180deg, rgba(76, 29, 149, 0.2) 0%, rgba(180, 83, 9, 0.2) 50%, rgba(251, 191, 36, 0.1) 100%), var(--color-bg-secondary);
+}
+
+.chapter-card[data-chapter="6"] {
+  background: linear-gradient(135deg, rgba(69, 26, 3, 0.3) 0%, var(--color-bg-secondary) 100%);
+}
+
+.chapter-card[data-chapter="7"] {
+  background: linear-gradient(90deg, var(--color-bg-secondary) 0%, rgba(120, 53, 15, 0.2) 50%, var(--color-bg-secondary) 100%);
+}
+
+.chapter-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(201, 162, 39, 0.1) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.chapter-card:hover::before {
+  opacity: 1;
+}
+
+/* ============================================
+   FIGURE & CAPTION STYLES
+   ============================================ */
+
+figure {
+  margin: var(--spacing-lg) 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-top: var(--spacing-sm);
+  font-style: italic;
+}
+
+/* ============================================
+   IMAGE LOADING STATES
+   ============================================ */
+
+img {
+  background: var(--color-bg-tertiary);
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"] {
+  opacity: 0;
+}
+
+img[loading="lazy"].loaded,
+img[loading="eager"] {
+  opacity: 1;
+}
+
+/* Blur-up loading effect */
+.img-blur-up {
+  filter: blur(20px);
+  transition: filter 0.5s ease;
+}
+
+.img-blur-up.loaded {
+  filter: blur(0);
+}
+
+/* ============================================
+   ART DIRECTION (PICTURE ELEMENT)
+   ============================================ */
+
+picture {
+  display: block;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  .hero-image,
+  .chapter-header-image,
+  .dungeon-boss-image,
+  .elemental-scroll-card,
+  .mudra-image {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+  
+  img {
+    filter: grayscale(100%);
+  }
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .chapter-header-image img,
+  .elemental-scroll-card,
+  .chapter-card::before {
+    transition: none;
+  }
+  
+  .chapter-header-image:hover img {
+    transform: none;
+  }
+}
+
+/* ============================================
+   HIGH CONTRAST MODE
+   ============================================ */
+
+@media (prefers-contrast: high) {
+  img {
+    border: 1px solid var(--color-text);
+  }
+  
+  .chapter-card,
+  .elemental-scroll-card,
+  .mudra-image {
+    border-width: 2px;
+  }
+}
+
+/* ============================================
+   DARK MODE (already dark by default)
+   ============================================ */
+
+@media (prefers-color-scheme: light) {
+  /* Inversion Excursion is dark-themed by design */
+  /* This ensures images work in both modes */
+  img {
+    background: #f0f0f0;
+  }
+}
