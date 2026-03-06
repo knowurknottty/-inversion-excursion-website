@@ -44,11 +44,25 @@ Each chapter is a level in the game. Each level contains:
 |---------|-------------|---------------------|------|--------------|
 | 1 | The Ivory Tower | Credentialism | The Pedant | The Observer / Descent |
 | 2 | The Marketplace | Elemental disconnect | The Five Scrolls | Pañca Mahābhūtas + Mudrās |
-| 3 | The Five Dungeons | Control systems × 5 | 5 Bosses | Ten Mudrās |
+| 3 | The Seven Dungeons | Control systems × 7 | 7 Bosses | Ten Mudrās + Pratyāhāra + Dhyāna |
 | 4 | The Threshold | Limitation of partial tools | — | Khecarī + Vajrolī |
 | 5 | The Ascension | Self-limitation / frequency ignorance | The Observer's Shadow | Biofield mastery |
 | 6 | The Grimoire | Unconscious language | The Word Hoarder | WYRD mastery |
 | 7 | The Open Road | The impulse to keep it | — | Transmission itself |
+
+### The Seven Dungeons Architecture (Chapter 3)
+
+Each dungeon maps to a chakra, an element, a control system, and a boss:
+
+| # | Dungeon | System | Boss | Chakra | Primary Tool |
+|---|---------|--------|------|--------|--------------|
+| I | Ivory Tower (Underground) | Credentialism | The Pedant | Root | Mahā Mudrā |
+| II | Mint of Chains | Monetary abstraction | Corporate Golem | Sacral | Mūla Bandha + Śakti Chālana |
+| III | Tower of Babel | Linguistic control | Polyglot Puppeteer | Solar Plexus | Uḍḍīyana + Jālandhara + WYRD |
+| IV | Pharisee Temple | Mediated spirituality | Grand Inquisitor | Heart | Viparīta Karaṇī + Khecarī |
+| V | Bio-Laboratory | Reductionist scientism | Alchemist of Inertia | Throat | Vajrolī + Mahā Vedha |
+| VI | Algorithm Cathedral | Attention extraction | The Feed | Third Eye | Pratyāhāra + DUM bīja |
+| VII | Mirror Labyrinth | Identity prison | The Identifier | Crown | Dhyāna + STRĪM bīja |
 
 ---
 
