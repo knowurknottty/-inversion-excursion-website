@@ -1,0 +1,45 @@
+{
+  "name": "@scrollcards/zora-minting",
+  "version": "1.0.0",
+  "description": "Zora Coins integration for ScrollCard NFT minting on Base network",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only examples/demo.ts",
+    "test": "jest",
+    "lint": "eslint sdk/**/*.ts",
+    "format": "prettier --write sdk/**/*.ts"
+  },
+  "keywords": [
+    "zora",
+    "nft",
+    "minting",
+    "base",
+    "erc721",
+    "gasless",
+    "paymaster"
+  ],
+  "author": "ScrollCards Team",
+  "license": "MIT",
+  "dependencies": {
+    "@zoralabs/protocol-sdk": "^0.11.0",
+    "@zoralabs/coins-sdk": "^0.4.6",
+    "viem": "^2.0.0",
+    "permissionless": "^0.1.0",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node-dev": "^2.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

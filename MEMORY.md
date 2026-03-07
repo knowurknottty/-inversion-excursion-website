@@ -34,7 +34,8 @@
 | **synsync** | active | experiment/a-assr-entrainment | Research crawler integration | 0.95 |
 | **inversion-excursion** | active | main | Website optimization | 0.9 |
 | **matryoshka** | ✅ COMPLETE | main | Game deployed | 0.7 |
-| **autonomous-dev** | building | wip/auto-orchestrator | Skill system implementation | 0.85 |
+| **clawroulette** | active | main | Architecture complete | 0.85 |
+| **clawaim** | building | main | Swarm designing | 0.9 |
 
 ---
 

@@ -1,0 +1,730 @@
+{
+  "_metadata": {
+    "game": "The Inversion Excursion",
+    "version": "1.0.0",
+    "balanceFormula": "Power = (BaseStat × TierMultiplier) - (CurseSeverity × 0.7)",
+    "tierMultipliers": {
+      "Physical": 1.0,
+      "Emotional": 1.2,
+      "Atomic": 1.5,
+      "Galactic": 2.0,
+      "Cosmic": 3.0,
+      "Hybrid": 1.8
+    },
+    "frequencyValues": {
+      "Delta": { "hz": 2.5, "range": "0.5-4Hz" },
+      "Theta": { "hz": 6.0, "range": "4-8Hz" },
+      "Alpha": { "hz": 10.5, "range": "8-13Hz" },
+      "Beta": { "hz": 21.5, "range": "13-30Hz" },
+      "Gamma": { "hz": 65.0, "range": "30-100Hz" },
+      "Schumann": { "hz": 7.83, "range": "7.83Hz" },
+      "432Hz": { "hz": 432.0, "range": "432Hz" }
+    }
+  },
+  "cards": [
+    {
+      "id": "P-1",
+      "name": "CITATION REQUIRED",
+      "dungeon": "The Pedant",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Beta",
+      "frequencyHz": 21.5,
+      "energyCost": 1,
+      "type": "Defense",
+      "baseStats": {
+        "defense": 15,
+        "draw": 1
+      },
+      "calculatedPower": 16.0,
+      "curse": {
+        "name": "FRAGILITY",
+        "type": "cost_increase",
+        "severity": 5,
+        "description": "Next card you play costs +1 energy",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 5,
+      "finalPowerScore": 12.5,
+      "efficiency": 12.5,
+      "flavor": "Your argument is valid but improperly formatted."
+    },
+    {
+      "id": "P-2",
+      "name": "INDEX OF FORBIDDEN KNOWLEDGE",
+      "dungeon": "The Pedant",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Alpha",
+      "frequencyHz": 10.5,
+      "energyCost": 2,
+      "type": "Control",
+      "baseStats": {
+        "revealHand": true,
+        "cardLock": 1,
+        "turns": 1
+      },
+      "calculatedPower": 18.0,
+      "curse": {
+        "name": "OBSESSION",
+        "type": "discard",
+        "severity": 12,
+        "description": "Discard your highest-cost card",
+        "hpLoss": 0,
+        "cardDiscard": 1,
+        "discardTarget": "highest_cost",
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 12,
+      "finalPowerScore": 9.6,
+      "efficiency": 4.8,
+      "flavor": "To catalog is to control. To control is to contain."
+    },
+    {
+      "id": "P-3",
+      "name": "THE FINAL FOOTNOTE",
+      "dungeon": "The Pedant",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "Gamma",
+      "frequencyHz": 65.0,
+      "energyCost": 3,
+      "type": "Attack/Scaling",
+      "baseStats": {
+        "attack": 25,
+        "maxHpBonus": 10,
+        "scaling": true
+      },
+      "calculatedPower": 52.5,
+      "curse": {
+        "name": "EXHAUSTION",
+        "type": "draw_skip",
+        "severity": 15,
+        "description": "Skip your next draw phase",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "drawSkip": 1,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 15,
+      "finalPowerScore": 42.0,
+      "efficiency": 14.0,
+      "flavor": "Even endings require proper attribution."
+    },
+    {
+      "id": "G-1",
+      "name": "CLAY FIST",
+      "dungeon": "The Golem",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Delta",
+      "frequencyHz": 2.5,
+      "energyCost": 1,
+      "type": "Attack",
+      "baseStats": {
+        "attack": 20,
+        "comboBonus": 5,
+        "comboCondition": "played_card_last_turn"
+      },
+      "calculatedPower": 22.5,
+      "curse": {
+        "name": "SLOW",
+        "type": "speed_reduction",
+        "severity": 4,
+        "description": "Reduce your next card's speed by 1",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "speedPenalty": 1,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 4,
+      "finalPowerScore": 19.2,
+      "efficiency": 19.2,
+      "flavor": "Earth remembers the shape of violence."
+    },
+    {
+      "id": "G-2",
+      "name": "ANIMATION SCROLL",
+      "dungeon": "The Golem",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Theta",
+      "frequencyHz": 6.0,
+      "energyCost": 2,
+      "type": "Summon",
+      "baseStats": {
+        "summonHp": 10,
+        "summonAttack": 5,
+        "summonType": "Clay Token",
+        "persistent": true
+      },
+      "calculatedPower": 24.0,
+      "curse": {
+        "name": "DEPENDENCY",
+        "type": "vulnerability",
+        "severity": 10,
+        "description": "While token exists, you take +5 damage from all sources",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "damageTakenIncrease": 5,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 10,
+      "finalPowerScore": 17.0,
+      "efficiency": 8.5,
+      "flavor": "Life borrowed must be paid back with interest."
+    },
+    {
+      "id": "G-3",
+      "name": "REBELLION PROTOCOL",
+      "dungeon": "The Golem",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "Gamma",
+      "frequencyHz": 65.0,
+      "energyCost": 3,
+      "type": "Board Clear",
+      "baseStats": {
+        "attack": 15,
+        "perToken": true,
+        "scalingType": "token_destruction"
+      },
+      "calculatedPower": 45.0,
+      "curse": {
+        "name": "BETRAYAL",
+        "type": "self_damage",
+        "severity": 14,
+        "description": "Take 10 damage",
+        "hpLoss": 10,
+        "cardDiscard": 0,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 14,
+      "finalPowerScore": 35.2,
+      "efficiency": 11.73,
+      "flavor": "The created always outlives the creator's intentions."
+    },
+    {
+      "id": "PP-1",
+      "name": "STRING ATTACHMENT",
+      "dungeon": "The Puppeteer",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Alpha",
+      "frequencyHz": 10.5,
+      "energyCost": 1,
+      "type": "Disruption",
+      "baseStats": {
+        "forceDiscard": 1,
+        "discardTarget": "lowest_cost"
+      },
+      "calculatedPower": 12.0,
+      "curse": {
+        "name": "ENTANGLEMENT",
+        "type": "reveal",
+        "severity": 8,
+        "description": "Reveal your hand to opponent",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "revealHand": true,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 8,
+      "finalPowerScore": 6.4,
+      "efficiency": 6.4,
+      "flavor": "A thread so fine, you'll never feel it tighten."
+    },
+    {
+      "id": "PP-2",
+      "name": "THE INVISIBLE HAND",
+      "dungeon": "The Puppeteer",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Theta",
+      "frequencyHz": 6.0,
+      "energyCost": 2,
+      "type": "Control",
+      "baseStats": {
+        "forceRandomPlay": true,
+        "duration": 1
+      },
+      "calculatedPower": 18.0,
+      "curse": {
+        "name": "EXPOSURE",
+        "type": "power_reduction",
+        "severity": 10,
+        "description": "Your next card's power is reduced by 30%",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "powerReduction": 0.30,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 10,
+      "finalPowerScore": 11.0,
+      "efficiency": 5.5,
+      "flavor": "Markets, minds, marionettes—all dance to the same fingers."
+    },
+    {
+      "id": "PP-3",
+      "name": "CROSS-WIRE",
+      "dungeon": "The Puppeteer",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "Beta",
+      "frequencyHz": 21.5,
+      "energyCost": 3,
+      "type": "Defense/Redirect",
+      "baseStats": {
+        "redirectDamage": true,
+        "duration": 1
+      },
+      "calculatedPower": 30.0,
+      "curse": {
+        "name": "TANGLE",
+        "type": "frequency_lock",
+        "severity": 12,
+        "description": "Cannot play cards matching this frequency next turn",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "lockedFrequency": "Beta",
+        "duration": 1,
+        "frequencyMisalignment": "Beta"
+      },
+      "curseSeverity": 12,
+      "finalPowerScore": 21.6,
+      "efficiency": 7.2,
+      "flavor": "Every connection is a potential weakness."
+    },
+    {
+      "id": "I-1",
+      "name": "SEARCH WARRANT",
+      "dungeon": "The Inquisitor",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Beta",
+      "frequencyHz": 21.5,
+      "energyCost": 1,
+      "type": "Reveal/Damage",
+      "baseStats": {
+        "revealHand": true,
+        "attack": 5,
+        "targeted": true
+      },
+      "calculatedPower": 15.0,
+      "curse": {
+        "name": "SCRUTINY",
+        "type": "reveal",
+        "severity": 6,
+        "description": "Opponent sees your next draw",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "revealNextDraw": true,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 6,
+      "finalPowerScore": 10.8,
+      "efficiency": 10.8,
+      "flavor": "The innocent have nothing to hide. So why are you sweating?"
+    },
+    {
+      "id": "I-2",
+      "name": "CONFESSION EXTRACTED",
+      "dungeon": "The Inquisitor",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Gamma",
+      "frequencyHz": 65.0,
+      "energyCost": 2,
+      "type": "Pressure",
+      "baseStats": {
+        "forceDiscard": 1,
+        "orDamage": 15,
+        "targeted": true
+      },
+      "calculatedPower": 24.0,
+      "curse": {
+        "name": "GUILT",
+        "type": "self_damage",
+        "severity": 7,
+        "description": "You take 5 damage",
+        "hpLoss": 5,
+        "cardDiscard": 0,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 7,
+      "finalPowerScore": 19.1,
+      "efficiency": 9.55,
+      "flavor": "Truth hurts. Sometimes literally."
+    },
+    {
+      "id": "I-3",
+      "name": "TRIAL BY ORDEAL",
+      "dungeon": "The Inquisitor",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "432Hz",
+      "frequencyHz": 432.0,
+      "energyCost": 3,
+      "type": "Judgment",
+      "baseStats": {
+        "bothTakeDamage": 20,
+        "selfHeal": 10,
+        "conditionalDraw": true
+      },
+      "calculatedPower": 45.0,
+      "curse": {
+        "name": "VERDICT",
+        "type": "conditional_advantage",
+        "severity": 14,
+        "description": "If opponent has more HP than you after this, they draw 2 cards",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "opponentDraw": 2,
+        "condition": "opponent_hp_higher",
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 14,
+      "finalPowerScore": 35.2,
+      "efficiency": 11.73,
+      "flavor": "God protects the innocent. Let's find out if that's you."
+    },
+    {
+      "id": "A-1",
+      "name": "PRIMORDIAL MUD",
+      "dungeon": "The Alchemist",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Schumann",
+      "frequencyHz": 7.83,
+      "energyCost": 1,
+      "type": "Conversion",
+      "baseStats": {
+        "convertDamageToShield": 10,
+        "conversionRate": 1.0
+      },
+      "calculatedPower": 10.0,
+      "curse": {
+        "name": "INSTABILITY",
+        "type": "shield_decay",
+        "severity": 8,
+        "description": "Shield decays by 5 at start of next turn",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "shieldDecay": 5,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 8,
+      "finalPowerScore": 4.4,
+      "efficiency": 4.4,
+      "flavor": "From earth we came, to earth we shall be reprocessed."
+    },
+    {
+      "id": "A-2",
+      "name": "MERCURIAL MOOD",
+      "dungeon": "The Alchemist",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Theta",
+      "frequencyHz": 6.0,
+      "energyCost": 2,
+      "type": "Utility",
+      "baseStats": {
+        "changeNextFrequency": true,
+        "targetAnyFrequency": true
+      },
+      "calculatedPower": 14.4,
+      "curse": {
+        "name": "VOLATILITY",
+        "type": "damage_on_change",
+        "severity": 9,
+        "description": "Take 5 damage each time you change frequencies this turn",
+        "hpLoss": 5,
+        "perChange": true,
+        "cardDiscard": 0,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 9,
+      "finalPowerScore": 8.1,
+      "efficiency": 4.05,
+      "flavor": "Quicksilver: beautiful, deadly, impossible to grasp."
+    },
+    {
+      "id": "A-3",
+      "name": "PHILOSOPHER'S STONE",
+      "dungeon": "The Alchemist",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "432Hz",
+      "frequencyHz": 432.0,
+      "energyCost": 3,
+      "type": "Conversion",
+      "baseStats": {
+        "discardCost": 2,
+        "gainHpEqualToCost": true,
+        "opponentGainsHalfShield": true
+      },
+      "calculatedPower": 36.0,
+      "curse": {
+        "name": "EQUIVALENCE",
+        "type": "opponent_benefit",
+        "severity": 16,
+        "description": "Opponent gains half that amount as shield",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "opponentShield": 0.5,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 16,
+      "finalPowerScore": 24.8,
+      "efficiency": 8.27,
+      "flavor": "Nothing is created, nothing destroyed. Only rearranged."
+    },
+    {
+      "id": "F-1",
+      "name": "EMPTY BOWL",
+      "dungeon": "The Feed",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Delta",
+      "frequencyHz": 2.5,
+      "energyCost": 1,
+      "type": "Mill/Heal",
+      "baseStats": {
+        "removeFromOppDiscard": 1,
+        "heal": 5
+      },
+      "calculatedPower": 15.0,
+      "curse": {
+        "name": "HUNGER",
+        "type": "self_mill",
+        "severity": 10,
+        "description": "Discard top card of your deck",
+        "hpLoss": 0,
+        "cardDiscard": 1,
+        "discardFromDeck": true,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 10,
+      "finalPowerScore": 8.0,
+      "efficiency": 8.0,
+      "flavor": "The first taste is always free."
+    },
+    {
+      "id": "F-2",
+      "name": "BOTTOMLESS APPETITE",
+      "dungeon": "The Feed",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Theta",
+      "frequencyHz": 6.0,
+      "energyCost": 2,
+      "type": "Recovery",
+      "baseStats": {
+        "discardEntireHand": true,
+        "healPerCard": 8,
+        "scaling": true
+      },
+      "calculatedPower": 28.8,
+      "curse": {
+        "name": "ADDICTION",
+        "type": "draw_skip",
+        "severity": 18,
+        "description": "Cannot draw cards next turn",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "drawSkip": 1,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 18,
+      "finalPowerScore": 16.2,
+      "efficiency": 8.1,
+      "flavor": "More. The answer is always more."
+    },
+    {
+      "id": "F-3",
+      "name": "FEEDING FRENZY",
+      "dungeon": "The Feed",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "Gamma",
+      "frequencyHz": 65.0,
+      "energyCost": 3,
+      "type": "Board Clear",
+      "baseStats": {
+        "bothDiscard": 2,
+        "attack": 15,
+        "bonusPerCard": 5,
+        "scaling": true
+      },
+      "calculatedPower": 52.5,
+      "curse": {
+        "name": "GLUTTONY",
+        "type": "self_damage",
+        "severity": 14,
+        "description": "Lose 10 HP",
+        "hpLoss": 10,
+        "cardDiscard": 0,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 14,
+      "finalPowerScore": 42.7,
+      "efficiency": 14.23,
+      "flavor": "The Feed does not distinguish between friend and feast."
+    },
+    {
+      "id": "ID-1",
+      "name": "LABEL GUN",
+      "dungeon": "The Identifier",
+      "tier": "Physical",
+      "rarity": "Common",
+      "tierMultiplier": 1.0,
+      "frequency": "Alpha",
+      "frequencyHz": 10.5,
+      "energyCost": 1,
+      "type": "Tempo",
+      "baseStats": {
+        "markOpponent": true,
+        "nextCardCostIncrease": 1
+      },
+      "calculatedPower": 10.0,
+      "curse": {
+        "name": "IDENTIFIED",
+        "type": "reveal",
+        "severity": 8,
+        "description": "Opponent learns the name of your next draw",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "revealNextDrawName": true,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 8,
+      "finalPowerScore": 4.4,
+      "efficiency": 4.4,
+      "flavor": "Hello, my name is: YOUR WORST NIGHTMARE"
+    },
+    {
+      "id": "ID-2",
+      "name": "TAXONOMIC PRISON",
+      "dungeon": "The Identifier",
+      "tier": "Emotional",
+      "rarity": "Uncommon",
+      "tierMultiplier": 1.2,
+      "frequency": "Beta",
+      "frequencyHz": 21.5,
+      "energyCost": 2,
+      "type": "Control",
+      "baseStats": {
+        "lockFrequency": true,
+        "duration": 1,
+        "targetChosenByPlayer": true
+      },
+      "calculatedPower": 18.0,
+      "curse": {
+        "name": "CATEGORIZED",
+        "type": "reveal",
+        "severity": 9,
+        "description": "Your highest-cost card is revealed",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "revealHighestCost": true,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 9,
+      "finalPowerScore": 11.7,
+      "efficiency": 5.85,
+      "flavor": "Kingdom, phylum, class, order, family, genus, prisoner."
+    },
+    {
+      "id": "ID-3",
+      "name": "TRUE NAME THEFT",
+      "dungeon": "The Identifier",
+      "tier": "Atomic",
+      "rarity": "Rare",
+      "tierMultiplier": 1.5,
+      "frequency": "Gamma",
+      "frequencyHz": 65.0,
+      "energyCost": 3,
+      "type": "Disruption",
+      "baseStats": {
+        "removeFromOppDiscard": 1,
+        "permanentRemoval": true
+      },
+      "calculatedPower": 30.0,
+      "curse": {
+        "name": "UNNAMED",
+        "type": "targeting_restriction",
+        "severity": 15,
+        "description": "You cannot use card names for targeting until your next turn",
+        "hpLoss": 0,
+        "cardDiscard": 0,
+        "noNamedTargeting": true,
+        "duration": 1,
+        "frequencyMisalignment": null
+      },
+      "curseSeverity": 15,
+      "finalPowerScore": 19.5,
+      "efficiency": 6.5,
+      "flavor": "A thing without a name has no power. A person without a name has no self."
+    }
+  ],
+  "balanceStatistics": {
+    "totalCards": 21,
+    "byTier": {
+      "Physical": 7,
+      "Emotional": 7,
+      "Atomic": 7
+    },
+    "byDungeon": {
+      "The Pedant": 3,
+      "The Golem": 3,
+      "The Puppeteer": 3,
+      "The Inquisitor": 3,
+      "The Alchemist": 3,
+      "The Feed": 3,
+      "The Identifier": 3
+    },
+    "byType": {
+      "Attack": 4,
+      "Defense": 1,
+      "Control": 5,
+      "Disruption": 3,
+      "Summon": 1,
+      "Conversion": 3,
+      "Mill/Heal": 1,
+      "Recovery": 1,
+      "Utility": 1,
+      "Board Clear": 2,
+      "Tempo": 1
+    },
+    "averagePowerScore": 17.4,
+    "powerScoreRange": {
+      "min": 4.4,
+      "max": 42.7
+    },
+    "averageEfficiency": 9.1,
+    "efficiencyRange": {
+      "min": 4.05,
+      "max": 19.2
+    }
+  }
+}

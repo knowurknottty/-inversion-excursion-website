@@ -1,0 +1,22 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlOiJjdXN0b2R5Iiwia2V5IjoiMHhYWFhYLi4uIn0",
+    "payload": "eyJkb21haW4iOiJjZWxsLWdhbWUueHl6In0",
+    "signature": "MHhYWFhYLi4u"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Cell",
+    "iconUrl": "https://cell-game.xyz/icon.png",
+    "homeUrl": "https://cell-game.xyz",
+    "imageUrl": "https://cell-game.xyz/og-image.png",
+    "buttonTitle": "Enter the Cell",
+    "splashImageUrl": "https://cell-game.xyz/splash.png",
+    "splashBackgroundColor": "#0a0a0f",
+    "webhookUrl": "https://cell-game.xyz/api/frame/webhook"
+  },
+  "trigger": {
+    "id": "cell-game",
+    "url": "https://cell-game.xyz"
+  }
+}

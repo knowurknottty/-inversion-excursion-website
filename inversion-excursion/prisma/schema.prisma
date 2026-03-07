@@ -1,0 +1,223 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Player {
+  id          String   @id @default(uuid())
+  fid         Int      @unique
+  address     String   @unique @db.VarChar(42)
+  reputation  Int      @default(100)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  cards       Card[]
+  cells       CellMember[]
+  battlesAsPlayer1 Battle[] @relation("Player1Battles")
+  battlesAsPlayer2 Battle[] @relation("Player2Battles")
+  battleActions BattleAction[]
+  synsyncProofs SynsyncProof[]
+
+  @@index([fid])
+  @@index([address])
+  @@map("players")
+}
+
+model Card {
+  id          String   @id @default(uuid())
+  tokenId     String?  @unique @map("token_id")
+  name        String   @db.VarChar(100)
+  description String?  @db.Text
+  imageUrl    String   @map("image_url")
+  metadata    Json     // Full metadata JSON
+  rarity      Rarity   @default(COMMON)
+  power       Int      @default(10)
+  defense     Int      @default(10)
+  speed       Int      @default(10)
+  synsyncBonus Int    @default(0) @map("synsync_bonus")
+  
+  // Ownership
+  ownerId     String   @map("owner_id")
+  owner       Player   @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  
+  // Minting
+  mintedAt    DateTime @default(now()) @map("minted_at")
+  txHash      String?  @map("tx_hash")
+  
+  // Screenshot reference
+  screenshotUrl String? @map("screenshot_url")
+  
+  // Relations
+  battles     BattleCard[]
+
+  @@index([ownerId])
+  @@index([rarity])
+  @@map("cards")
+}
+
+model Cell {
+  id          String   @id @default(uuid())
+  name        String   @unique @db.VarChar(50)
+  description String?  @db.Text
+  emblem      String?  // URL to cell emblem image
+  
+  // Stats
+  totalWins   Int      @default(0) @map("total_wins")
+  totalBattles Int     @default(0) @map("total_battles")
+  reputation  Int      @default(0)
+  
+  // Timestamps
+  createdAt   DateTime @default(now()) @map("created_at")
+  createdBy   String   @map("created_by")
+  
+  // Relations
+  members     CellMember[]
+  battles     Battle[]
+
+  @@index([reputation])
+  @@map("cells")
+}
+
+model CellMember {
+  id        String   @id @default(uuid())
+  cellId    String   @map("cell_id")
+  cell      Cell     @relation(fields: [cellId], references: [id], onDelete: Cascade)
+  playerId  String   @map("player_id")
+  player    Player   @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  role      CellRole @default(MEMBER)
+  joinedAt  DateTime @default(now()) @map("joined_at")
+
+  @@unique([cellId, playerId])
+  @@index([cellId])
+  @@index([playerId])
+  @@map("cell_members")
+}
+
+model Battle {
+  id          String       @id @default(uuid())
+  cellId      String       @map("cell_id")
+  cell        Cell         @relation(fields: [cellId], references: [id], onDelete: Cascade)
+  
+  // Players
+  player1Id   String       @map("player1_id")
+  player1     Player       @relation("Player1Battles", fields: [player1Id], references: [id], onDelete: Cascade)
+  player2Id   String?      @map("player2_id")
+  player2     Player?      @relation("Player2Battles", fields: [player2Id], references: [id], onDelete: SetNull)
+  
+  // Battle state
+  status      BattleStatus @default(PENDING)
+  winnerId    String?      @map("winner_id")
+  currentTurn Int          @default(1) @map("current_turn")
+  maxTurns    Int          @default(10) @map("max_turns")
+  
+  // Timestamps
+  startedAt   DateTime?    @map("started_at")
+  endedAt     DateTime?    @map("ended_at")
+  createdAt   DateTime     @default(now()) @map("created_at")
+  
+  // Relations
+  cards       BattleCard[]
+  actions     BattleAction[]
+
+  @@index([cellId])
+  @@index([status])
+  @@index([player1Id])
+  @@index([player2Id])
+  @@map("battles")
+}
+
+model BattleCard {
+  id          String   @id @default(uuid())
+  battleId    String   @map("battle_id")
+  battle      Battle   @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  cardId      String   @map("card_id")
+  card        Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  playerId    String   @map("player_id")
+  slot        Int      // Position in battle (1-3)
+  currentHp   Int      @map("current_hp")
+  isActive    Boolean  @default(true) @map("is_active")
+
+  @@unique([battleId, playerId, slot])
+  @@index([battleId])
+  @@index([cardId])
+  @@map("battle_cards")
+}
+
+model BattleAction {
+  id          String      @id @default(uuid())
+  battleId    String      @map("battle_id")
+  battle      Battle      @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  playerId    String      @map("player_id")
+  player      Player      @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  turn        Int
+  actionType  ActionType  @map("action_type")
+  targetId    String?     @map("target_id") // Target card or player
+  value       Int?        // Damage/heal amount
+  metadata    Json?       // Additional action data
+  createdAt   DateTime    @default(now()) @map("created_at")
+
+  @@index([battleId])
+  @@index([playerId])
+  @@map("battle_actions")
+}
+
+model SynsyncProof {
+  id          String   @id @default(uuid())
+  playerId    String   @map("player_id")
+  player      Player   @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  
+  // Proof data
+  protocolId  String   @map("protocol_id")
+  duration    Int      // Seconds of entrainment
+  frequency   Float    // Target frequency in Hz
+  verifiedAt  DateTime @map("verified_at")
+  proofHash   String   @unique @map("proof_hash") // On-chain or cryptographic proof
+  
+  // Bonus applied
+  bonusApplied Boolean @default(false) @map("bonus_applied")
+  bonusValue   Int     @default(0) @map("bonus_value")
+  
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  @@index([playerId])
+  @@index([verifiedAt])
+  @@map("synsync_proofs")
+}
+
+// Enums
+enum Rarity {
+  COMMON
+  UNCOMMON
+  RARE
+  EPIC
+  LEGENDARY
+  MYTHIC
+}
+
+enum CellRole {
+  LEADER
+  OFFICER
+  MEMBER
+}
+
+enum BattleStatus {
+  PENDING
+  ACTIVE
+  PAUSED
+  COMPLETED
+  CANCELLED
+}
+
+enum ActionType {
+  ATTACK
+  DEFEND
+  SPECIAL
+  HEAL
+  SYNSYNC_BOOST
+  SKIP
+}

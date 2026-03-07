@@ -1,0 +1,113 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "name": "inversion-excursion",
+  "buildCommand": "cd ../.. && npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "installCommand": "cd ../.. && npm install",
+  "env": {
+    "NEXT_PUBLIC_FARCASTER_APP_ID": "@next_public_farcaster_app_id",
+    "NEXT_PUBLIC_URL": "@next_public_url",
+    "NEXT_PUBLIC_SUPABASE_URL": "@next_public_supabase_url",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@next_public_supabase_anon_key",
+    "NEXT_PUBLIC_BASE_RPC_URL": "@next_public_base_rpc_url",
+    "NEXT_PUBLIC_CONTRACT_BATTLEGROUND": "@next_public_contract_battleground",
+    "NEXT_PUBLIC_CONTRACT_CELL_REGISTRY": "@next_public_contract_cell_registry",
+    "NEXT_PUBLIC_CONTRACT_FREQUENCY_CATALYST": "@next_public_contract_frequency_catalyst",
+    "NEXT_PUBLIC_ZORA_COLLECTION_BASE": "@next_public_zora_collection_base"
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization"
+        }
+      ]
+    },
+    {
+      "source": "/wasm/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/ingest/:path*",
+      "destination": "https://o4500000000000000.ingest.sentry.io/api/0000000/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/api-docs",
+      "destination": "https://docs.inversionexcursion.xyz",
+      "permanent": true
+    }
+  ],
+  "github": {
+    "silent": true,
+    "autoJobCancelation": true
+  },
+  "crons": [
+    {
+      "path": "/api/cron/sync-achievements",
+      "schedule": "0 */6 * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-expired-cells",
+      "schedule": "0 0 * * *"
+    }
+  ],
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 30
+    },
+    "app/api/mint/**/*.ts": {
+      "maxDuration": 60
+    }
+  }
+}

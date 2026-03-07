@@ -1,0 +1,37 @@
+{
+  "name": "inversion-excursion-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "^18",
+    "react-dom": "^18",
+    "@prisma/client": "^5.x",
+    "@farcaster/auth-kit": "^0.x",
+    "viem": "^2.x",
+    "@wagmi/core": "^2.x",
+    "siwe": "^2.x",
+    "zod": "^3.x",
+    "rate-limiter-flexible": "^5.x",
+    "ioredis": "^5.x"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "prisma": "^5.x",
+    "eslint": "^8",
+    "eslint-config-next": "14.x"
+  }
+}

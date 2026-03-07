@@ -1,0 +1,533 @@
+/* PlayerIdentityCard.css */
+
+/* CSS Variables */
+:root {
+  --identity-bronze: #cd7f32;
+  --identity-silver: #c0c0c0;
+  --identity-gold: #ffd700;
+  --identity-platinum: #e5e4e2;
+  --identity-legendary: #ff6b35;
+  
+  --identity-bg: #0a0a0f;
+  --identity-surface: #12121a;
+  --identity-surface-hover: #1a1a25;
+  --identity-border: #2a2a3a;
+  --identity-text: #e8e8f0;
+  --identity-text-muted: #8888a0;
+  --identity-accent: #6366f1;
+  --identity-accent-glow: rgba(99, 102, 241, 0.3);
+  
+  --identity-novice: #8b7355;
+  --identity-practitioner: #4a90a4;
+  --identity-specialist: #8b5cf6;
+  --identity-expert: #f59e0b;
+}
+
+/* Base Card */
+.identity-card {
+  background: var(--identity-surface);
+  border: 1px solid var(--identity-border);
+  border-radius: 16px;
+  padding: 24px;
+  color: var(--identity-text);
+  position: relative;
+  overflow: hidden;
+}
+
+.identity-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--identity-accent), transparent);
+  opacity: 0.5;
+}
+
+/* Compact Variant */
+.identity-card--compact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  max-width: 400px;
+}
+
+.identity-card--compact .identity-card__avatar {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.identity-card--compact .identity-card__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.identity-card--compact .identity-card__name {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.identity-card--compact .identity-card__specialization {
+  font-size: 13px;
+  color: var(--identity-text-muted);
+  margin: 0 0 8px 0;
+}
+
+.identity-card--compact .identity-card__stats-row {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--identity-text-muted);
+}
+
+/* Full Variant */
+.identity-card--full {
+  max-width: 480px;
+}
+
+.identity-card--full .identity-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.identity-card--full .identity-card__avatar {
+  width: 72px;
+  height: 72px;
+}
+
+.identity-card--full .identity-card__title {
+  flex: 1;
+}
+
+.identity-card--full .identity-card__name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+  background: linear-gradient(135deg, var(--identity-text), var(--identity-text-muted));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.identity-card--full .identity-card__specialization {
+  font-size: 14px;
+  color: var(--identity-accent);
+  margin: 0;
+  font-weight: 500;
+}
+
+.identity-card--full .identity-card__statement {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--identity-text-muted);
+  margin: 0 0 20px 0;
+  padding: 16px;
+  background: var(--identity-bg);
+  border-left: 3px solid var(--identity-accent);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+.identity-card--full .identity-card__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--identity-border);
+}
+
+.identity-card--full .identity-card__badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--identity-border);
+}
+
+/* Hero Variant */
+.identity-card--hero {
+  max-width: 720px;
+  padding: 0;
+  overflow: visible;
+}
+
+.identity-card__hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  pointer-events: none;
+}
+
+.identity-card__specialization-glow {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.15;
+  top: -100px;
+  right: -100px;
+}
+
+.identity-card__specialization-glow--novice {
+  background: var(--identity-novice);
+}
+
+.identity-card__specialization-glow--practitioner {
+  background: var(--identity-practitioner);
+}
+
+.identity-card__specialization-glow--specialist {
+  background: var(--identity-specialist);
+}
+
+.identity-card__specialization-glow--expert {
+  background: var(--identity-expert);
+}
+
+.identity-card__hero-content {
+  position: relative;
+  padding: 48px;
+  text-align: center;
+}
+
+.identity-card__avatar--large {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 24px;
+  position: relative;
+}
+
+.identity-card__avatar--large img,
+.identity-card__avatar--large .identity-card__avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  font-size: 48px;
+}
+
+.identity-card__level-ring {
+  position: absolute;
+  inset: -8px;
+  border: 2px solid transparent;
+  border-top-color: var(--identity-accent);
+  border-radius: 50%;
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  to { transform: rotate(360deg); }
+}
+
+.identity-card__tier-badge--large {
+  font-size: 12px;
+  padding: 6px 16px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.identity-card__name--large {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+  background: linear-gradient(135deg, var(--identity-text), var(--identity-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.identity-card__statement--large {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 32px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--identity-border);
+  border-radius: 12px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.identity-card__badge-showcase {
+  margin: 32px 0;
+  padding: 24px;
+  background: var(--identity-bg);
+  border-radius: 12px;
+}
+
+.identity-card__badge-showcase h4 {
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--identity-text-muted);
+}
+
+.identity-card__badge-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.identity-card__meta {
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--identity-text-muted);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Avatar */
+.identity-card__avatar {
+  position: relative;
+  width: 72px;
+  height: 72px;
+}
+
+.identity-card__avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--identity-border);
+}
+
+.identity-card__avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--identity-accent), #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  border: 2px solid var(--identity-border);
+}
+
+.identity-card__tier-badge {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background: var(--identity-surface);
+  border: 1px solid var(--identity-border);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--identity-accent);
+}
+
+/* Badge Icon */
+.badge-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--identity-bg);
+  border: 2px solid var(--tier-color, var(--identity-border));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px color-mix(in srgb, var(--tier-color, transparent) 20%, transparent);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.badge-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--tier-color, transparent) 40%, transparent);
+}
+
+.badge-icon--sm {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.badge-icon--md {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.badge-icon--lg {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  font-size: 28px;
+}
+
+.badge-icon__symbol {
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--tier-color, transparent) 60%, transparent));
+}
+
+.badge-icon--legendary-aura {
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, var(--identity-legendary), transparent, var(--identity-legendary));
+  animation: aura-rotate 3s linear infinite;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+@keyframes aura-rotate {
+  to { transform: rotate(360deg); }
+}
+
+/* Badge Showcase Item */
+.badge-showcase-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge-showcase-item__name {
+  font-size: 12px;
+  color: var(--identity-text-muted);
+  text-align: center;
+  max-width: 80px;
+}
+
+.badge-showcase-item--more {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  border: 2px dashed var(--identity-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--identity-text-muted);
+}
+
+/* Correction Pride */
+.correction-pride {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  border: 1px solid color-mix(in srgb, var(--identity-accent) 30%, transparent);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.correction-pride__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--identity-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.correction-pride__icon svg {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.correction-pride__content {
+  flex: 1;
+}
+
+.correction-pride__text {
+  margin: 0 0 12px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--identity-text);
+}
+
+.correction-pride__stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.correction-pride__rate {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--identity-accent);
+}
+
+.correction-pride__label {
+  font-size: 12px;
+  color: var(--identity-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Stat Items */
+.stat-item {
+  text-align: center;
+}
+
+.stat-item__value {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--identity-text);
+  line-height: 1.2;
+}
+
+.stat-item__label {
+  font-size: 12px;
+  color: var(--identity-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Badges More */
+.badges-more {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: 2px dashed var(--identity-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--identity-text-muted);
+}
+
+/* Featured Badge */
+.identity-card__featured-badge {
+  margin-left: auto;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .identity-card--full .identity-card__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .identity-card__hero-content {
+    padding: 32px 24px;
+  }
+  
+  .identity-card__name--large {
+    font-size: 28px;
+  }
+  
+  .identity-card__badge-grid {
+    gap: 16px;
+  }
+}

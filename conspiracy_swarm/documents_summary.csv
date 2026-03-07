@@ -1,0 +1,51 @@
+ID,Title,Content Type,Redacted %,Heinousness,Skill Granted,Skill Potency,Rarity,Classification,Date,Source
+DOC-001,PROJECT MAJESTIC FLIGHT MANIFEST - 1947,flight_log,85,9,Celestial Navigation,1.9,legendary,cosmic_secret,1947-07-08,WPAFB / MAJESTIC-12
+DOC-002,AUTOPSY REPORT: SUBJECT A-1947,autopsy,92,10,Xenobiology,2.0,legendary,cosmic_secret,1947-07-09,Walter Reed Army Medical Center
+DOC-003,OFFSHORE WIRE TRANSFER - VAULT 17,financial,67,8,Money Laundering,1.7,epic,top_secret,1982-11-22,BCCI / Cayman Islands
+DOC-004,SECURE LINE TRANSCRIPT - OPERATION MOCKINGBIRD,phone_log,74,7,Media Manipulation,1.6,rare,secret,1963-11-21,NSA Domestic Surveillance Archive
+DOC-005,SATELLITE IMAGERY - DULCE FACILITY (REDACTED),photo,88,9,Thermal Vision,1.9,legendary,cosmic_secret,1979-08-14,KH-11 Reconnaissance Satellite
+DOC-006,EMAIL THREAD: PROJECT ARTICHOKE STATUS,email,61,8,Mind Control,1.7,epic,top_secret,1953-04-03,CIA Directorate of Science & Technology
+DOC-007,FLIGHT LOG: AIR AMERICA - LAOS RUN,flight_log,55,6,Smuggler's Route,1.4,uncommon,secret,1970-03-12,Air America Operations
+DOC-008,AUTOPSY: JANE DOE #227 - PLUM ISLAND,autopsy,79,8,Pathogen Identification,1.8,epic,top_secret,1999-06-17,USDA / DHS Joint Facility
+DOC-009,SWISS ACCOUNT LEDGER - PHOENIX FUND,financial,71,9,Black Market Connections,1.8,epic,top_secret,2001-09-10,Credit Suisse Private Banking
+DOC-010,NSA INTERCEPT: TERRORIST CHATTER,phone_log,45,7,Cryptanalysis,1.5,rare,secret,2001-09-10,NSA Echelon Program
+DOC-011,CLASSIFIED PHOTO: NAZI BELL APPARATUS,photo,82,7,Antigravity Theory,1.7,epic,top_secret,1945-05-02,ALSOS Mission Archive
+DOC-012,EMAIL: MONARCH PROGRAM SUBJECT RECRUITMENT,email,89,10,Trauma Programming,2.0,legendary,cosmic_secret,1984-02-14,Presidio Military Intelligence
+DOC-013,AREA 51 FLIGHT TEST LOG - WEEK 34,flight_log,91,8,Stealth Piloting,1.8,legendary,cosmic_secret,1989-08-19,Groom Lake Test Facility
+DOC-014,AUTOPSY: KENNEDY SECOND SHOOTER EVIDENCE,autopsy,95,9,Forensic Analysis,1.9,legendary,cosmic_secret,1963-11-23,Bethesda Naval Hospital
+DOC-015,IRAQ WAR CONTRACT INVOICE - BLACKWATER,financial,43,6,Mercenary Contracting,1.3,uncommon,confidential,2007-09-16,Department of Defense
+DOC-016,PHONE LOG: EPSTEIN-MAXWELL EXCHANGE,phone_log,76,9,Influence Network,1.8,epic,top_secret,2005-07-03,FISA Wiretap Archive
+DOC-017,LUNAR SURFACE PHOTO - ANOMALY SITE,photo,87,8,Anomaly Detection,1.8,legendary,cosmic_secret,1971-08-02,Apollo 15 Mission Archive
+DOC-018,EMAIL: COINTELPRO TARGET ASSESSMENT,email,52,6,Disruption Tactics,1.4,uncommon,secret,1968-04-15,FBI Counterintelligence Program
+DOC-019,CHEMTRAIL FLIGHT PLAN - OPERATION INDIGO SKY,flight_log,68,7,Atmospheric Control,1.6,rare,top_secret,2003-05-12,Air Force Weather Modification Wing
+DOC-020,AUTOPSY: TUSKEGEE SUBJECT #399,autopsy,64,9,Medical Ethics Breach,1.8,epic,top_secret,1972-11-03,USPHS Syphilis Study Archive
+DOC-021,OFFSHORE ACCOUNT: CLINTON FOUNDATION,financial,58,6,Foundation Washing,1.4,uncommon,confidential,2010-03-22,HSBC Private Bank (Geneva)
+DOC-022,CALL TRANSCRIPT: BUSH-CHENEY-9/11,phone_log,93,9,False Flag Orchestration,1.9,legendary,cosmic_secret,2001-09-11,Presidential Emergency Operations Center
+DOC-023,SATELLITE PHOTO: ANTARCTICA ENTRANCE,photo,81,8,Subterranean Mapping,1.7,epic,top_secret,2006-12-04,GeoEye-1 Commercial Imagery
+DOC-024,EMAIL: GATES FOUNDATION VACCINE TRIAL,email,59,7,Population Management,1.5,rare,secret,2014-09-18,GAVI Alliance Internal Communications
+DOC-025,EPSTEIN FLIGHT LOG - LITTLE SAINT JAMES,flight_log,77,9,Island Navigation,1.8,epic,top_secret,2003-04-14,FAA Records (Sealed)
+DOC-026,AUTOPSY: SETH RICH,autopsy,86,8,Evidence Suppression,1.8,epic,top_secret,2016-07-10,DC Office of Chief Medical Examiner
+DOC-027,VATICAN BANK TRANSFER - IOR LEDGER,financial,72,7,Institutional Immunity,1.6,rare,secret,1982-06-18,Istituto per le Opere di Religione
+DOC-028,PHONE LOG: RUBY-OSWALD EXCHANGE,phone_log,69,7,Patsy Recruitment,1.6,rare,secret,1963-11-23,Dallas PD Wiretap
+DOC-029,MARS ROVER PHOTO - ANOMALY SOL 371,photo,84,8,Planetary Archaeology,1.8,legendary,cosmic_secret,2014-08-14,JPL Curiosity Mission Archive
+DOC-030,EMAIL: PIZZAGATE CODE WORDS,email,56,8,Child Trafficking Network,1.6,rare,secret,2015-12-03,Wikileaks Podesta Archive
+DOC-031,MOON LANDING STAGE COORDINATES,flight_log,90,9,Hollywood Production,1.9,legendary,cosmic_secret,1969-07-14,Lookout Mountain Laboratory
+DOC-032,AUTOPSY: ANDREW BREITBART,autopsy,75,7,Heart Attack Induction,1.6,rare,top_secret,2012-03-01,LA County Coroner's Office
+DOC-033,BOHEMIAN GROVE ATTENDEE PAYMENTS,financial,62,7,Elite Network Access,1.5,rare,secret,2000-07-15,Bohemian Club Financial Records
+DOC-034,PRINCESS DIANA CRASH - NSA INTERCEPT,phone_log,88,8,Vehicle Sabotage,1.8,epic,top_secret,1997-08-31,GCHQ/NSA Joint Surveillance
+DOC-035,PHOTO: PHILADELPHIA EXPERIMENT SURVIVOR,photo,79,8,Phase Shifting,1.7,epic,top_secret,1943-10-29,Naval Research Laboratory
+DOC-036,EMAIL: EVENT 201 PREDICTION PARAMETERS,email,53,8,Pandemic Simulation,1.6,rare,confidential,2019-10-18,Johns Hopkins Center / WEF
+DOC-037,TWA 800 MISSILE SIGNATURE FLIGHT DATA,flight_log,83,8,Friendly Fire Cover,1.8,epic,top_secret,1996-07-17,NTSB / FBI Joint Investigation
+DOC-038,AUTOPSY: VINCE FOSTER,autopsy,80,7,Suicide Staging,1.7,epic,top_secret,1993-07-20,US Park Police / FBI Lab
+DOC-039,BEAR STEARNS COLLAPSE - INSIDER TRADES,financial,48,6,Market Manipulation,1.3,uncommon,confidential,2008-03-14,SEC Investigation
+DOC-040,OKC BOMBING - ADDITIONAL EXPLOSIVES CALL,phone_log,70,8,Demolition Coordination,1.7,epic,top_secret,1995-04-19,OKC Police / FBI Joint Ops
+DOC-041,PHOTO: BIGFOOT DNA COLLECTION SITE,photo,66,5,Cryptid Tracking,1.3,uncommon,secret,2012-08-12,Ketchum DNA Project
+DOC-042,EMAIL: COVID-19 LAB ORIGIN CONFERENCE,email,57,7,Gain-of-Function,1.5,rare,secret,2020-02-01,NIH / EcoHealth Alliance
+DOC-043,MALAYSIA FLIGHT 370 SATELLITE HANDSHAKES,flight_log,89,8,Aircraft Disappearance,1.9,legendary,top_secret,2014-03-08,Inmarsat / Malaysian Military
+DOC-044,AUTOPSY: JEFFREY EPSTEIN,autopsy,78,8,Prison Suicide,1.7,epic,top_secret,2019-08-10,NYC Medical Examiner
+DOC-045,PEDOGATE FINANCIAL NETWORK MAP,financial,94,10,Trafficking Empire,2.0,legendary,cosmic_secret,2016-11-03,NYPD / FBI Weiner Laptop
+DOC-046,911 PUT OPTIONS - DEUTSCHE BANK,phone_log,81,9,Foreknowledge Trading,1.9,legendary,cosmic_secret,2001-09-06,SEC / CIA Financial Crimes Unit
+DOC-047,PHOTO: UNDERGROUND BASE ENTRANCE - DULCE,photo,86,9,Deep Access,1.9,legendary,cosmic_secret,1979-09-25,Bennewitz Surveillance Archive
+DOC-048,EMAIL: JFK JR. CRASH INVESTIGATION,email,73,7,Aviation Sabotage,1.6,rare,top_secret,1999-07-16,NTSB / Clinton Administration
+DOC-049,VAXXED DOCUMENTARY - CDC WHISTLEBLOWER,email,60,7,Data Manipulation,1.5,rare,secret,2014-02-02,CDC Immunization Safety Office
+DOC-050,THE BLACK BOOK - COMPLETE CLIENT LIST,financial,97,10,Ultimate Leverage,2.5,legendary,cosmic_secret,1992-2019,Epstein Personal Archives

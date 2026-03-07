@@ -1,0 +1,185 @@
+{
+  "name": "The Black Archive - [DOCUMENT_TITLE]",
+  "description": "A classified document from The Black Archive. Redacted, dangerous, and powerful. Equip to unlock forbidden knowledge.",
+  "image": "ipfs://[CID]/[DOCUMENT_ID].png",
+  "external_url": "https://conspiracyswarm.game/document/[DOCUMENT_ID]",
+  "animation_url": "ipfs://[CID]/[DOCUMENT_ID]_animated.mp4",
+  "attributes": [
+    {
+      "trait_type": "Content Type",
+      "value": "[flight_log|autopsy|financial|phone_log|photo|email]"
+    },
+    {
+      "trait_type": "Classification",
+      "value": "[confidential|secret|top_secret|cosmic_secret]"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "[common|uncommon|rare|epic|legendary]"
+    },
+    {
+      "trait_type": "Redaction Level",
+      "value": "[0-30%|31-50%|51-70%|71-90%|91-100%]",
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Heinousness Score",
+      "value": "[1-10]",
+      "display_type": "number",
+      "max_value": 10
+    },
+    {
+      "trait_type": "Skill Granted",
+      "value": "[SKILL_NAME]"
+    },
+    {
+      "trait_type": "Skill Potency",
+      "value": "[1.0-2.5]x",
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Corruption Risk",
+      "value": "[none|low|medium|high|extreme|apocalyptic]"
+    },
+    {
+      "trait_type": "Document Date",
+      "value": "[YYYY-MM-DD]",
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Source Agency",
+      "value": "[AGENCY_NAME]"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "The Black Archive"
+    },
+    {
+      "trait_type": "Series",
+      "value": "Genesis Documents"
+    }
+  ],
+  "properties": {
+    "document_id": "[DOC-XXX]",
+    "content_type": "[type]",
+    "redacted_percent": "[0-100]",
+    "heinousness_score": "[1-10]",
+    "skill_id": "[SKILL-XXX]",
+    "skill_name": "[SKILL_NAME]",
+    "skill_potency": "[float]",
+    "synergies": ["[DOC-XXX]", "[DOC-XXX]"],
+    "tags": ["[tag1]", "[tag2]", "[tag3]"],
+    "lore": "[Brief narrative description of the document's significance]",
+    "unlock_criteria": "[How this document is obtained in-game]",
+    "verified": "[boolean - has the player completed verification challenge]"
+  },
+  "background_color": "[HEX based on classification]",
+  "animation_details": {
+    "format": "MP4",
+    "duration": "10s loop",
+    "effects": [
+      "Pulsing redaction bars",
+      "Classification stamp overlay",
+      "Flickering document texture",
+      "Easter egg flashes at random intervals"
+    ]
+  }
+}
+
+---
+
+## Classification Color Codes
+
+| Classification | Background Color | Border Style |
+|----------------|-----------------|--------------|
+| Confidential | #4A4A4A | Thin gray |
+| Secret | #8B0000 | Double red |
+| Top Secret | #FFD700 | Embossed gold |
+| Cosmic Secret | #9400D3 | Animated purple glow |
+
+## Rarity Visual Indicators
+
+| Rarity | Effect |
+|--------|--------|
+| Common | None |
+| Uncommon | Subtle paper texture |
+| Rare | Faint watermark visible |
+| Epic | Occasional glitch effect |
+| Legendary | Pulsing aura, particle effects |
+
+## Redaction Visual Representation
+
+Redaction is represented visually by:
+- Black bars over text in the image
+- Percentage displayed as "█" blocks (e.g., 70% = ███████░)
+- Animated scanlines suggesting censorship
+- Occasional frame where redaction flickers, revealing glimpses
+
+## Heinousness Visual Representation
+
+- Score 1-3: Clean document, white background
+- Score 4-6: Slight yellowing, coffee stains
+- Score 7-8: Blood spatter texture, burn marks
+- Score 9: Darkened edges, ominous shadow overlay
+- Score 10: Constant subtle static, occasional scream audio on interaction
+
+## Interactive Elements
+
+### On Hover:
+- Redaction bars shift slightly (tease reveal)
+- Classification stamp rotates 3D
+- Skill icon pulses
+
+### On Click:
+- Full-screen document view
+- "Attempt Decryption" minigame option
+- "Equip" button (if owned)
+- "Trade" button linking to marketplace
+
+### On Long Press:
+- Reveal hidden metadata (if high enough player level)
+- Show connected document web
+- Display conspiracy theory connections
+
+---
+
+## Example: DOC-001 (Legendary)
+
+```json
+{
+  "name": "The Black Archive - PROJECT MAJESTIC FLIGHT MANIFEST - 1947",
+  "description": "Flight coordinates from the recovery mission that changed everything. 85% redacted. Equip to gain Celestial Navigation.",
+  "image": "ipfs://QmXxx/DOC-001.png",
+  "external_url": "https://conspiracyswarm.game/document/DOC-001",
+  "animation_url": "ipfs://QmXxx/DOC-001_animated.mp4",
+  "attributes": [
+    {"trait_type": "Content Type", "value": "flight_log"},
+    {"trait_type": "Classification", "value": "cosmic_secret"},
+    {"trait_type": "Rarity", "value": "legendary"},
+    {"trait_type": "Redaction Level", "value": "85%", "display_type": "boost_percentage"},
+    {"trait_type": "Heinousness Score", "value": 9, "display_type": "number", "max_value": 10},
+    {"trait_type": "Skill Granted", "value": "Celestial Navigation"},
+    {"trait_type": "Skill Potency", "value": "1.9x", "display_type": "boost_number"},
+    {"trait_type": "Corruption Risk", "value": "medium"},
+    {"trait_type": "Document Date", "value": "1947-07-08", "display_type": "date"},
+    {"trait_type": "Source Agency", "value": "WPAFB / MAJESTIC-12"},
+    {"trait_type": "Collection", "value": "The Black Archive"},
+    {"trait_type": "Series", "value": "Genesis Documents"}
+  ],
+  "properties": {
+    "document_id": "DOC-001",
+    "content_type": "flight_log",
+    "redacted_percent": 85,
+    "heinousness_score": 9,
+    "skill_id": "SKILL-001",
+    "skill_name": "Celestial Navigation",
+    "skill_potency": 1.9,
+    "synergies": ["DOC-002", "DOC-005", "DOC-013"],
+    "tags": ["ufo", "crash_retrieval", "coverup", "roswell"],
+    "lore": "The flight that found what should have stayed hidden. Every coordinate on this manifest is a door to somewhere else.",
+    "unlock_criteria": "Complete 'The Crash Site' investigation chain",
+    "verified": false
+  },
+  "background_color": "9400D3"
+}
+```

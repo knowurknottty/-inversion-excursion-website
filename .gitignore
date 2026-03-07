@@ -1,2 +1,46 @@
-.git-credentials
-synsage/
+# The Inversion Excursion Contracts
+
+/node_modules
+/out
+/cache
+artifacts
+coverage
+typechain-types
+*.log
+.env
+.env.local
+.env.*.local
+
+# Foundry
+lib/
+out/
+cache/
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+coverage.json
+
+# Deployment
+deployments/local*
+!deployments/.gitkeep
+
+# Build
+dist/
+build/

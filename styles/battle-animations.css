@@ -1,0 +1,525 @@
+/**
+ * EPWORLD Battle Animation Styles
+ * Utility classes for battle visual effects
+ */
+
+/* ==========================================================================
+   TURN INDICATOR ANIMATIONS
+   ========================================================================== */
+
+@keyframes turn-pulse-player {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(99, 102, 241, 0);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+    transform: scale(1.02);
+  }
+}
+
+@keyframes turn-pulse-enemy {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(239, 68, 68, 0);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+    transform: scale(1.02);
+  }
+}
+
+.turn-indicator-player {
+  animation: turn-pulse-player 1s ease-in-out infinite;
+}
+
+.turn-indicator-enemy {
+  animation: turn-pulse-enemy 1s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   KI AURA ANIMATIONS
+   ========================================================================== */
+
+@keyframes ki-pulse-idle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes ki-pulse-charged {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes ki-pulse-super {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.ki-aura-idle {
+  animation: ki-pulse-idle 0.5s ease-in-out infinite;
+}
+
+.ki-aura-charged {
+  animation: ki-pulse-charged 0.5s ease-in-out infinite;
+}
+
+.ki-aura-super {
+  animation: ki-pulse-super 0.5s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   DAMAGE NUMBER ANIMATIONS
+   ========================================================================== */
+
+@keyframes damage-float {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.2);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-60px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-80px) scale(0.8);
+  }
+}
+
+.damage-number {
+  animation: damage-float 1.2s ease-out forwards;
+}
+
+@keyframes critical-flash {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(250, 204, 21, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 40px rgba(250, 204, 21, 1);
+  }
+}
+
+.critical-text {
+  animation: critical-flash 0.3s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   SCREEN SHAKE
+   ========================================================================== */
+
+@keyframes screen-shake {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-5px, -3px); }
+  20% { transform: translate(5px, 3px); }
+  30% { transform: translate(-5px, 3px); }
+  40% { transform: translate(5px, -3px); }
+  50% { transform: translate(-3px, 5px); }
+  60% { transform: translate(3px, -5px); }
+  70% { transform: translate(-3px, -5px); }
+  80% { transform: translate(3px, 5px); }
+  90% { transform: translate(-1px, -1px); }
+}
+
+.screen-shake {
+  animation: screen-shake 0.5s ease-in-out;
+}
+
+.screen-shake-heavy {
+  animation: screen-shake 0.8s ease-in-out;
+}
+
+/* ==========================================================================
+   CARD ANIMATIONS
+   ========================================================================== */
+
+@keyframes card-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(99, 102, 241, 0.4);
+  }
+}
+
+.card-selected {
+  animation: card-glow 1s ease-in-out infinite;
+}
+
+@keyframes card-lift {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
+.card-hover:hover {
+  animation: card-lift 0.2s ease-out forwards;
+}
+
+/* ==========================================================================
+   HEALTH BAR ANIMATIONS
+   ========================================================================== */
+
+@keyframes health-warning {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.health-warning {
+  animation: health-warning 0.5s ease-in-out infinite;
+}
+
+@keyframes health-damage {
+  0% {
+    width: var(--health-before);
+  }
+  100% {
+    width: var(--health-after);
+  }
+}
+
+.health-damage {
+  animation: health-damage 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* ==========================================================================
+   TRANSFORMATION CINEMATIC
+   ========================================================================== */
+
+@keyframes transform-flash {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0; }
+}
+
+.transform-flash {
+  animation: transform-flash 0.5s ease-out forwards;
+}
+
+@keyframes energy-wave {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(3) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.energy-wave {
+  animation: energy-wave 2s ease-out forwards;
+}
+
+@keyframes text-reveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.text-reveal {
+  animation: text-reveal 0.5s ease-out forwards;
+}
+
+/* ==========================================================================
+   COMBO COUNTER
+   ========================================================================== */
+
+@keyframes combo-pulse {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 0 0 20px rgba(250, 204, 21, 0.5);
+  }
+  50% {
+    transform: scale(1.1);
+    text-shadow: 0 0 40px rgba(250, 204, 21, 0.8);
+  }
+}
+
+.combo-counter {
+  animation: combo-pulse 0.3s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   STUN EFFECT
+   ========================================================================== */
+
+@keyframes stun-star {
+  0%, 100% {
+    transform: translateY(-10px) rotate(0deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+    opacity: 1;
+  }
+}
+
+.stun-star {
+  animation: stun-star 1s ease-in-out infinite;
+}
+
+@keyframes dizzy-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dizzy-spin {
+  animation: dizzy-spin 2s linear infinite;
+}
+
+/* ==========================================================================
+   CHARGING EFFECT
+   ========================================================================== */
+
+@keyframes charging-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.charging-ring {
+  animation: charging-rotate 1s linear infinite;
+}
+
+@keyframes charging-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+.charging-pulse {
+  animation: charging-pulse 1s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   VICTORY/DEFEAT OVERLAY
+   ========================================================================== */
+
+@keyframes victory-flash {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.victory-flash {
+  animation: victory-flash 0.5s ease-out forwards;
+}
+
+@keyframes trophy-bounce {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  50% {
+    transform: scale(1) rotate(0deg);
+  }
+  75% {
+    transform: scale(1.1) rotate(-10deg);
+  }
+}
+
+.trophy-bounce {
+  animation: trophy-bounce 0.5s ease-out;
+}
+
+/* ==========================================================================
+   LIVE INDICATOR (Spectator Mode)
+   ========================================================================== */
+
+@keyframes live-ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.live-ping {
+  animation: live-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* ==========================================================================
+   TIMER WARNING
+   ========================================================================== */
+
+@keyframes timer-blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.timer-warning {
+  animation: timer-blink 0.5s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   BATTLE LOG ENTRY
+   ========================================================================== */
+
+@keyframes log-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.log-entry {
+  animation: log-slide-in 0.3s ease-out forwards;
+}
+
+/* ==========================================================================
+   DUNGEON AI RESPONSE
+   ========================================================================== */
+
+@keyframes ai-response-slide {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ai-response {
+  animation: ai-response-slide 0.3s ease-out forwards;
+}
+
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+/* Hide scrollbar for card hand */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Safe area support */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-left {
+  padding-left: env(safe-area-inset-left);
+}
+
+.safe-right {
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Touch optimization */
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
+/* GPU acceleration */
+.gpu-accelerated {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .turn-indicator-player,
+  .turn-indicator-enemy,
+  .ki-aura-idle,
+  .ki-aura-charged,
+  .ki-aura-super,
+  .damage-number,
+  .critical-text,
+  .screen-shake,
+  .screen-shake-heavy,
+  .card-selected,
+  .card-hover:hover,
+  .health-warning,
+  .health-damage,
+  .transform-flash,
+  .energy-wave,
+  .text-reveal,
+  .combo-counter,
+  .stun-star,
+  .dizzy-spin,
+  .charging-ring,
+  .charging-pulse,
+  .victory-flash,
+  .trophy-bounce,
+  .live-ping,
+  .timer-warning,
+  .log-entry,
+  .ai-response {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,29 @@
+[profile.default]
+src = "contracts"
+test = "test"
+script = "script"
+out = "out"
+libs = ["lib"]
+
+[profile.default.solc]
+version = "0.8.20"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+
+[fmt]
+line_length = 120
+bracket_spacing = false
+int_types = "long"
+multiline_func_header = "all"
+number_underscore = "thousands"
+quote_style = "double"
+tab_width = 4
+
+[rpc_endpoints]
+base = "${BASE_RPC_URL}"
+base_goerli = "${BASE_GOERLI_RPC_URL}"
+
+[etherscan]
+base = { key = "${BASESCAN_API_KEY}", url = "https://api.basescan.org/api" }
+base_goerli = { key = "${BASESCAN_API_KEY}", url = "https://api-goerli.basescan.org/api" }

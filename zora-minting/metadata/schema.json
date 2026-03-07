@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScrollCard NFT Metadata",
+  "description": "Metadata schema for ScrollCard collectible NFTs minted on Base via Zora",
+  "type": "object",
+  "required": ["name", "description", "image", "attributes"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the card",
+      "example": "Scroll of the Ancient Dungeon #42"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the card",
+      "example": "A mystical scroll card extracted from Chapter 7, found in the Crystal Caverns dungeon. The quote resonates with ancient wisdom."
+    },
+    "image": {
+      "type": "string",
+      "format": "uri",
+      "description": "IPFS URI to the card image",
+      "example": "ipfs://QmXxxx.../card-42.png"
+    },
+    "external_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to view the card on your platform",
+      "example": "https://scrollcards.io/card/42"
+    },
+    "animation_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional animated version of the card"
+    },
+    "attributes": {
+      "type": "array",
+      "description": "Card stats and properties",
+      "items": {
+        "type": "object",
+        "required": ["trait_type", "value"],
+        "properties": {
+          "trait_type": {
+            "type": "string",
+            "enum": [
+              "Power",
+              "Rarity",
+              "Chapter",
+              "Dungeon",
+              "Attack",
+              "Defense",
+              "Wisdom",
+              "Luck",
+              "Element",
+              "Minted",
+              "Quote"
+            ]
+          },
+          "value": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "number" },
+              { "type": "integer" }
+            ]
+          },
+          "display_type": {
+            "type": "string",
+            "enum": ["number", "boost_number", "boost_percentage", "date"]
+          },
+          "max_value": {
+            "type": "number",
+            "description": "Maximum value for display scaling"
+          }
+        }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "description": "Additional technical properties",
+      "properties": {
+        "extracted_text": {
+          "type": "string",
+          "description": "Raw text extracted from screenshot"
+        },
+        "chapter_number": {
+          "type": "integer",
+          "description": "Book chapter number"
+        },
+        "dungeon_name": {
+          "type": "string",
+          "description": "Name of the dungeon location"
+        },
+        "quote": {
+          "type": "string",
+          "description": "Extracted quote from the book"
+        },
+        "rarity_tier": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=Common, 2=Uncommon, 3=Rare, 4=Epic, 5=Legendary"
+        },
+        "power_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Overall power rating"
+        },
+        "card_type": {
+          "type": "string",
+          "enum": ["Spell", "Weapon", "Armor", "Artifact", "Scroll"]
+        },
+        "element": {
+          "type": "string",
+          "enum": ["Fire", "Water", "Earth", "Air", "Light", "Dark", "Neutral"]
+        }
+      }
+    }
+  },
+  
+  "examples": [
+    {
+      "name": "Scroll of Ancient Wisdom #42",
+      "description": "A mystical scroll extracted from Chapter 7 of the Tome of Eternal Knowledge. Found within the Crystal Caverns, this scroll contains wisdom that has been lost for centuries.",
+      "image": "ipfs://QmYwAPJzv5CZsnAzt8auVZRn5uLxR9Xs7zHw5kCzC5KzZ1/scroll-42.png",
+      "external_url": "https://scrollcards.io/card/42",
+      "attributes": [
+        {
+          "trait_type": "Power",
+          "value": 87,
+          "display_type": "number",
+          "max_value": 100
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "trait_type": "Chapter",
+          "value": 7,
+          "display_type": "number"
+        },
+        {
+          "trait_type": "Dungeon",
+          "value": "Crystal Caverns"
+        },
+        {
+          "trait_type": "Attack",
+          "value": 45,
+          "display_type": "number",
+          "max_value": 100
+        },
+        {
+          "trait_type": "Defense",
+          "value": 62,
+          "display_type": "number",
+          "max_value": 100
+        },
+        {
+          "trait_type": "Wisdom",
+          "value": 95,
+          "display_type": "number",
+          "max_value": 100
+        },
+        {
+          "trait_type": "Luck",
+          "value": 33,
+          "display_type": "number",
+          "max_value": 100
+        },
+        {
+          "trait_type": "Element",
+          "value": "Light"
+        },
+        {
+          "trait_type": "Minted",
+          "value": 1709827200,
+          "display_type": "date"
+        },
+        {
+          "trait_type": "Quote",
+          "value": "In the depths of darkness, knowledge becomes the eternal flame."
+        }
+      ],
+      "properties": {
+        "extracted_text": "Chapter 7: The Crystal Caverns. In the depths of darkness...",
+        "chapter_number": 7,
+        "dungeon_name": "Crystal Caverns",
+        "quote": "In the depths of darkness, knowledge becomes the eternal flame.",
+        "rarity_tier": 4,
+        "power_level": 87,
+        "card_type": "Scroll",
+        "element": "Light"
+      }
+    }
+  ]
+}

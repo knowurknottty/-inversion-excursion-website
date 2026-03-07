@@ -1,0 +1,403 @@
+/**
+ * EPWORLD Optimized Global Styles
+ * Performance-focused CSS with minimal render-blocking
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+  /* Colors */
+  --color-primary: 99, 102, 241;
+  --color-primary-dark: 79, 70, 229;
+  --color-secondary: 168, 85, 247;
+  
+  /* Background */
+  --bg-dark: 2, 6, 23;
+  --bg-card: 15, 23, 42;
+  
+  /* Text */
+  --text-primary: 255, 255, 255;
+  --text-secondary: 148, 163, 184;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  
+  /* Z-index scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+@layer base {
+  * {
+    @apply border-slate-800;
+  }
+  
+  html {
+    @apply scroll-smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply bg-slate-950 text-white antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Prevent layout shift from scrollbar */
+  html {
+    overflow-y: scroll;
+  }
+  
+  /* Focus visible styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-indigo-500 ring-offset-2 ring-offset-slate-950;
+  }
+  
+  /* Selection styles */
+  ::selection {
+    @apply bg-indigo-500/30 text-white;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+@layer utilities {
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, rgb(var(--color-primary)) 0%, rgb(var(--color-secondary)) 100%);
+  }
+  
+  /* Glass effect */
+  .glass {
+    @apply bg-slate-900/70 backdrop-blur-lg;
+    -webkit-backdrop-filter: blur(16px);
+  }
+  
+  /* Optimized animations */
+  .animate-fade-in {
+    animation: fadeIn var(--transition-normal) ease-out forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp var(--transition-normal) ease-out forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn var(--transition-fast) ease-out forwards;
+  }
+  
+  /* Performance optimized pulse */
+  .animate-pulse-subtle {
+    animation: pulseSubtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  /* GPU accelerated transforms */
+  .gpu-accelerated {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  
+  /* Content visibility for below-fold content */
+  .content-visibility-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+  }
+  
+  /* Prevent CLS */
+  .aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+  
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .aspect-og {
+    aspect-ratio: 1.91 / 1;
+  }
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR
+   ============================================ */
+@layer components {
+  /* Webkit scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded-full;
+    border: 2px solid rgb(var(--bg-dark));
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-600;
+  }
+  
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(51, 65, 85) rgb(2, 6, 23);
+  }
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* ============================================
+   COMPONENT STYLES
+   ============================================ */
+@layer components {
+  /* Button base styles */
+  .btn {
+    @apply inline-flex items-center justify-center font-medium rounded-lg transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-950
+           disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98];
+  }
+  
+  .btn-primary {
+    @apply btn bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-slate-700 text-white hover:bg-slate-600 focus:ring-slate-500;
+  }
+  
+  .btn-outline {
+    @apply btn border border-indigo-500 text-indigo-400 hover:bg-indigo-500/10 focus:ring-indigo-500;
+  }
+  
+  .btn-ghost {
+    @apply btn text-slate-400 hover:text-white hover:bg-slate-800 focus:ring-slate-500;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-slate-900 rounded-xl border border-slate-800 overflow-hidden;
+  }
+  
+  .card-hover {
+    @apply card hover:border-indigo-500 transition-colors duration-200;
+  }
+  
+  /* Input styles */
+  .input {
+    @apply w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2
+           text-white placeholder-slate-500
+           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  /* Skeleton loading */
+  .skeleton {
+    @apply animate-pulse bg-slate-800 rounded;
+  }
+  
+  .skeleton-text {
+    @apply skeleton h-4;
+  }
+  
+  .skeleton-avatar {
+    @apply skeleton rounded-full;
+  }
+  
+  .skeleton-shimmer {
+    background: linear-gradient(
+      90deg,
+      rgba(30, 41, 59, 0.8) 25%,
+      rgba(51, 65, 85, 0.8) 50%,
+      rgba(30, 41, 59, 0.8) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  /* Optimized image container */
+  .optimized-image-container {
+    @apply relative overflow-hidden bg-slate-800;
+  }
+  
+  .optimized-image {
+    @apply w-full h-full object-cover;
+  }
+  
+  /* Frame container for Farcaster */
+  .frame-container {
+    @apply relative bg-slate-900 rounded-xl overflow-hidden;
+    aspect-ratio: 1.91 / 1;
+  }
+  
+  /* Layout utilities */
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Stack layout */
+  .stack {
+    @apply flex flex-col gap-4;
+  }
+  
+  .stack-sm {
+    @apply flex flex-col gap-2;
+  }
+  
+  .stack-lg {
+    @apply flex flex-col gap-6;
+  }
+  
+  /* Grid layouts */
+  .grid-cards {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+  }
+  
+  /* Divider */
+  .divider {
+    @apply border-t border-slate-800;
+  }
+  
+  /* Visually hidden (for accessibility) */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-pulse,
+  .animate-pulse-subtle,
+  .skeleton-shimmer {
+    animation: none !important;
+    opacity: 0.5;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  body {
+    @apply bg-white text-black;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* ============================================
+   HIGH CONTRAST MODE
+   ============================================ */
+@media (prefers-contrast: high) {
+  :root {
+    --color-primary: 79, 70, 229;
+  }
+  
+  .border-slate-800 {
+    border-color: rgb(71, 85, 105);
+  }
+}

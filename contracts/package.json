@@ -1,0 +1,32 @@
+{
+  "name": "timebank-timetoken",
+  "version": "1.0.0",
+  "description": "Soulbound TimeToken contract for Timebank mutual aid system",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:verbose": "forge test -vvv",
+    "coverage": "forge coverage",
+    "coverage:report": "forge coverage --report lcov",
+    "deploy:local": "forge script script/DeployTimeToken.s.sol:DeployTimeToken --fork-url http://localhost:8545 --broadcast",
+    "deploy:testnet": "forge script script/DeployTimeToken.s.sol:DeployTimeToken --rpc-url $SEPOLIA_RPC_URL --broadcast --verify",
+    "lint": "forge fmt --check",
+    "format": "forge fmt"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  },
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std#v1.7.0"
+  },
+  "author": "Timebank",
+  "license": "MIT",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "soulbound",
+    "erc5484",
+    "timebank",
+    "mutual-aid"
+  ]
+}
