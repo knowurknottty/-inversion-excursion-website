@@ -44,3 +44,4 @@ deployments/local*
 # Build
 dist/
 build/
+.git-credentials
