@@ -6,9 +6,6 @@
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
-[build.environment]
-  NODE_VERSION = "20"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
