@@ -1,0 +1,761 @@
+/**
+ * Inversion Excursion — Mobile-First Sacred Journey
+ * Touch-optimized, performance-focused, spiritually transcendent
+ */
+
+/* === CSS Reset & Mobile Optimizations === */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+:root {
+  /* Sacred Color Palette */
+  --gold: #D4AF37;
+  --gold-light: #F4D03F;
+  --gold-dark: #B8860B;
+  --gold-dim: #8B7355;
+  --gold-glow: rgba(212, 175, 55, 0.4);
+  
+  --purple: #6B4E71;
+  --purple-deep: #2D1B4E;
+  --purple-void: #1A0A2E;
+  --purple-light: #9B7CB6;
+  
+  --void: #0D0510;
+  --void-light: #1A0F1A;
+  --void-mid: #24182A;
+  
+  --cream: #F5F0E6;
+  --cream-dim: #B8A99A;
+  --cream-muted: #6B5D4F;
+  
+  /* Typography */
+  --font-display: 'Cinzel', 'Times New Roman', serif;
+  --font-body: 'Source Serif Pro', Georgia, serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  
+  /* Mobile-Specific Spacing */
+  --header-height: 60px;
+  --nav-height: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  
+  /* Touch Targets */
+  --touch-min: 44px;
+  
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-quick: all 0.2s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--void);
+  color: var(--cream);
+  line-height: 1.7;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* === App Container === */
+.app-mobile {
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+  background: var(--void);
+  overflow-x: hidden;
+}
+
+/* === Sacred Geometry Background (Mobile) === */
+.bg-geometry-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+/* === Mobile Header === */
+.mobile-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(13, 5, 16, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.mobile-header.hidden {
+  transform: translateY(-100%);
+}
+
+.mobile-header.scrolled {
+  background: rgba(13, 5, 16, 0.98);
+}
+
+.header-content {
+  height: var(--header-height);
+  padding: var(--safe-top) 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mandala-toggle-mobile {
+  width: var(--touch-min);
+  height: var(--touch-min);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 50%;
+  color: var(--gold);
+  cursor: pointer;
+  transition: var(--transition-quick);
+}
+
+.mandala-toggle-mobile:active {
+  background: rgba(212, 175, 55, 0.2);
+  transform: scale(0.95);
+}
+
+.mandala-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.book-title-mobile {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin: 0;
+}
+
+.title-chapter {
+  opacity: 0.8;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chapter-indicator {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--cream-dim);
+  padding: 6px 12px;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 50px;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  height: 2px;
+  background: rgba(212, 175, 55, 0.1);
+  overflow: hidden;
+}
+
+.reading-progress-bar-mobile {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light));
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+/* === Invocation Overlay (Mobile) === */
+.invocation-overlay-mobile {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 2000;
+  background: var(--void);
+  overflow: hidden;
+}
+
+.invocation-content-mobile {
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 0.8s ease;
+}
+
+.invocation-symbol-mobile {
+  font-size: 3rem;
+  color: var(--gold);
+  opacity: 0.6;
+  margin-bottom: 24px;
+  animation: gentlePulse 3s ease-in-out infinite;
+}
+
+.invocation-text-mobile {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--cream-dim);
+  line-height: 1.7;
+  margin-bottom: 12px;
+  border: none;
+  padding: 0;
+}
+
+.invocation-author-mobile {
+  display: block;
+  color: var(--gold);
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.invocation-spark-mobile {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--purple-light);
+  margin: 24px 0;
+  padding: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 12px;
+  background: rgba(212, 175, 55, 0.03);
+  line-height: 1.6;
+}
+
+.invocation-enter-mobile {
+  margin-top: 32px;
+  padding: 16px 32px;
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 50px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--touch-min);
+}
+
+.invocation-enter-mobile.pressing,
+.invocation-enter-mobile:active {
+  background: var(--gold);
+  color: var(--void);
+  transform: scale(0.98);
+}
+
+.enter-arrow {
+  transition: transform 0.3s ease;
+}
+
+.invocation-enter-mobile:active .enter-arrow {
+  transform: translateX(4px);
+}
+
+.invocation-bg-mobile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.floating-mandala-mobile {
+  width: 100%;
+  height: 100%;
+  animation: slowRotate 60s linear infinite;
+}
+
+/* === Main Content === */
+.app-main-mobile {
+  padding-top: calc(var(--header-height) + var(--safe-top));
+  padding-bottom: calc(var(--nav-height) + var(--safe-bottom) + 24px);
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.chapter-content-mobile {
+  max-width: 100%;
+  margin: 0;
+  padding: 16px;
+  background: rgba(26, 15, 26, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* === Chapter Header === */
+.chapter-header-mobile {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.chapter-number-mobile {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--purple-light);
+  margin-bottom: 12px;
+}
+
+.chapter-title-mobile {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.chapter-subtitle-mobile {
+  font-size: 1rem;
+  color: var(--cream-dim);
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.chapter-theme-badge-mobile {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 50px;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+
+/* === Epigraph === */
+.epigraph-mobile {
+  margin: 24px 0;
+  padding: 20px;
+  border-left: 3px solid var(--gold);
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.05), transparent);
+  font-style: italic;
+}
+
+.epigraph-mobile p {
+  font-size: 1.05rem;
+  color: var(--cream-dim);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.epigraph-mobile cite {
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-style: normal;
+}
+
+/* === Content Sections === */
+.chapter-sections-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.content-section-mobile {
+  position: relative;
+}
+
+.section-heading-mobile {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--purple-light);
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.section-body-mobile {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--cream);
+}
+
+.section-body-mobile p {
+  margin-bottom: 16px;
+}
+
+.section-body-mobile p:last-child {
+  margin-bottom: 0;
+}
+
+.section-body-mobile em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* Verse Styling */
+.type-verse {
+  text-align: center;
+  padding: 24px 16px;
+  background: rgba(212, 175, 55, 0.02);
+  border-radius: 12px;
+}
+
+.verse-content-mobile {
+  font-family: var(--font-display);
+}
+
+.verse-line-mobile {
+  font-size: 1.1rem;
+  color: var(--purple-light);
+  margin-bottom: 8px;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+.verse-break-mobile {
+  height: 12px;
+}
+
+/* Dialogue Styling */
+.type-dialogue {
+  padding: 20px;
+  background: rgba(107, 78, 113, 0.08);
+  border-radius: 0 12px 12px 0;
+  border-left: 2px solid var(--purple);
+}
+
+.dialogue-line-mobile {
+  font-style: italic;
+  color: var(--cream-dim);
+  line-height: 1.7;
+}
+
+/* Reflection Styling */
+.type-reflection {
+  padding: 24px;
+  background: rgba(212, 175, 55, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 12px;
+}
+
+.reflection-content-mobile {
+  position: relative;
+}
+
+.reflection-icon-mobile {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--void-light);
+  color: var(--gold);
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.meditation-btn-mobile {
+  margin-top: 24px;
+  padding: 14px 24px;
+  background: transparent;
+  border: 1px solid var(--gold);
+  border-radius: 50px;
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition-quick);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--touch-min);
+}
+
+.meditation-btn-mobile.pressing,
+.meditation-btn-mobile:active {
+  background: var(--gold);
+  color: var(--void);
+  transform: scale(0.98);
+}
+
+.btn-icon {
+  font-size: 1rem;
+}
+
+/* === Chapter Footer === */
+.chapter-footer-mobile {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.end-mark-mobile {
+  font-family: var(--font-display);
+  color: var(--gold);
+  opacity: 0.5;
+  letter-spacing: 0.5em;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.swipe-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.5;
+}
+
+.hint-text {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--cream-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.hint-arrows {
+  display: flex;
+  gap: 16px;
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+
+.bottom-spacer {
+  height: 100px;
+}
+
+/* === Epilogue === */
+.epilogue-mobile {
+  margin: 24px 16px;
+  padding: 32px 24px;
+  text-align: center;
+  background: rgba(212, 175, 55, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.epilogue-symbol-mobile {
+  font-size: 2.5rem;
+  color: var(--gold);
+  opacity: 0.5;
+  margin-bottom: 16px;
+}
+
+.epilogue-title-mobile {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.epilogue-subtitle-mobile {
+  font-size: 0.95rem;
+  color: var(--purple-light);
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.epilogue-blessing-mobile {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--cream-dim);
+  font-style: italic;
+  text-align: left;
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid var(--purple-light);
+  background: rgba(107, 78, 113, 0.08);
+}
+
+.epilogue-blessing-mobile p {
+  margin-bottom: 12px;
+}
+
+.epilogue-author-mobile {
+  display: block;
+  color: var(--gold);
+  font-size: 0.95rem;
+  margin: 16px 0 8px;
+  font-style: normal;
+}
+
+.epilogue-context-mobile {
+  font-size: 0.8rem;
+  color: var(--cream-muted);
+  font-style: italic;
+}
+
+/* === Error State === */
+.error-state {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.error-symbol {
+  font-size: 3rem;
+  color: var(--gold);
+  opacity: 0.5;
+  margin-bottom: 16px;
+}
+
+.error-state h2 {
+  font-family: var(--font-display);
+  color: var(--gold);
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+
+.reset-btn {
+  padding: 14px 28px;
+  background: var(--gold);
+  color: var(--void);
+  border: none;
+  border-radius: 50px;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: var(--transition-quick);
+  min-height: var(--touch-min);
+}
+
+.reset-btn:active {
+  transform: scale(0.98);
+  background: var(--gold-light);
+}
+
+/* === Animations === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gentlePulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes slowRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === Reduced Motion === */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .floating-mandala-mobile {
+    animation: none;
+  }
+}
+
+/* === High Contrast Mode === */
+@media (prefers-contrast: high) {
+  :root {
+    --cream: #FFFFFF;
+    --cream-dim: #E0E0E0;
+    --gold: #FFD700;
+    --purple-light: #C0A0D0;
+  }
+  
+  .chapter-content-mobile {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* === Dark Mode (default) Optimization === */
+@media (prefers-color-scheme: dark) {
+  /* Already optimized for dark theme */
+}
+
+/* === Tablet Adaptations === */
+@media (min-width: 768px) {
+  .chapter-content-mobile {
+    max-width: 680px;
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+  
+  .chapter-title-mobile {
+    font-size: 2.25rem;
+  }
+  
+  .section-body-mobile {
+    font-size: 1.1rem;
+  }
+  
+  .epilogue-mobile {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* === Large Phones === */
+@media (min-width: 414px) {
+  .chapter-title-mobile {
+    font-size: 2rem;
+  }
+  
+  .section-body-mobile {
+    font-size: 1.05rem;
+  }
+}

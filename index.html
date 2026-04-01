@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inversion Excursion — A book about awakening, consciousness, and the journey inward." />
+    <meta name="theme-color" content="#1A0F1A" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <title>Inversion Excursion — A Journey of Awakening</title>
+    
+    <style>
+      /* Critical CSS for instant render */
+      html, body { margin: 0; padding: 0; background: #0D0510; }
+      #root { min-height: 100vh; }
+      
+      /* Preloader */
+      .preloader {
+        position: fixed;
+        inset: 0;
+        background: #0D0510;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+      }
+      
+      .preloader.hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .preloader-symbol {
+        font-size: 4rem;
+        color: #D4AF37;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.1); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="preloader" class="preloader">
+      <div class="preloader-symbol">◈</div>
+    </div>
+    
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+      // Hide preloader when app is ready
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          document.getElementById('preloader')?.classList.add('hidden');
+        }, 500);
+      });
+      
+      // Register Service Worker for PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('[SW] Registered:', registration.scope);
+            })
+            .catch(error => {
+              console.log('[SW] Registration failed:', error);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

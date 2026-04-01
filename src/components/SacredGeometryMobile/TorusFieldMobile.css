@@ -1,0 +1,23 @@
+.torus-field-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Hide on low-power mode or reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .torus-field-mobile {
+    display: none;
+  }
+}
+
+/* Hide on very small screens for performance */
+@media (max-width: 320px) {
+  .torus-field-mobile {
+    display: none;
+  }
+}

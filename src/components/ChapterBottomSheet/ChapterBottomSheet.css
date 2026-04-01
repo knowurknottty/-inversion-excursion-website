@@ -1,0 +1,219 @@
+.bottom-sheet-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.bottom-sheet-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(13, 5, 16, 0.98);
+  backdrop-filter: blur(20px);
+  border-radius: 24px 24px 0 0;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 301;
+}
+
+.bottom-sheet.open {
+  transform: translateY(0);
+}
+
+.bottom-sheet-handle {
+  width: 40px;
+  height: 4px;
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 2px;
+  margin: 12px auto;
+}
+
+.bottom-sheet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px 16px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.bottom-sheet-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--gold);
+  margin: 0;
+}
+
+.bottom-sheet-close {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 50%;
+  color: var(--cream-dim);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.bottom-sheet-close:active {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold);
+}
+
+.bottom-sheet-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chapter-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background: rgba(212, 175, 55, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  border-radius: 12px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chapter-item:active {
+  background: rgba(212, 175, 55, 0.08);
+  transform: scale(0.99);
+}
+
+.chapter-item.active {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.chapter-item-accent {
+  width: 3px;
+  height: 40px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.chapter-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.chapter-item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.chapter-item-number {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--gold);
+  opacity: 0.6;
+}
+
+.chapter-item-theme {
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.chapter-item-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--cream);
+  margin: 0 0 4px;
+  font-weight: 400;
+}
+
+.chapter-item-subtitle {
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chapter-item-current-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.current-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.bottom-sheet-footer {
+  padding: 16px;
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.journey-progress {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--cream-dim);
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.progress-bar {
+  height: 4px;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .bottom-sheet {
+    max-width: 500px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+  }
+  
+  .bottom-sheet.open {
+    transform: translateX(-50%) translateY(0);
+  }
+}

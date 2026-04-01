@@ -1,0 +1,102 @@
+.floating-audio-btn {
+  position: fixed;
+  top: calc(50% + 100px);
+  right: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(13, 5, 16, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 150;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.floating-audio-btn:active {
+  transform: scale(0.95);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.floating-audio-btn.playing {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.audio-btn-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.audio-waves {
+  position: absolute;
+  right: -8px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.wave {
+  width: 2px;
+  height: 8px;
+  background: var(--gold);
+  border-radius: 1px;
+  animation: wave 1s ease-in-out infinite;
+}
+
+.wave:nth-child(1) { animation-delay: 0s; }
+.wave:nth-child(2) { animation-delay: 0.2s; }
+.wave:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.5); opacity: 0.5; }
+  50% { transform: scaleY(1.5); opacity: 1; }
+}
+
+.ripple {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  animation: ripple 2s ease-out infinite;
+  opacity: 0;
+}
+
+.ripple.delay {
+  animation-delay: 1s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Adjust position when navigation is visible */
+@media (min-height: 700px) {
+  .floating-audio-btn {
+    top: calc(50% + 80px);
+  }
+}

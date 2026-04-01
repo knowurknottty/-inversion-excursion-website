@@ -1,0 +1,50 @@
+.swipeable-chapter {
+  position: relative;
+  min-height: 100vh;
+  will-change: transform;
+}
+
+.swipeable-chapter.dragging {
+  cursor: grabbing;
+}
+
+.swipe-indicator {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 50px;
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.swipe-indicator.visible {
+  opacity: 1;
+}
+
+.swipe-left-indicator {
+  left: 16px;
+}
+
+.swipe-right-indicator {
+  right: 16px;
+}
+
+.swipe-arrow {
+  font-size: 1.2rem;
+}
+
+.swipe-text {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
