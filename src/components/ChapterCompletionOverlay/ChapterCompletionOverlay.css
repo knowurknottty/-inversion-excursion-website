@@ -1,0 +1,31 @@
+.completion-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+  pointer-events: none;
+  background: rgba(13, 5, 16, 0.6);
+  animation: completionFade 2s ease forwards;
+}
+
+.completion-symbol {
+  font-size: 4rem;
+  color: #D4AF37;
+  animation: completionExpand 2s ease forwards;
+}
+
+@keyframes completionFade {
+  0%   { opacity: 0; }
+  20%  { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes completionExpand {
+  0%   { opacity: 0; transform: scale(0.5); }
+  30%  { opacity: 1; transform: scale(1.3); }
+  60%  { opacity: 0.8; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.5); }
+}

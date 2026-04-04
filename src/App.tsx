@@ -6,17 +6,16 @@
 import { usePlatform } from './hooks/usePlatform';
 import DesktopApp from './App.desktop';
 import MobileApp from './App.mobile';
+import { AppErrorBoundary } from './components/AppErrorBoundary';
 
 function App() {
   const platform = usePlatform();
-  
-  // For now, treat tablet as mobile experience
-  // You can customize this behavior as needed
-  if (platform === 'desktop') {
-    return <DesktopApp />;
-  }
-  
-  return <MobileApp />;
+
+  return (
+    <AppErrorBoundary>
+      {platform === 'desktop' ? <DesktopApp /> : <MobileApp />}
+    </AppErrorBoundary>
+  );
 }
 
 export default App;
