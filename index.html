@@ -3,71 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Inversion Excursion — A book about awakening, consciousness, and the journey inward." />
+    <meta name="description" content="Inversion Excursion — A seven-chapter journey of awakening. Question everything you know." />
     <meta name="theme-color" content="#1A0F1A" />
-    
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Inversion Excursion — A Journey of Awakening" />
+    <meta property="og:description" content="A seven-chapter journey of awakening. Question everything you know." />
+    <meta property="og:type" content="book" />
+    <meta property="og:url" content="https://inversionexcursion.netlify.app/" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://inversionexcursion.netlify.app/" />
+
     <!-- PWA Manifest -->
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
-    
+
     <title>Inversion Excursion — A Journey of Awakening</title>
-    
+
     <style>
       /* Critical CSS for instant render */
       html, body { margin: 0; padding: 0; background: #0D0510; }
       #root { min-height: 100vh; }
-      
+
       /* Preloader */
       .preloader {
         position: fixed;
         inset: 0;
         background: #0D0510;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 1.25rem;
         z-index: 9999;
         transition: opacity 0.5s ease, visibility 0.5s ease;
       }
-      
+
       .preloader.hidden {
         opacity: 0;
         visibility: hidden;
+        pointer-events: none;
       }
-      
+
       .preloader-symbol {
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: #D4AF37;
-        animation: pulse 2s ease-in-out infinite;
+        animation: preloaderPulse 1.2s ease-in-out infinite;
       }
-      
-      @keyframes pulse {
-        0%, 100% { opacity: 0.3; transform: scale(1); }
-        50% { opacity: 0.8; transform: scale(1.1); }
+
+      .preloader-text {
+        font-family: 'Cinzel', 'Times New Roman', serif;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: rgba(212, 175, 55, 0.5);
+        text-transform: uppercase;
+        animation: preloaderFade 1.2s ease-in-out infinite;
+      }
+
+      @keyframes preloaderPulse {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50%       { opacity: 0.9; transform: scale(1.15); }
+      }
+
+      @keyframes preloaderFade {
+        0%, 100% { opacity: 0.3; }
+        50%       { opacity: 0.7; }
       }
     </style>
   </head>
   <body>
     <div id="preloader" class="preloader">
       <div class="preloader-symbol">◈</div>
+      <div class="preloader-text">Loading the journey...</div>
     </div>
-    
+
     <div id="root"></div>
-    
+
     <script type="module" src="/src/main.tsx"></script>
-    
+
     <script>
-      // Hide preloader when app is ready
+      // Remove preloader from DOM (not just hide) after app loads
       window.addEventListener('load', () => {
         setTimeout(() => {
-          document.getElementById('preloader')?.classList.add('hidden');
+          const loader = document.getElementById('preloader');
+          if (loader) {
+            loader.classList.add('hidden');
+            setTimeout(() => loader.remove(), 600);
+          }
         }, 500);
       });
-      
+
       // Register Service Worker for PWA
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {

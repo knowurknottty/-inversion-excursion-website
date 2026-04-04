@@ -117,6 +117,13 @@ export function FadeParagraph({ paragraphs, className = '' }: FadeParagraphProps
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Respect reduced motion preference — show all immediately
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) {
+      setVisibleIndices(new Set(paragraphs.map((_, i) => i)));
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -126,7 +133,7 @@ export function FadeParagraph({ paragraphs, className = '' }: FadeParagraphProps
           }
         });
       },
-      { threshold: 0.3, rootMargin: '-50px' }
+      { threshold: 0.15, rootMargin: '-30px' }
     );
 
     const paragraphs = containerRef.current?.querySelectorAll('[data-index]');
@@ -142,6 +149,7 @@ export function FadeParagraph({ paragraphs, className = '' }: FadeParagraphProps
           key={index}
           data-index={index}
           className={`fade-paragraph ${visibleIndices.has(index) ? 'visible' : ''}`}
+          style={{ transitionDelay: visibleIndices.has(index) ? `${index * 0.08}s` : '0s' }}
         >
           {paragraph.split('*').map((part, i) => 
             i % 2 === 1 ? <em key={i}>{part}</em> : part
